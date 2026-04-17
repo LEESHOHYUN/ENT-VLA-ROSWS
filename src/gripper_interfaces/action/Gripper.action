@@ -1,0 +1,8 @@
+# Goal
+int32 goal_pose
+---
+# Result
+int32 final_pose
+---
+# Feedback
+int32 current_pose

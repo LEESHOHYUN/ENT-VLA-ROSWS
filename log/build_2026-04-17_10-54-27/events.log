@@ -1,0 +1,277 @@
+[0.000000] (-) TimerEvent: {}
+[0.000073] (-) JobUnselected: {'identifier': 'aruco_interfaces'}
+[0.000163] (-) JobUnselected: {'identifier': 'gripper_interfaces'}
+[0.000315] (-) JobUnselected: {'identifier': 'gripper_test'}
+[0.000405] (-) JobUnselected: {'identifier': 'nurse_bringup'}
+[0.000496] (-) JobUnselected: {'identifier': 'nurse_control'}
+[0.000528] (-) JobUnselected: {'identifier': 'nurse_interfaces'}
+[0.000577] (-) JobUnselected: {'identifier': 'nurse_perception'}
+[0.000601] (-) JobUnselected: {'identifier': 'nurse_planning'}
+[0.000689] (-) JobUnselected: {'identifier': 'ur_robot_manager_interfaces'}
+[0.000704] (ur_robot_manager) JobQueued: {'identifier': 'ur_robot_manager', 'dependencies': OrderedDict([('gripper_interfaces', '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces'), ('ur_robot_manager_interfaces', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces')])}
+[0.000726] (ur_robot_manager) JobStarted: {'identifier': 'ur_robot_manager'}
+[0.007125] (ur_robot_manager) JobProgress: {'identifier': 'ur_robot_manager', 'progress': 'cmake'}
+[0.007650] (ur_robot_manager) Command: {'cmd': ['/usr/bin/cmake', '/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager', '-DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager'], 'cwd': '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/hrlsh'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('USER', 'hrlsh'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.2.109'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hrlsh'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-206b32d8-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '2644'), ('SYSTEMD_EXEC_PID', '2904'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('QT_QPA_PLATFORM_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '39452'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hrlsh'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('JOURNAL_STREAM', '8:23493'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('APPLICATIONINSIGHTS_CONFIGURATION_CONTENT', '{}'), ('USERNAME', 'hrlsh'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '1'), ('CUDADIR', '/usr/local/cuda'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/hrlsh/.pyenv/versions/3.11.11/bin:/home/hrlsh/.local/bin:/home/hrlsh/.local/bin:/opt/ros/humble/bin:/home/hrlsh/.deno/bin:/home/hrlsh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/cuda/bin:/usr/local/cuda/bin'), ('SESSION_MANAGER', 'local/hrlsh-MS-7D38:@/tmp/.ICE-unix/2876,unix/hrlsh-MS-7D38:/tmp/.ICE-unix/2876'), ('INVOCATION_ID', 'f0b8bd7b99ec4d069390fd3bfd95c203'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VIRTUAL_ENV', '/home/hrlsh/.pyenv/versions/3.11.11'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/hrlsh/.config/Code/CachedData/560a9dba96f961efea7b1612916f89e5d5d4d679'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/hrlsh/.vscode/extensions/anthropic.claude-code-2.1.109-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '39452'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file'), ('CMAKE_PREFIX_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.015660] (ur_robot_manager) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099903] (-) TimerEvent: {}
+[0.184802] (ur_robot_manager) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.200054] (-) TimerEvent: {}
+[0.213894] (ur_robot_manager) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300226] (-) TimerEvent: {}
+[0.349830] (ur_robot_manager) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.360122] (ur_robot_manager) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.385909] (ur_robot_manager) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.400367] (-) TimerEvent: {}
+[0.425655] (ur_robot_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.461070] (ur_robot_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500445] (-) TimerEvent: {}
+[0.500734] (ur_robot_manager) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.501979] (ur_robot_manager) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.516608] (ur_robot_manager) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.553437] (ur_robot_manager) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.575506] (ur_robot_manager) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.582069] (ur_robot_manager) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.600545] (-) TimerEvent: {}
+[0.603862] (ur_robot_manager) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.642027] (ur_robot_manager) StdoutLine: {'line': b'-- Found ur_robot_manager_interfaces: 0.1.0 (/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/cmake)\n'}
+[0.652839] (ur_robot_manager) StdoutLine: {'line': b'-- Found gripper_interfaces: 0.1.0 (/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/cmake)\n'}
+[0.700619] (-) TimerEvent: {}
+[0.727089] (ur_robot_manager) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.751421] (ur_robot_manager) StdoutLine: {'line': b'-- Generating done\n'}
+[0.762295] (ur_robot_manager) StdoutLine: {'line': b'-- Build files have been written to: /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager\n'}
+[0.770900] (ur_robot_manager) CommandEnded: {'returncode': 0}
+[0.771767] (ur_robot_manager) JobProgress: {'identifier': 'ur_robot_manager', 'progress': 'build'}
+[0.772741] (ur_robot_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager', '--', '-j20', '-l20'], 'cwd': '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/hrlsh'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('USER', 'hrlsh'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.2.109'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hrlsh'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-206b32d8-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '2644'), ('SYSTEMD_EXEC_PID', '2904'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('QT_QPA_PLATFORM_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '39452'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hrlsh'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('JOURNAL_STREAM', '8:23493'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('APPLICATIONINSIGHTS_CONFIGURATION_CONTENT', '{}'), ('USERNAME', 'hrlsh'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '1'), ('CUDADIR', '/usr/local/cuda'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/hrlsh/.pyenv/versions/3.11.11/bin:/home/hrlsh/.local/bin:/home/hrlsh/.local/bin:/opt/ros/humble/bin:/home/hrlsh/.deno/bin:/home/hrlsh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/cuda/bin:/usr/local/cuda/bin'), ('SESSION_MANAGER', 'local/hrlsh-MS-7D38:@/tmp/.ICE-unix/2876,unix/hrlsh-MS-7D38:/tmp/.ICE-unix/2876'), ('INVOCATION_ID', 'f0b8bd7b99ec4d069390fd3bfd95c203'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VIRTUAL_ENV', '/home/hrlsh/.pyenv/versions/3.11.11'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/hrlsh/.config/Code/CachedData/560a9dba96f961efea7b1612916f89e5d5d4d679'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/hrlsh/.vscode/extensions/anthropic.claude-code-2.1.109-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '39452'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file'), ('CMAKE_PREFIX_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.800748] (-) TimerEvent: {}
+[0.882038] (ur_robot_manager) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_robot_manager_utils\n'}
+[0.900902] (-) TimerEvent: {}
+[0.918408] (ur_robot_manager) StdoutLine: {'line': b'[ 37%] Built target ur_robot_manager_utils\n'}
+[0.986622] (ur_robot_manager) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_robot_manager_core\n'}
+[1.001034] (-) TimerEvent: {}
+[1.033953] (ur_robot_manager) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_manager.cpp.o\n'}
+[1.036836] (ur_robot_manager) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_action_server.cpp.o\n'}
+[1.101225] (-) TimerEvent: {}
+[1.201569] (-) TimerEvent: {}
+[1.301895] (-) TimerEvent: {}
+[1.402123] (-) TimerEvent: {}
+[1.502264] (-) TimerEvent: {}
+[1.602406] (-) TimerEvent: {}
+[1.702552] (-) TimerEvent: {}
+[1.802701] (-) TimerEvent: {}
+[1.902845] (-) TimerEvent: {}
+[2.002985] (-) TimerEvent: {}
+[2.103126] (-) TimerEvent: {}
+[2.203270] (-) TimerEvent: {}
+[2.303413] (-) TimerEvent: {}
+[2.403563] (-) TimerEvent: {}
+[2.503709] (-) TimerEvent: {}
+[2.603852] (-) TimerEvent: {}
+[2.703998] (-) TimerEvent: {}
+[2.804147] (-) TimerEvent: {}
+[2.904293] (-) TimerEvent: {}
+[3.004438] (-) TimerEvent: {}
+[3.104582] (-) TimerEvent: {}
+[3.204733] (-) TimerEvent: {}
+[3.304884] (-) TimerEvent: {}
+[3.405028] (-) TimerEvent: {}
+[3.463218] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98bool urRobotManager::URRobotManager::moveJ(const std::vector<double, std::allocator<double> >&, double, double, bool)\xe2\x80\x99:\n'}
+[3.463363] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:246:12: warning: unused variable \xe2\x80\x98a\xe2\x80\x99 [-Wunused-variable]\n'}
+[3.463428] (ur_robot_manager) StderrLine: {'line': b'  246 |     double a = std::min(acceleration, max_joint_accel_);\n'}
+[3.463488] (ur_robot_manager) StderrLine: {'line': b'      |            ^\n'}
+[3.464363] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98bool urRobotManager::URRobotManager::moveL(const std::vector<double, std::allocator<double> >&, double, double, bool)\xe2\x80\x99:\n'}
+[3.464417] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:293:12: warning: unused variable \xe2\x80\x98a\xe2\x80\x99 [-Wunused-variable]\n'}
+[3.464474] (ur_robot_manager) StderrLine: {'line': b'  293 |     double a = std::min(acceleration, max_linear_accel_);\n'}
+[3.464529] (ur_robot_manager) StderrLine: {'line': b'      |            ^\n'}
+[3.465036] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98bool urRobotManager::URRobotManager::speedJ(const std::vector<double, std::allocator<double> >&, double, double)\xe2\x80\x99:\n'}
+[3.465090] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:328:37: warning: unused parameter \xe2\x80\x98acceleration\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.465145] (ur_robot_manager) StderrLine: {'line': b'  328 |                              double acceleration, double time)\n'}
+[3.465207] (ur_robot_manager) StderrLine: {'line': b'      |                              ~~~~~~~^~~~~~~~~~~~\n'}
+[3.465265] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:328:58: warning: unused parameter \xe2\x80\x98time\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.465319] (ur_robot_manager) StderrLine: {'line': b'  328 |                              double acceleration, double time)\n'}
+[3.465373] (ur_robot_manager) StderrLine: {'line': b'      |                                                   ~~~~~~~^~~~\n'}
+[3.465613] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98bool urRobotManager::URRobotManager::speedL(const std::vector<double, std::allocator<double> >&, double, double)\xe2\x80\x99:\n'}
+[3.465669] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:351:37: warning: unused parameter \xe2\x80\x98acceleration\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.465722] (ur_robot_manager) StderrLine: {'line': b'  351 |                              double acceleration, double time)\n'}
+[3.465781] (ur_robot_manager) StderrLine: {'line': b'      |                              ~~~~~~~^~~~~~~~~~~~\n'}
+[3.465834] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:351:58: warning: unused parameter \xe2\x80\x98time\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.465887] (ur_robot_manager) StderrLine: {'line': b'  351 |                              double acceleration, double time)\n'}
+[3.465946] (ur_robot_manager) StderrLine: {'line': b'      |                                                   ~~~~~~~^~~~\n'}
+[3.496409] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98bool urRobotManager::URRobotManager::movePath(const std::vector<std::vector<double, std::allocator<double> > >&, double, double, double)\xe2\x80\x99:\n'}
+[3.496540] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:445:39: warning: unused parameter \xe2\x80\x98speed\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.496600] (ur_robot_manager) StderrLine: {'line': b'  445 |                                double speed, double acceleration,\n'}
+[3.496658] (ur_robot_manager) StderrLine: {'line': b'      |                                ~~~~~~~^~~~~\n'}
+[3.496714] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:445:53: warning: unused parameter \xe2\x80\x98acceleration\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.496773] (ur_robot_manager) StderrLine: {'line': b'  445 |                                double speed, double acceleration,\n'}
+[3.496828] (ur_robot_manager) StderrLine: {'line': b'      |                                              ~~~~~~~^~~~~~~~~~~~\n'}
+[3.505102] (-) TimerEvent: {}
+[3.506951] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98bool urRobotManager::URRobotManager::servoJ6Only(const std::vector<double, std::allocator<double> >&, double, double, double)\xe2\x80\x99:\n'}
+[3.507040] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:551:42: warning: unused parameter \xe2\x80\x98time\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.507099] (ur_robot_manager) StderrLine: {'line': b'  551 |                                   double time, double lookahead, double gain)\n'}
+[3.507156] (ur_robot_manager) StderrLine: {'line': b'      |                                   ~~~~~~~^~~~\n'}
+[3.507208] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:551:55: warning: unused parameter \xe2\x80\x98lookahead\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.507262] (ur_robot_manager) StderrLine: {'line': b'  551 |                                   double time, double lookahead, double gain)\n'}
+[3.507315] (ur_robot_manager) StderrLine: {'line': b'      |                                                ~~~~~~~^~~~~~~~~\n'}
+[3.507371] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:551:73: warning: unused parameter \xe2\x80\x98gain\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.507424] (ur_robot_manager) StderrLine: {'line': b'  551 |                                   double time, double lookahead, double gain)\n'}
+[3.507475] (ur_robot_manager) StderrLine: {'line': b'      |                                                                  ~~~~~~~^~~~\n'}
+[3.605199] (-) TimerEvent: {}
+[3.705348] (-) TimerEvent: {}
+[3.805498] (-) TimerEvent: {}
+[3.905649] (-) TimerEvent: {}
+[4.005799] (-) TimerEvent: {}
+[4.105947] (-) TimerEvent: {}
+[4.206095] (-) TimerEvent: {}
+[4.306243] (-) TimerEvent: {}
+[4.406395] (-) TimerEvent: {}
+[4.506547] (-) TimerEvent: {}
+[4.606701] (-) TimerEvent: {}
+[4.706855] (-) TimerEvent: {}
+[4.807005] (-) TimerEvent: {}
+[4.907152] (-) TimerEvent: {}
+[5.007298] (-) TimerEvent: {}
+[5.107440] (-) TimerEvent: {}
+[5.207582] (-) TimerEvent: {}
+[5.307725] (-) TimerEvent: {}
+[5.407868] (-) TimerEvent: {}
+[5.508009] (-) TimerEvent: {}
+[5.608153] (-) TimerEvent: {}
+[5.708299] (-) TimerEvent: {}
+[5.808448] (-) TimerEvent: {}
+[5.908596] (-) TimerEvent: {}
+[6.008742] (-) TimerEvent: {}
+[6.108903] (-) TimerEvent: {}
+[6.209072] (-) TimerEvent: {}
+[6.309225] (-) TimerEvent: {}
+[6.409372] (-) TimerEvent: {}
+[6.509521] (-) TimerEvent: {}
+[6.609680] (-) TimerEvent: {}
+[6.709829] (-) TimerEvent: {}
+[6.809971] (-) TimerEvent: {}
+[6.910109] (-) TimerEvent: {}
+[7.010250] (-) TimerEvent: {}
+[7.110390] (-) TimerEvent: {}
+[7.210532] (-) TimerEvent: {}
+[7.310673] (-) TimerEvent: {}
+[7.410814] (-) TimerEvent: {}
+[7.510956] (-) TimerEvent: {}
+[7.611094] (-) TimerEvent: {}
+[7.711237] (-) TimerEvent: {}
+[7.811377] (-) TimerEvent: {}
+[7.911525] (-) TimerEvent: {}
+[8.011672] (-) TimerEvent: {}
+[8.111823] (-) TimerEvent: {}
+[8.211974] (-) TimerEvent: {}
+[8.312115] (-) TimerEvent: {}
+[8.412259] (-) TimerEvent: {}
+[8.512398] (-) TimerEvent: {}
+[8.612544] (-) TimerEvent: {}
+[8.712686] (-) TimerEvent: {}
+[8.812825] (-) TimerEvent: {}
+[8.912965] (-) TimerEvent: {}
+[9.013109] (-) TimerEvent: {}
+[9.113254] (-) TimerEvent: {}
+[9.213391] (-) TimerEvent: {}
+[9.313535] (-) TimerEvent: {}
+[9.413683] (-) TimerEvent: {}
+[9.513828] (-) TimerEvent: {}
+[9.613975] (-) TimerEvent: {}
+[9.714118] (-) TimerEvent: {}
+[9.814267] (-) TimerEvent: {}
+[9.914412] (-) TimerEvent: {}
+[10.014582] (-) TimerEvent: {}
+[10.114751] (-) TimerEvent: {}
+[10.214903] (-) TimerEvent: {}
+[10.315047] (-) TimerEvent: {}
+[10.415201] (-) TimerEvent: {}
+[10.515347] (-) TimerEvent: {}
+[10.615503] (-) TimerEvent: {}
+[10.715691] (-) TimerEvent: {}
+[10.815888] (-) TimerEvent: {}
+[10.916067] (-) TimerEvent: {}
+[11.016220] (-) TimerEvent: {}
+[11.116370] (-) TimerEvent: {}
+[11.216517] (-) TimerEvent: {}
+[11.316673] (-) TimerEvent: {}
+[11.320951] (ur_robot_manager) StdoutLine: {'line': b'[ 75%] Linking CXX shared library libur_robot_manager_core.so\n'}
+[11.416792] (-) TimerEvent: {}
+[11.517004] (-) TimerEvent: {}
+[11.617210] (-) TimerEvent: {}
+[11.717369] (-) TimerEvent: {}
+[11.817519] (-) TimerEvent: {}
+[11.917662] (-) TimerEvent: {}
+[12.017810] (-) TimerEvent: {}
+[12.083580] (ur_robot_manager) StdoutLine: {'line': b'[ 75%] Built target ur_robot_manager_core\n'}
+[12.093388] (ur_robot_manager) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_robot_manager_node\n'}
+[12.102199] (ur_robot_manager) StdoutLine: {'line': b'[ 87%] Building CXX object CMakeFiles/ur_robot_manager_node.dir/src/nodes/main_node.cpp.o\n'}
+[12.117884] (-) TimerEvent: {}
+[12.218065] (-) TimerEvent: {}
+[12.318326] (-) TimerEvent: {}
+[12.418532] (-) TimerEvent: {}
+[12.518685] (-) TimerEvent: {}
+[12.618834] (-) TimerEvent: {}
+[12.718978] (-) TimerEvent: {}
+[12.819122] (-) TimerEvent: {}
+[12.919262] (-) TimerEvent: {}
+[13.019409] (-) TimerEvent: {}
+[13.119554] (-) TimerEvent: {}
+[13.219699] (-) TimerEvent: {}
+[13.319841] (-) TimerEvent: {}
+[13.419982] (-) TimerEvent: {}
+[13.520125] (-) TimerEvent: {}
+[13.620275] (-) TimerEvent: {}
+[13.720418] (-) TimerEvent: {}
+[13.820562] (-) TimerEvent: {}
+[13.920708] (-) TimerEvent: {}
+[14.020849] (-) TimerEvent: {}
+[14.120995] (-) TimerEvent: {}
+[14.221139] (-) TimerEvent: {}
+[14.321250] (-) TimerEvent: {}
+[14.421400] (-) TimerEvent: {}
+[14.521550] (-) TimerEvent: {}
+[14.621699] (-) TimerEvent: {}
+[14.721842] (-) TimerEvent: {}
+[14.821987] (-) TimerEvent: {}
+[14.922134] (-) TimerEvent: {}
+[15.022285] (-) TimerEvent: {}
+[15.122432] (-) TimerEvent: {}
+[15.222573] (-) TimerEvent: {}
+[15.322717] (-) TimerEvent: {}
+[15.394118] (ur_robot_manager) StdoutLine: {'line': b'[100%] Linking CXX executable ur_robot_manager_node\n'}
+[15.422835] (-) TimerEvent: {}
+[15.523087] (-) TimerEvent: {}
+[15.623413] (-) TimerEvent: {}
+[15.723633] (-) TimerEvent: {}
+[15.822076] (ur_robot_manager) StdoutLine: {'line': b'[100%] Built target ur_robot_manager_node\n'}
+[15.823689] (-) TimerEvent: {}
+[15.827801] (ur_robot_manager) CommandEnded: {'returncode': 0}
+[15.828283] (ur_robot_manager) JobProgress: {'identifier': 'ur_robot_manager', 'progress': 'install'}
+[15.832509] (ur_robot_manager) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager'], 'cwd': '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/hrlsh'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('USER', 'hrlsh'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.2.109'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hrlsh'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-206b32d8-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '2644'), ('SYSTEMD_EXEC_PID', '2904'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('QT_QPA_PLATFORM_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '39452'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hrlsh'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('JOURNAL_STREAM', '8:23493'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('APPLICATIONINSIGHTS_CONFIGURATION_CONTENT', '{}'), ('USERNAME', 'hrlsh'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '1'), ('CUDADIR', '/usr/local/cuda'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/hrlsh/.pyenv/versions/3.11.11/bin:/home/hrlsh/.local/bin:/home/hrlsh/.local/bin:/opt/ros/humble/bin:/home/hrlsh/.deno/bin:/home/hrlsh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/cuda/bin:/usr/local/cuda/bin'), ('SESSION_MANAGER', 'local/hrlsh-MS-7D38:@/tmp/.ICE-unix/2876,unix/hrlsh-MS-7D38:/tmp/.ICE-unix/2876'), ('INVOCATION_ID', 'f0b8bd7b99ec4d069390fd3bfd95c203'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VIRTUAL_ENV', '/home/hrlsh/.pyenv/versions/3.11.11'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/hrlsh/.config/Code/CachedData/560a9dba96f961efea7b1612916f89e5d5d4d679'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/hrlsh/.vscode/extensions/anthropic.claude-code-2.1.109-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '39452'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file'), ('CMAKE_PREFIX_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble')]), 'shell': False}
+[15.836557] (ur_robot_manager) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.836869] (ur_robot_manager) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.837054] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/libur_robot_manager_utils.so\n'}
+[15.837150] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/libur_robot_manager_core.so\n'}
+[15.837323] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/ur_robot_manager/ur_robot_manager_node\n'}
+[15.837573] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/core/ur_robot_action_server.h\n'}
+[15.837657] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h\n'}
+[15.837740] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/robot_types.h\n'}
+[15.837852] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/utils/robot_trajectory.h\n'}
+[15.837901] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h\n'}
+[15.838127] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/config/calibration/ur5e_dh_params.yaml\n'}
+[15.838241] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ament_index/resource_index/package_run_dependencies/ur_robot_manager\n'}
+[15.838348] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ament_index/resource_index/parent_prefix_path/ur_robot_manager\n'}
+[15.838452] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/ament_prefix_path.sh\n'}
+[15.838548] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/ament_prefix_path.dsv\n'}
+[15.838647] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/path.sh\n'}
+[15.838742] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/path.dsv\n'}
+[15.838836] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.bash\n'}
+[15.839075] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.sh\n'}
+[15.839156] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.zsh\n'}
+[15.839236] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.dsv\n'}
+[15.839282] (ur_robot_manager) StdoutLine: {'line': b'-- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.dsv\n'}
+[15.843700] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ament_index/resource_index/packages/ur_robot_manager\n'}
+[15.843810] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/cmake/ur_robot_managerConfig.cmake\n'}
+[15.843902] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/cmake/ur_robot_managerConfig-version.cmake\n'}
+[15.843993] (ur_robot_manager) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.xml\n'}
+[15.844791] (ur_robot_manager) CommandEnded: {'returncode': 0}
+[15.861123] (ur_robot_manager) JobEnded: {'identifier': 'ur_robot_manager', 'rc': 0}
+[15.861568] (-) EventReactorShutdown: {}

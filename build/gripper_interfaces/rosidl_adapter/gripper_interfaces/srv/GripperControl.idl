@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gripper_interfaces/srv/GripperControl.srv
+// generated code does not contain a copyright notice
+
+
+module gripper_interfaces {
+  module srv {
+    typedef uint16 uint16__3[3];
+    struct GripperControl_Request {
+      int8 control_mode;
+
+      uint16__3 pos_ctrl_param;
+
+      uint16__3 vel_ctrl_param;
+
+      sequence<uint32> torque_ctrl_param;
+
+      string custom_input;
+
+      string gripper_init;
+
+      string grasping_vel;
+    };
+    struct GripperControl_Response {
+      boolean successed;
+    };
+  };
+};

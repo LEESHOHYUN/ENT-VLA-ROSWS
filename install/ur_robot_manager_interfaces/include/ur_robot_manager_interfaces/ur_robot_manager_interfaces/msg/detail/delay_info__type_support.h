@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_generator_c/ur_robot_manager_interfaces/msg/detail/delay_info__type_support.h

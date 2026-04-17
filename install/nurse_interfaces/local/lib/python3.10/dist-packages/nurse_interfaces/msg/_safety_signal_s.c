@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/rosidl_generator_py/nurse_interfaces/msg/_safety_signal_s.c

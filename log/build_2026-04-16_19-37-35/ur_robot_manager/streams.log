@@ -1,0 +1,77 @@
+[0.008s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager -- -j20 -l20
+[0.038s] [ 37%] Built target ur_robot_manager_utils
+[0.056s] Consolidate compiler generated dependencies of target ur_robot_manager_core
+[0.069s] [ 50%] Building CXX object CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_manager.cpp.o
+[0.069s] [ 62%] Building CXX object CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_action_server.cpp.o
+[2.428s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::moveJ(const std::vector<double, std::allocator<double> >&, double, double, bool)’:
+[2.428s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:224:12: warning: unused variable ‘a’ [-Wunused-variable]
+[2.428s]   224 |     double a = std::min(acceleration, max_joint_accel_);
+[2.428s]       |            ^
+[2.429s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::moveL(const std::vector<double, std::allocator<double> >&, double, double, bool)’:
+[2.429s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:271:12: warning: unused variable ‘a’ [-Wunused-variable]
+[2.429s]   271 |     double a = std::min(acceleration, max_linear_accel_);
+[2.429s]       |            ^
+[2.430s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::speedJ(const std::vector<double, std::allocator<double> >&, double, double)’:
+[2.430s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:306:37: warning: unused parameter ‘acceleration’ [-Wunused-parameter]
+[2.430s]   306 |                              double acceleration, double time)
+[2.430s]       |                              ~~~~~~~^~~~~~~~~~~~
+[2.430s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:306:58: warning: unused parameter ‘time’ [-Wunused-parameter]
+[2.430s]   306 |                              double acceleration, double time)
+[2.430s]       |                                                   ~~~~~~~^~~~
+[2.430s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::speedL(const std::vector<double, std::allocator<double> >&, double, double)’:
+[2.430s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:329:37: warning: unused parameter ‘acceleration’ [-Wunused-parameter]
+[2.430s]   329 |                              double acceleration, double time)
+[2.430s]       |                              ~~~~~~~^~~~~~~~~~~~
+[2.430s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:329:58: warning: unused parameter ‘time’ [-Wunused-parameter]
+[2.431s]   329 |                              double acceleration, double time)
+[2.431s]       |                                                   ~~~~~~~^~~~
+[2.431s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::customMoveL(const std::vector<double, std::allocator<double> >&, double, double, double)’:
+[2.431s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:362:12: warning: unused variable ‘s’ [-Wunused-variable]
+[2.431s]   362 |     double s = std::min(speed * speed_scale_, max_linear_speed_);
+[2.431s]       |            ^
+[2.431s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:363:12: warning: unused variable ‘a’ [-Wunused-variable]
+[2.431s]   363 |     double a = std::min(acceleration, max_linear_accel_);
+[2.431s]       |            ^
+[2.434s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::movePath(const std::vector<std::vector<double, std::allocator<double> > >&, double, double, double)’:
+[2.434s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:415:39: warning: unused parameter ‘speed’ [-Wunused-parameter]
+[2.434s]   415 |                                double speed, double acceleration,
+[2.434s]       |                                ~~~~~~~^~~~~
+[2.434s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:415:53: warning: unused parameter ‘acceleration’ [-Wunused-parameter]
+[2.434s]   415 |                                double speed, double acceleration,
+[2.434s]       |                                              ~~~~~~~^~~~~~~~~~~~
+[2.453s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::servoJ6Only(const std::vector<double, std::allocator<double> >&, double, double, double)’:
+[2.453s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:521:42: warning: unused parameter ‘time’ [-Wunused-parameter]
+[2.453s]   521 |                                   double time, double lookahead, double gain)
+[2.453s]       |                                   ~~~~~~~^~~~
+[2.453s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:521:55: warning: unused parameter ‘lookahead’ [-Wunused-parameter]
+[2.453s]   521 |                                   double time, double lookahead, double gain)
+[2.453s]       |                                                ~~~~~~~^~~~~~~~~
+[2.453s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:521:73: warning: unused parameter ‘gain’ [-Wunused-parameter]
+[2.453s]   521 |                                   double time, double lookahead, double gain)
+[2.453s]       |                                                                  ~~~~~~~^~~~
+[8.189s] [ 75%] Linking CXX shared library libur_robot_manager_core.so
+[8.866s] [ 75%] Built target ur_robot_manager_core
+[8.877s] [ 87%] Building CXX object CMakeFiles/ur_robot_manager_node.dir/src/nodes/main_node.cpp.o
+[12.124s] [100%] Linking CXX executable ur_robot_manager_node
+[12.584s] [100%] Built target ur_robot_manager_node
+[12.589s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager -- -j20 -l20
+[12.594s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager
+[12.598s] -- Install configuration: ""
+[12.599s] -- Execute custom install script
+[12.599s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/libur_robot_manager_utils.so
+[12.603s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/libur_robot_manager_core.so
+[12.607s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/ur_robot_manager/ur_robot_manager_node
+[12.612s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/core/ur_robot_action_server.h
+[12.617s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h
+[12.621s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/robot_types.h
+[12.626s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/utils/robot_trajectory.h
+[12.631s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h
+[12.636s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:105 (message):
+[12.636s]   ament_cmake_symlink_install_directory() can't find
+[12.636s]   '/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/launch'
+[12.636s] Call Stack (most recent call first):
+[12.636s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:328 (ament_cmake_symlink_install_directory)
+[12.636s]   cmake_install.cmake:46 (include)
+[12.636s] 
+[12.636s] 
+[12.637s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager' returned '1': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager

@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/tool_prompt__rosidl_typesupport_introspection_c.h

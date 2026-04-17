@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/rosidl_typesupport_fastrtps_c/gripper_interfaces/srv/detail/gripper_control__rosidl_typesupport_fastrtps_c.h

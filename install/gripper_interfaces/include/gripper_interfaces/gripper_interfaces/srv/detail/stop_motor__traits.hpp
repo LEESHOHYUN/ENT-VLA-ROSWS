@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/rosidl_generator_cpp/gripper_interfaces/srv/detail/stop_motor__traits.hpp

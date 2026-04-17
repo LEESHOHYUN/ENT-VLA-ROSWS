@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp

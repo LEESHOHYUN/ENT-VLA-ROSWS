@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/emergency_signal__type_support.c.o"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/emergency_signal__type_support.c.o.d"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/object_token__type_support.c.o"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/object_token__type_support.c.o.d"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/object_token_array__type_support.c.o"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/object_token_array__type_support.c.o.d"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/safety_signal__type_support.c.o"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/safety_signal__type_support.c.o.d"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/tool_prompt__type_support.c.o"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/tool_prompt__type_support.c.o.d"
+  "libnurse_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libnurse_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/emergency_signal__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/emergency_signal__type_support.c"
+  "rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/object_token__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/object_token__type_support.c"
+  "rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/object_token_array__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/object_token_array__type_support.c"
+  "rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/safety_signal__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/safety_signal__type_support.c"
+  "rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/tool_prompt__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/tool_prompt__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

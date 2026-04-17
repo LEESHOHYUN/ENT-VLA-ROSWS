@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_generator_cpp/ur_robot_manager_interfaces/action/robot_task.hpp

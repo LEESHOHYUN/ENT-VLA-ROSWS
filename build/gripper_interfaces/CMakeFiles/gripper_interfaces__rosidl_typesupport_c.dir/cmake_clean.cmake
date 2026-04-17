@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/action/gripper__type_support.cpp.o"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/action/gripper__type_support.cpp.o.d"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/msg/gripper_msg__type_support.cpp.o"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/msg/gripper_msg__type_support.cpp.o.d"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/arduino_control__type_support.cpp.o"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/arduino_control__type_support.cpp.o.d"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/driver_enable__type_support.cpp.o"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/driver_enable__type_support.cpp.o.d"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/gripper_command__type_support.cpp.o"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/gripper_command__type_support.cpp.o.d"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/gripper_control__type_support.cpp.o"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/gripper_control__type_support.cpp.o.d"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/modbus__type_support.cpp.o"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/modbus__type_support.cpp.o.d"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/pos_vel_cur_ctrl__type_support.cpp.o"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/pos_vel_cur_ctrl__type_support.cpp.o.d"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/set_parameter__type_support.cpp.o"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/set_parameter__type_support.cpp.o.d"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/slave_change__type_support.cpp.o"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/slave_change__type_support.cpp.o.d"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/stop_motor__type_support.cpp.o"
+  "CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/gripper_interfaces/srv/stop_motor__type_support.cpp.o.d"
+  "libgripper_interfaces__rosidl_typesupport_c.pdb"
+  "libgripper_interfaces__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/gripper_interfaces/action/gripper__type_support.cpp"
+  "rosidl_typesupport_c/gripper_interfaces/msg/gripper_msg__type_support.cpp"
+  "rosidl_typesupport_c/gripper_interfaces/srv/arduino_control__type_support.cpp"
+  "rosidl_typesupport_c/gripper_interfaces/srv/driver_enable__type_support.cpp"
+  "rosidl_typesupport_c/gripper_interfaces/srv/gripper_command__type_support.cpp"
+  "rosidl_typesupport_c/gripper_interfaces/srv/gripper_control__type_support.cpp"
+  "rosidl_typesupport_c/gripper_interfaces/srv/modbus__type_support.cpp"
+  "rosidl_typesupport_c/gripper_interfaces/srv/pos_vel_cur_ctrl__type_support.cpp"
+  "rosidl_typesupport_c/gripper_interfaces/srv/set_parameter__type_support.cpp"
+  "rosidl_typesupport_c/gripper_interfaces/srv/slave_change__type_support.cpp"
+  "rosidl_typesupport_c/gripper_interfaces/srv/stop_motor__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/gripper_interfaces__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

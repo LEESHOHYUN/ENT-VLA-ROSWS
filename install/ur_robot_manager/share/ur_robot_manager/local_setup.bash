@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager/ament_cmake_environment_hooks/local_setup.bash

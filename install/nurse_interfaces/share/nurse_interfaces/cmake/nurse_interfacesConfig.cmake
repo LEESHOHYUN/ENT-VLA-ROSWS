@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/ament_cmake_core/nurse_interfacesConfig.cmake

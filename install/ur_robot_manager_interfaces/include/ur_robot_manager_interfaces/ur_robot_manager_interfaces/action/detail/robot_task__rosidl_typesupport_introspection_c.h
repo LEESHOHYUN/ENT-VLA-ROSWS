@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_typesupport_introspection_c/ur_robot_manager_interfaces/action/detail/robot_task__rosidl_typesupport_introspection_c.h

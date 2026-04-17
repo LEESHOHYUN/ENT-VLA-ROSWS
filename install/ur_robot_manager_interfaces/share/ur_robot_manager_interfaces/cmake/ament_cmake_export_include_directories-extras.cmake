@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

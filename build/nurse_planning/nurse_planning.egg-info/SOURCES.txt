@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+nurse_planning/__init__.py
+nurse_planning.egg-info/PKG-INFO
+nurse_planning.egg-info/SOURCES.txt
+nurse_planning.egg-info/dependency_links.txt
+nurse_planning.egg-info/entry_points.txt
+nurse_planning.egg-info/requires.txt
+nurse_planning.egg-info/top_level.txt
+nurse_planning.egg-info/zip-safe
+resource/nurse_planning

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gripper_interfaces/srv/SetParameter.srv
+// generated code does not contain a copyright notice
+
+
+module gripper_interfaces {
+  module srv {
+    struct SetParameter_Request {
+      uint16 vel_max;
+
+      uint16 acc_max;
+    };
+    struct SetParameter_Response {
+      boolean successed;
+    };
+  };
+};

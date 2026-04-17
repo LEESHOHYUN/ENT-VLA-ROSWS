@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/rosidl_generator_c/gripper_interfaces/srv/detail/set_parameter__struct.h

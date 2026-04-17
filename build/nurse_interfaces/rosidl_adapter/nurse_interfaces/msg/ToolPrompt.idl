@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nurse_interfaces/msg/ToolPrompt.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module nurse_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Planner output: predicted next tool and language prompt for VLA")
+    struct ToolPrompt {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "e.g. \"suction_tip_3mm\"")
+      string tool_name;
+
+      @verbatim (language="comment", text=
+        "natural language prompt for VLA executor")
+      string language_prompt;
+
+      @verbatim (language="comment", text=
+        "planner confidence")
+      float confidence;
+
+      @verbatim (language="comment", text=
+        "current surgical phase")
+      string phase;
+    };
+  };
+};

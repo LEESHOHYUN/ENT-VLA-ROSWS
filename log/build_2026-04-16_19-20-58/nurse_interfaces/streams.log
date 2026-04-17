@@ -1,0 +1,313 @@
+[0.009s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hrlsh/scrub_nurse_ws/src/nurse_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces
+[0.085s] -- The C compiler identification is GNU 11.4.0
+[0.239s] -- The CXX compiler identification is GNU 11.4.0
+[0.266s] -- Detecting C compiler ABI info
+[0.489s] -- Detecting C compiler ABI info - done
+[0.520s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.522s] -- Detecting C compile features
+[0.523s] -- Detecting C compile features - done
+[0.536s] -- Detecting CXX compiler ABI info
+[0.786s] -- Detecting CXX compiler ABI info - done
+[0.820s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.821s] -- Detecting CXX compile features
+[0.823s] -- Detecting CXX compile features - done
+[0.832s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.404s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.537s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.620s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.658s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.857s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.057s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[2.178s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.243s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.766s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.396s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.424s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.426s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.457s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.457s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.457s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.457s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.481s] -- Found PythonExtra: .so  
+[4.638s] -- Configuring done
+[4.707s] -- Generating done
+[4.728s] -- Build files have been written to: /home/hrlsh/scrub_nurse_ws/build/nurse_interfaces
+[4.741s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hrlsh/scrub_nurse_ws/src/nurse_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces
+[4.743s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/nurse_interfaces -- -j20 -l20
+[4.779s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.787s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.787s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.794s] [  4%] Built target ament_cmake_python_symlink_nurse_interfaces
+[5.168s] running egg_info
+[5.168s] creating nurse_interfaces.egg-info
+[5.169s] writing nurse_interfaces.egg-info/PKG-INFO
+[5.169s] writing dependency_links to nurse_interfaces.egg-info/dependency_links.txt
+[5.169s] writing top-level names to nurse_interfaces.egg-info/top_level.txt
+[5.169s] writing manifest file 'nurse_interfaces.egg-info/SOURCES.txt'
+[5.172s] reading manifest file 'nurse_interfaces.egg-info/SOURCES.txt'
+[5.173s] writing manifest file 'nurse_interfaces.egg-info/SOURCES.txt'
+[5.214s] [  4%] Built target ament_cmake_python_build_nurse_interfaces_egg
+[5.488s] [  4%] Built target nurse_interfaces__rs
+[5.845s] [  6%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nurse_interfaces/msg/detail/emergency_signal__functions.c.o[0m
+[5.853s] [  7%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nurse_interfaces/msg/detail/tool_prompt__functions.c.o[0m
+[5.853s] [  9%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nurse_interfaces/msg/detail/object_token_array__functions.c.o[0m
+[5.855s] [ 10%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nurse_interfaces/msg/detail/object_token__functions.c.o[0m
+[5.870s] [ 12%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nurse_interfaces/msg/detail/safety_signal__functions.c.o[0m
+[5.924s] [ 12%] Built target nurse_interfaces__cpp
+[5.934s] [ 15%] [32m[1mLinking C shared library libnurse_interfaces__rosidl_generator_c.so[0m
+[5.934s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.934s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.934s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.973s] [ 18%] Built target nurse_interfaces__rosidl_generator_c
+[5.982s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.982s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.982s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.492s] [ 31%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nurse_interfaces/msg/safety_signal__type_support.cpp.o[0m
+[6.492s] [ 31%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nurse_interfaces/msg/object_token__type_support.cpp.o[0m
+[6.492s] [ 31%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nurse_interfaces/msg/tool_prompt__type_support.cpp.o[0m
+[6.492s] [ 31%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nurse_interfaces/msg/object_token_array__type_support.cpp.o[0m
+[6.493s] [ 31%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nurse_interfaces/msg/emergency_signal__type_support.cpp.o[0m
+[6.568s] [ 34%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nurse_interfaces/msg/emergency_signal__type_support.cpp.o[0m
+[6.568s] [ 34%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nurse_interfaces/msg/object_token__type_support.cpp.o[0m
+[6.575s] [ 35%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nurse_interfaces/msg/object_token_array__type_support.cpp.o[0m
+[6.583s] [ 37%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nurse_interfaces/msg/tool_prompt__type_support.cpp.o[0m
+[6.593s] [ 39%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nurse_interfaces/msg/safety_signal__type_support.cpp.o[0m
+[6.640s] [ 40%] [32m[1mLinking CXX shared library libnurse_interfaces__rosidl_typesupport_c.so[0m
+[6.707s] [ 40%] Built target nurse_interfaces__rosidl_typesupport_c
+[6.714s] [ 42%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/object_token__type_support.c.o[0m
+[6.714s] [ 43%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/object_token_array__type_support.c.o[0m
+[6.725s] [ 45%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/emergency_signal__type_support.c.o[0m
+[6.749s] [ 46%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/tool_prompt__type_support.c.o[0m
+[6.756s] [ 48%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nurse_interfaces/msg/detail/safety_signal__type_support.c.o[0m
+[6.757s] [ 50%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/emergency_signal__type_support.cpp.o[0m
+[6.764s] [ 51%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/safety_signal__type_support.cpp.o[0m
+[6.765s] [ 53%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/object_token_array__type_support.cpp.o[0m
+[6.767s] [ 54%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/object_token__type_support.cpp.o[0m
+[6.772s] [ 56%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/tool_prompt__type_support.cpp.o[0m
+[6.795s] [ 57%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nurse_interfaces/msg/detail/object_token__type_support.cpp.o[0m
+[6.804s] [ 59%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nurse_interfaces/msg/detail/object_token_array__type_support.cpp.o[0m
+[6.811s] [ 60%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nurse_interfaces/msg/detail/emergency_signal__type_support.cpp.o[0m
+[6.817s] [ 62%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nurse_interfaces/msg/detail/safety_signal__type_support.cpp.o[0m
+[6.821s] [ 64%] [32m[1mLinking C shared library libnurse_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.824s] [ 65%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nurse_interfaces/msg/detail/tool_prompt__type_support.cpp.o[0m
+[6.857s] [ 67%] [32m[1mLinking CXX shared library libnurse_interfaces__rosidl_typesupport_cpp.so[0m
+[6.876s] [ 67%] Built target nurse_interfaces__rosidl_typesupport_introspection_c
+[6.908s] [ 67%] Built target nurse_interfaces__rosidl_typesupport_cpp
+[6.913s] [ 68%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nurse_interfaces/msg/detail/object_token__type_support_c.cpp.o[0m
+[6.921s] [ 70%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nurse_interfaces/msg/detail/emergency_signal__type_support_c.cpp.o[0m
+[6.929s] [ 71%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nurse_interfaces/msg/detail/object_token_array__type_support_c.cpp.o[0m
+[6.937s] [ 73%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nurse_interfaces/msg/detail/tool_prompt__type_support_c.cpp.o[0m
+[6.986s] [ 75%] [32mBuilding CXX object CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nurse_interfaces/msg/detail/safety_signal__type_support_c.cpp.o[0m
+[7.356s] [ 76%] [32m[1mLinking CXX shared library libnurse_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.512s] [ 78%] Built target nurse_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.516s] [ 78%] [32m[1mLinking CXX shared library libnurse_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.634s] [ 79%] [32m[1mLinking CXX shared library libnurse_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.730s] [ 79%] Built target nurse_interfaces__rosidl_typesupport_introspection_cpp
+[7.783s] [ 79%] Built target nurse_interfaces__rosidl_typesupport_fastrtps_c
+[7.801s] [ 79%] Built target nurse_interfaces
+[7.818s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.149s] [ 81%] Built target nurse_interfaces__py
+[9.159s] [ 85%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/nurse_interfaces/msg/_tool_prompt_s.c.o[0m
+[9.159s] [ 85%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/nurse_interfaces/msg/_object_token_s.c.o[0m
+[9.160s] [ 85%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/nurse_interfaces/msg/_safety_signal_s.c.o[0m
+[9.160s] [ 87%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/nurse_interfaces/msg/_emergency_signal_s.c.o[0m
+[9.160s] [ 89%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/nurse_interfaces/msg/_object_token_array_s.c.o[0m
+[9.233s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/nurse_interfaces/libnurse_interfaces__rosidl_generator_py.so[0m
+[9.259s] [ 90%] Built target nurse_interfaces__rosidl_generator_py
+[9.269s] [ 95%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nurse_interfaces/_nurse_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.269s] [ 95%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nurse_interfaces/_nurse_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[9.269s] [ 95%] [32mBuilding C object CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nurse_interfaces/_nurse_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.345s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/nurse_interfaces/nurse_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.359s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nurse_interfaces/nurse_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.359s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nurse_interfaces/nurse_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.375s] [100%] Built target nurse_interfaces__rosidl_typesupport_introspection_c__pyext
+[9.385s] [100%] Built target nurse_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.385s] [100%] Built target nurse_interfaces__rosidl_typesupport_c__pyext
+[9.391s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/nurse_interfaces -- -j20 -l20
+[9.392s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/nurse_interfaces
+[9.396s] -- Install configuration: ""
+[9.396s] -- Execute custom install script
+[9.397s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/ament_index/resource_index/rosidl_interfaces/nurse_interfaces
+[9.401s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/emergency_signal__functions.h
+[9.405s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/emergency_signal__struct.h
+[9.410s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/emergency_signal__type_support.h
+[9.414s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token__functions.h
+[9.417s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token__struct.h
+[9.421s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token__type_support.h
+[9.425s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token_array__functions.h
+[9.429s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token_array__struct.h
+[9.433s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token_array__type_support.h
+[9.437s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/safety_signal__functions.h
+[9.441s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/safety_signal__struct.h
+[9.445s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/safety_signal__type_support.h
+[9.450s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/tool_prompt__functions.h
+[9.454s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/tool_prompt__struct.h
+[9.458s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/tool_prompt__type_support.h
+[9.462s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/emergency_signal.h
+[9.466s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/object_token.h
+[9.469s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/object_token_array.h
+[9.473s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.477s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/safety_signal.h
+[9.482s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/tool_prompt.h
+[9.486s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/environment/library_path.sh
+[9.490s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/environment/library_path.dsv
+[9.495s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/emergency_signal__rosidl_typesupport_fastrtps_c.h
+[9.499s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token__rosidl_typesupport_fastrtps_c.h
+[9.503s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token_array__rosidl_typesupport_fastrtps_c.h
+[9.507s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/safety_signal__rosidl_typesupport_fastrtps_c.h
+[9.510s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/tool_prompt__rosidl_typesupport_fastrtps_c.h
+[9.514s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.518s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/emergency_signal__rosidl_typesupport_introspection_c.h
+[9.523s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token__rosidl_typesupport_introspection_c.h
+[9.527s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token_array__rosidl_typesupport_introspection_c.h
+[9.531s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/safety_signal__rosidl_typesupport_introspection_c.h
+[9.536s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/tool_prompt__rosidl_typesupport_introspection_c.h
+[9.540s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.544s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/emergency_signal__builder.hpp
+[9.548s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/emergency_signal__struct.hpp
+[9.552s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/emergency_signal__traits.hpp
+[9.556s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/emergency_signal__type_support.hpp
+[9.560s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token__builder.hpp
+[9.564s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token__struct.hpp
+[9.569s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token__traits.hpp
+[9.573s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token__type_support.hpp
+[9.577s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token_array__builder.hpp
+[9.581s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token_array__struct.hpp
+[9.585s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token_array__traits.hpp
+[9.589s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token_array__type_support.hpp
+[9.593s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/safety_signal__builder.hpp
+[9.597s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/safety_signal__struct.hpp
+[9.601s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/safety_signal__traits.hpp
+[9.605s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/safety_signal__type_support.hpp
+[9.609s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/tool_prompt__builder.hpp
+[9.613s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/tool_prompt__struct.hpp
+[9.617s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/tool_prompt__traits.hpp
+[9.621s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/tool_prompt__type_support.hpp
+[9.625s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/emergency_signal.hpp
+[9.629s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/object_token.hpp
+[9.632s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/object_token_array.hpp
+[9.636s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.640s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/safety_signal.hpp
+[9.644s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/tool_prompt.hpp
+[9.648s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/emergency_signal__rosidl_typesupport_fastrtps_cpp.hpp
+[9.653s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token__rosidl_typesupport_fastrtps_cpp.hpp
+[9.657s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token_array__rosidl_typesupport_fastrtps_cpp.hpp
+[9.661s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/safety_signal__rosidl_typesupport_fastrtps_cpp.hpp
+[9.664s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/tool_prompt__rosidl_typesupport_fastrtps_cpp.hpp
+[9.669s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.673s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/emergency_signal__rosidl_typesupport_introspection_cpp.hpp
+[9.678s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token__rosidl_typesupport_introspection_cpp.hpp
+[9.682s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/object_token_array__rosidl_typesupport_introspection_cpp.hpp
+[9.686s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/safety_signal__rosidl_typesupport_introspection_cpp.hpp
+[9.690s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/include/nurse_interfaces/nurse_interfaces/msg/detail/tool_prompt__rosidl_typesupport_introspection_cpp.hpp
+[9.694s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/environment/pythonpath.sh
+[9.698s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/environment/pythonpath.dsv
+[9.702s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+[9.706s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+[9.710s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+[9.714s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+[9.718s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/__init__.py
+[9.722s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/_nurse_interfaces_s.ep.rosidl_typesupport_c.c
+[9.726s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/_nurse_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.729s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/_nurse_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.733s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/libnurse_interfaces__rosidl_generator_py.so
+[9.737s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/__init__.py
+[9.741s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/_emergency_signal.py
+[9.745s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/_emergency_signal_s.c
+[9.749s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/_object_token.py
+[9.753s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/_object_token_array.py
+[9.757s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/_object_token_array_s.c
+[9.761s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/_object_token_s.c
+[9.765s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/_safety_signal.py
+[9.769s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/_safety_signal_s.c
+[9.772s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/_tool_prompt.py
+[9.776s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/_tool_prompt_s.c
+[9.780s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/nurse_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.784s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/nurse_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.788s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/nurse_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.792s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/nurse_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.792s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/nurse_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.792s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/nurse_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.792s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/ament_index/resource_index/rust_packages/nurse_interfaces
+[9.797s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/rust/Cargo.toml
+[9.801s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/rust/build.rs
+[9.805s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/rust/src/lib.rs
+[9.809s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/rust/src/msg.rs
+[9.814s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/rust/src/msg/rmw.rs
+[9.818s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/msg/ObjectToken.idl
+[9.823s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/msg/ObjectTokenArray.idl
+[9.827s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/msg/EmergencySignal.idl
+[9.831s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/msg/ToolPrompt.idl
+[9.835s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/msg/SafetySignal.idl
+[9.840s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/msg/ObjectToken.msg
+[9.844s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/msg/ObjectTokenArray.msg
+[9.848s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/msg/EmergencySignal.msg
+[9.852s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/msg/ToolPrompt.msg
+[9.856s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/msg/SafetySignal.msg
+[9.860s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/ament_index/resource_index/package_run_dependencies/nurse_interfaces
+[9.864s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/ament_index/resource_index/parent_prefix_path/nurse_interfaces
+[9.868s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/environment/ament_prefix_path.sh
+[9.872s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/environment/ament_prefix_path.dsv
+[9.876s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/environment/path.sh
+[9.880s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/environment/path.dsv
+[9.884s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/local_setup.bash
+[9.888s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/local_setup.sh
+[9.892s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/local_setup.zsh
+[9.896s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/local_setup.dsv
+[9.901s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/package.dsv
+[9.905s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/ament_index/resource_index/packages/nurse_interfaces
+[9.909s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.913s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.918s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.922s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.926s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.930s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.934s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.938s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/nurse_interfacesConfig.cmake
+[9.942s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/nurse_interfacesConfig-version.cmake
+[9.946s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/package.xml
+[9.951s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_generator_c.so
+[9.951s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_generator_c.so" to ""
+[9.951s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.951s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.951s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_typesupport_introspection_c.so
+[9.952s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.952s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_typesupport_c.so
+[9.952s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_typesupport_c.so" to ""
+[9.952s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.952s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.952s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.952s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.952s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_typesupport_cpp.so
+[9.953s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_typesupport_cpp.so" to ""
+[9.980s] Listing '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces'...
+[9.980s] Compiling '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/__init__.py'...
+[9.980s] Listing '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg'...
+[9.980s] Compiling '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/__init__.py'...
+[9.980s] Compiling '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/_emergency_signal.py'...
+[9.980s] Compiling '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/_object_token.py'...
+[9.980s] Compiling '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/_object_token_array.py'...
+[9.980s] Compiling '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/_safety_signal.py'...
+[9.980s] Compiling '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages/nurse_interfaces/msg/_tool_prompt.py'...
+[9.983s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_generator_py.so
+[9.983s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/libnurse_interfaces__rosidl_generator_py.so" to ""
+[9.983s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/export_nurse_interfaces__rosidl_generator_cExport.cmake
+[9.983s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/export_nurse_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.983s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/export_nurse_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.983s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/export_nurse_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.983s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/nurse_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.984s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/nurse_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.984s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/nurse_interfaces__rosidl_typesupport_cExport.cmake
+[9.984s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/nurse_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.984s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/export_nurse_interfaces__rosidl_generator_cppExport.cmake
+[9.984s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/export_nurse_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.984s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/export_nurse_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.984s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/nurse_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.984s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/nurse_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.984s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/nurse_interfaces__rosidl_typesupport_cppExport.cmake
+[9.984s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/nurse_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.984s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/export_nurse_interfaces__rosidl_generator_pyExport.cmake
+[9.984s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/cmake/export_nurse_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.986s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/nurse_interfaces

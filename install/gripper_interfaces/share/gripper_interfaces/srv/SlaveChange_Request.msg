@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/rosidl_cmake/srv/SlaveChange_Request.msg

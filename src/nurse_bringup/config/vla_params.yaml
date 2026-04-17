@@ -1,0 +1,54 @@
+# Hierarchical ST-VLA Pipeline Parameters
+
+# --- SAM2S Perception Node ---
+sam2s_node:
+  ros__parameters:
+    model_device: "cuda:0"
+    input_topic: "/cam_handover/image_raw"
+    output_topic: "/sam2s/object_tokens"
+    inference_rate: 5.0  # Hz (SAM2 is heavier than classification)
+
+# --- Emergency Classifier Node ---
+emergency_node:
+  ros__parameters:
+    model_device: "cuda:0"
+    input_topic: "/cam_endoscope/image_raw"
+    output_topic: "/emergency/signal"
+    inference_rate: 10.0  # Hz (lightweight CNN, must be fast)
+
+# --- Sequence Transformer Planner Node ---
+planner_node:
+  ros__parameters:
+    input_tokens_topic: "/sam2s/object_tokens"
+    output_topic: "/planner/next_tool_prompt"
+    confidence_threshold: 0.7
+    history_length: 16  # number of past steps to consider
+
+# --- Safety Gate Node ---
+safety_gate_node:
+  ros__parameters:
+    planner_topic: "/planner/next_tool_prompt"
+    emergency_topic: "/emergency/signal"
+    output_topic: "/safety/go_signal"
+    # Hard rules
+    hand_zone_check: true
+    emergency_abort: true
+    # Soft rules
+    confidence_threshold: 0.6
+    hand_state_uncertainty_max: 0.3
+
+# --- VLA Executor Node ---
+vla_node:
+  ros__parameters:
+    model_name: "openvla/openvla-7b"
+    model_device: "cuda:0"
+    prompt_topic: "/planner/next_tool_prompt"
+    safety_topic: "/safety/go_signal"
+    cam_handover_topic: "/cam_handover/image_raw"
+    cam_handeye_topic: "/cam_handeye/color/image_raw"
+    action_topic: "/vla/action_command"
+    action_dim: 7          # 6 DOF + gripper
+    action_horizon: 1
+    max_linear_vel: 0.1    # m/s safety cap
+    max_angular_vel: 0.5   # rad/s safety cap
+    inference_rate: 10.0   # Hz

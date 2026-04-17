@@ -1,0 +1,40 @@
+# Multi-Camera Configuration for Scrub Nurse System
+#
+# Camera layout (from CLAUDE.md):
+#   cam_handover  — handover zone (instrument tray + surgeon hand)
+#   cam_handeye   — wrist mounted (grasp close-up)
+#   cam_endoscope — USB endoscope (emergency detection)
+
+# RealSense D435 — wrist mounted (cam_handeye)
+cam_handeye:
+  ros__parameters:
+    align_depth.enable: true
+    pointcloud.enable: false
+    enable_color: true
+    enable_depth: true
+    color_width: 640
+    color_height: 480
+    color_fps: 30
+    depth_width: 640
+    depth_height: 480
+    depth_fps: 30
+
+# USB Webcam — handover zone overview (cam_handover)
+cam_handover:
+  ros__parameters:
+    video_device: "/dev/video0"
+    image_width: 640
+    image_height: 480
+    framerate: 30.0
+    pixel_format: "yuyv"
+    camera_name: "cam_handover"
+
+# USB Endoscope (cam_endoscope)
+cam_endoscope:
+  ros__parameters:
+    video_device: "/dev/video2"
+    image_width: 640
+    image_height: 480
+    framerate: 30.0
+    pixel_format: "yuyv"
+    camera_name: "cam_endoscope"

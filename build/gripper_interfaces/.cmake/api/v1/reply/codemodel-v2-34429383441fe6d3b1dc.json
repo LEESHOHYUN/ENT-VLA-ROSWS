@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7f24007b3c58b6c667ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "gripper_interfaces__py",
+					"jsonFile" : "directory-gripper_interfaces__py-38f97a67b23e3936d6c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/gripper_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "gripper_interfaces__rs",
+					"jsonFile" : "directory-gripper_interfaces__rs-0a9792544853dc4b0d77.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/gripper_interfaces__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "gripper_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_gripper_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_gripper_interfaces_egg-2bcbf41ab7ebcde33772.json",
+					"name" : "ament_cmake_python_build_gripper_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_gripper_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_gripper_interfaces-6e47a2b8b046f98aa78e.json",
+					"name" : "ament_cmake_python_symlink_gripper_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_interfaces-6b66e7880b6a881989d1.json",
+					"name" : "gripper_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_interfaces__cpp-be01e22e173f7cf593ad.json",
+					"name" : "gripper_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gripper_interfaces__py::@ad34b18e0f09809dae0e",
+					"jsonFile" : "target-gripper_interfaces__py-beb598a624c64440d031.json",
+					"name" : "gripper_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_interfaces__rosidl_generator_c-1eb95e1e6db4b67acff4.json",
+					"name" : "gripper_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_interfaces__rosidl_generator_py-17ff91e670666f1a27e3.json",
+					"name" : "gripper_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_interfaces__rosidl_typesupport_c-43559c7fe7dabeb79b91.json",
+					"name" : "gripper_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_interfaces__rosidl_typesupport_c__pyext-9d1f02ea669d30bffa23.json",
+					"name" : "gripper_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_interfaces__rosidl_typesupport_cpp-6df3756351f898ad676e.json",
+					"name" : "gripper_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_interfaces__rosidl_typesupport_fastrtps_c-4cb84b59b99b3a1d7269.json",
+					"name" : "gripper_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_interfaces__rosidl_typesupport_fastrtps_c__pyext-90f61ac543e46aac3685.json",
+					"name" : "gripper_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_interfaces__rosidl_typesupport_fastrtps_cpp-ed9d3d4241ac514a4f4e.json",
+					"name" : "gripper_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_interfaces__rosidl_typesupport_introspection_c-59a90192cc1bf7f003f6.json",
+					"name" : "gripper_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_interfaces__rosidl_typesupport_introspection_c__pyext-e7699a8ccd39179ae393.json",
+					"name" : "gripper_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_interfaces__rosidl_typesupport_introspection_cpp-0d9bbe43377aa0c32549.json",
+					"name" : "gripper_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gripper_interfaces__rs::@6936aa6e4a3e0ba417c2",
+					"jsonFile" : "target-gripper_interfaces__rs-705da5dbc86042a5256d.json",
+					"name" : "gripper_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_interfaces_uninstall-b09a4847c75451ae787a.json",
+					"name" : "gripper_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b2c814cd7460cbc3a657.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces",
+		"source" : "/home/hrlsh/scrub_nurse_ws/src/gripper_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

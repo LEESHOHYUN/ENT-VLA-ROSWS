@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gripper_interfaces/srv/ArduinoControl.srv
+// generated code does not contain a copyright notice
+
+
+module gripper_interfaces {
+  module srv {
+    struct ArduinoControl_Request {
+      boolean power;
+
+      boolean solenoid_valve;
+
+      boolean spare_1;
+
+      boolean spare_2;
+    };
+    struct ArduinoControl_Response {
+      boolean successed;
+    };
+  };
+};

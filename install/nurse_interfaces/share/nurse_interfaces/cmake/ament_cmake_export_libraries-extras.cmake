@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

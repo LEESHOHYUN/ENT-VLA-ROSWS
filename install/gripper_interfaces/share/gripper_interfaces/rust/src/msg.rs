@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/rosidl_generator_rs/gripper_interfaces/rust/src/msg.rs

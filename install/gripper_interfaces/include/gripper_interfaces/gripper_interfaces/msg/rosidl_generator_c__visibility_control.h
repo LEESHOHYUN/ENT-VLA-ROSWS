@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/rosidl_generator_c/gripper_interfaces/msg/rosidl_generator_c__visibility_control.h

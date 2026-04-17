@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/emergency_signal__type_support.cpp.o"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/emergency_signal__type_support.cpp.o.d"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/object_token__type_support.cpp.o"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/object_token__type_support.cpp.o.d"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/object_token_array__type_support.cpp.o"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/object_token_array__type_support.cpp.o.d"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/safety_signal__type_support.cpp.o"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/safety_signal__type_support.cpp.o.d"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/tool_prompt__type_support.cpp.o"
+  "CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/tool_prompt__type_support.cpp.o.d"
+  "libnurse_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libnurse_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/emergency_signal__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/object_token__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/object_token_array__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/safety_signal__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/tool_prompt__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/emergency_signal__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/object_token__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/object_token_array__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/safety_signal__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/tool_prompt__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/nurse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

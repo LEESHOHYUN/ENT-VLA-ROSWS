@@ -1,0 +1,10 @@
+{
+  "package_name": "nurse_interfaces",
+  "non_idl_tuples": [
+    "/home/hrlsh/scrub_nurse_ws/src/nurse_interfaces:msg/ObjectToken.msg",
+    "/home/hrlsh/scrub_nurse_ws/src/nurse_interfaces:msg/ObjectTokenArray.msg",
+    "/home/hrlsh/scrub_nurse_ws/src/nurse_interfaces:msg/EmergencySignal.msg",
+    "/home/hrlsh/scrub_nurse_ws/src/nurse_interfaces:msg/ToolPrompt.msg",
+    "/home/hrlsh/scrub_nurse_ws/src/nurse_interfaces:msg/SafetySignal.msg"
+  ]
+}

@@ -1,0 +1,2 @@
+uint16 vel_max
+uint16 acc_max

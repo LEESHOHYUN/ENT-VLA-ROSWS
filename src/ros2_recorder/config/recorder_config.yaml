@@ -1,0 +1,95 @@
+# =============================================================================
+# Multi-Camera Recorder Configuration
+# ENT Surgical Hierarchical VLM-VLA System
+# =============================================================================
+
+# --- Camera Topics ---
+# Each camera entry defines a ROS2 image topic to subscribe to.
+# enabled: false to skip a camera without removing it from config.
+cameras:
+  - name: "cam_global"
+    topic: "/cam_global/image_raw"
+    enabled: false   # RealSense not connected — set true when available
+    description: "Full robot workspace view"
+
+  - name: "cam_handover"
+    topic: "/cam_handover/image_raw"
+    enabled: true
+    description: "Handover zone close-up"
+
+  - name: "cam_side"
+    topic: "/cam_side/image_raw"
+    enabled: true
+    description: "Redundant side view"
+
+  - name: "cam_endoscope"
+    topic: "/cam_endoscope/image_raw"
+    enabled: true
+    description: "Ear canal endoscopic view (most important)"
+
+# --- Additional Topics ---
+# Non-image topics recorded alongside cameras.
+# These may not be publishing yet; the recorder logs a warning and continues.
+extra_topics:
+  - topic: "/vlm/next_tool_prompt"
+    msg_type: "std_msgs/msg/String"
+    enabled: true
+
+  - topic: "/vla/action_command"
+    msg_type: "std_msgs/msg/Float32MultiArray"
+    enabled: true
+
+  - topic: "/robot/ee_pose"
+    msg_type: "geometry_msgs/msg/PoseStamped"
+    enabled: true
+
+  - topic: "/gripper_state"
+    msg_type: "std_msgs/msg/Float32"
+    enabled: true
+
+# --- Recording Settings ---
+recording:
+  # Target synchronization rate (Hz). Cameras are synced via ApproximateTimeSynchronizer.
+  # 5 Hz for normal recording, 10 Hz for high-fidelity capture.
+  sync_rate_hz: 5
+
+  # Maximum time difference (seconds) between camera frames to consider them synchronized.
+  # Increase if cameras have high latency variance.
+  sync_slop_sec: 0.5
+
+  # Queue size for subscriber message buffers.
+  queue_size: 10
+
+  # --- Output Formats ---
+  # rosbag2: standard ROS2 bag (always available, default)
+  # hdf5: optional parallel export for ML training pipelines
+  output:
+    rosbag2:
+      enabled: true
+      # Storage format: "sqlite3" (default for Humble) or "mcap"
+      storage_id: "sqlite3"
+
+    hdf5:
+      enabled: false
+      # Flush interval: write to disk every N synchronized frames
+      flush_interval: 50
+
+  # --- Output Paths ---
+  # Base directory for recorded bags and HDF5 files.
+  # Each session creates a timestamped subdirectory.
+  output_dir: "/home/hrlsh/storage/surgical/recordings"
+
+  # --- Session Settings ---
+  # Maximum recording duration in seconds (0 = unlimited).
+  max_duration_sec: 0
+
+  # Log a status message every N seconds during recording.
+  status_interval_sec: 10
+
+# --- Image Encoding ---
+# How images are stored in the bag / HDF5.
+image:
+  # "raw" = sensor_msgs/Image (uncompressed), "compressed" = sensor_msgs/CompressedImage
+  transport: "raw"
+  # If compressed: jpeg quality (1-100)
+  jpeg_quality: 90

@@ -1,0 +1,7 @@
+{
+  "package_name": "ur_robot_manager_interfaces",
+  "non_idl_tuples": [
+    "/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager_interfaces:msg/DelayInfo.msg",
+    "/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager_interfaces:action/RobotTask.action"
+  ]
+}

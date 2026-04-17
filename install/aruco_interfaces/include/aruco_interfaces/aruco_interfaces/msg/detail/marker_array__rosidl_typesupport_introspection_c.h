@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/marker_array__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,27 @@
+# Single UR5e Scrub Nurse Robot Parameters
+nurse_robot_manager:
+  ros__parameters:
+    # Single UR5e (scrub nurse arm)
+    robot_ip: "192.168.10.126"
+
+    # Joint state publishing rate
+    joint_state_rate: 10.0  # Hz
+
+    # Safety parameters (conservative for surgical environment)
+    linear_speed_limit: 0.15      # m/s (slower than general use)
+    angular_speed_limit: 0.8      # rad/s
+    joint_speed_limit: 2.0        # rad/s
+
+    # Handover zone boundaries (base_link frame, meters)
+    # Robot must only move within this safe region
+    handover_zone:
+      x_min: 0.3
+      x_max: 0.7
+      y_min: -0.3
+      y_max: 0.3
+      z_min: 0.1
+      z_max: 0.6
+
+    # Gripper
+    gripper_topic: "/gripper_states"
+    gripper_command_service: "/gripper_command"

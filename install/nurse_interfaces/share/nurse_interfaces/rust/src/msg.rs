@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/rosidl_generator_rs/nurse_interfaces/rust/src/msg.rs

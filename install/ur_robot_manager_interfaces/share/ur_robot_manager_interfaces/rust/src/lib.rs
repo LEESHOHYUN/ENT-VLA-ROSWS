@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_generator_rs/ur_robot_manager_interfaces/rust/src/lib.rs

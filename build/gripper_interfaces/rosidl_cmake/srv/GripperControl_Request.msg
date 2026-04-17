@@ -1,0 +1,7 @@
+int8 control_mode
+uint16[3] pos_ctrl_param
+uint16[3] vel_ctrl_param
+uint32[] torque_ctrl_param
+string custom_input
+string gripper_init
+string grasping_vel

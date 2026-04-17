@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gripper_interfaces/msg/GripperMsg.msg
+// generated code does not contain a copyright notice
+
+
+module gripper_interfaces {
+  module msg {
+    struct GripperMsg {
+      int16 angle;
+
+      int16 current;
+
+      int16 velocity;
+
+      int16 grp_pos;
+
+      boolean is_motor_enable;
+
+      boolean is_grp_init_ongoing;
+
+      boolean is_pos_ongoing;
+
+      boolean is_vel_ongoing;
+
+      boolean is_tor_ongoing;
+
+      boolean is_grp_opening;
+
+      boolean is_grp_closing;
+
+      boolean grp_direction;
+
+      boolean is_object_grasp;
+
+      boolean is_fault_occured;
+    };
+  };
+};

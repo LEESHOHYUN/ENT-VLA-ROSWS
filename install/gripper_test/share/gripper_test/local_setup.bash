@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/gripper_test/ament_cmake_environment_hooks/local_setup.bash

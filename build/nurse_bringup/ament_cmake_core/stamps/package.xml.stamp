@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>nurse_bringup</name>
+  <version>0.1.0</version>
+  <description>Top-level bringup for ENT Surgical Scrub Nurse system (single UR5e + multi-camera)</description>
+  <maintainer email="whysojjjjj@gmail.com">hrlsh</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Hardware drivers -->
+  <exec_depend>ur_robot_manager</exec_depend>
+  <exec_depend>gripper_test</exec_depend>
+
+  <!-- Cameras -->
+  <exec_depend>realsense2_camera</exec_depend>
+  <exec_depend>usb_cam</exec_depend>
+
+  <!-- Nurse pipeline nodes -->
+  <exec_depend>nurse_perception</exec_depend>
+  <exec_depend>nurse_planning</exec_depend>
+  <exec_depend>nurse_control</exec_depend>
+
+  <!-- ROS2 utilities -->
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>rosbridge_server</exec_depend>
+  <exec_depend>web_video_server</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gripper_interfaces/srv/PosVelCurCtrl.srv
+// generated code does not contain a copyright notice
+
+
+module gripper_interfaces {
+  module srv {
+    struct PosVelCurCtrl_Request {
+      int16 position;
+
+      int16 velocity;
+
+      int16 acceleration;
+
+      int16 current;
+
+      uint16 duration;
+    };
+    struct PosVelCurCtrl_Response {
+      boolean successed;
+    };
+  };
+};

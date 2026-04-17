@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nurse_interfaces/msg/ObjectToken.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module nurse_interfaces {
+  module msg {
+    typedef float float__4[4];
+    @verbatim (language="comment", text=
+      "Single tracked object from SAM2S (instrument or hand)")
+    struct ObjectToken {
+      @verbatim (language="comment", text=
+        "e.g. \"myringotomy_knife\", \"surgeon_hand_left\"")
+      string object_id;
+
+      @verbatim (language="comment", text=
+        "instrument type or \"hand\"")
+      string object_class;
+
+      @verbatim (language="comment", text=
+        "[x_min, y_min, x_max, y_max] normalized 0-1")
+      float__4 bbox;
+
+      @verbatim (language="comment", text=
+        "detection confidence")
+      float confidence;
+
+      @verbatim (language="comment", text=
+        "currently visible in frame")
+      boolean visible;
+
+      @verbatim (language="comment", text=
+        "3D position estimate (if depth available)")
+      geometry_msgs::msg::Point position;
+    };
+  };
+};

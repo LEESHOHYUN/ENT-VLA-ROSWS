@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+nurse_perception/__init__.py
+nurse_perception.egg-info/PKG-INFO
+nurse_perception.egg-info/SOURCES.txt
+nurse_perception.egg-info/dependency_links.txt
+nurse_perception.egg-info/entry_points.txt
+nurse_perception.egg-info/requires.txt
+nurse_perception.egg-info/top_level.txt
+nurse_perception.egg-info/zip-safe
+resource/nurse_perception

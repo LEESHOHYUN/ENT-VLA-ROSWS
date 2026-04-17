@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_generator_c/ur_robot_manager_interfaces/action/detail/robot_task__struct.h

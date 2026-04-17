@@ -1,0 +1,29 @@
+[0.608s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/nurse_control': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrlsh/scrub_nurse_ws/install/nurse_control/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrlsh/scrub_nurse_ws/build/nurse_control/build --no-deps symlink_data
+[0.850s] running develop
+[0.917s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[0.917s]   warnings.warn(
+[0.917s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[0.917s]   warnings.warn(
+[0.918s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.13.1-unknown is an invalid version and will not be supported in a future release
+[0.918s]   warnings.warn(
+[1.065s] running egg_info
+[1.065s] creating nurse_control.egg-info
+[1.065s] writing nurse_control.egg-info/PKG-INFO
+[1.065s] writing dependency_links to nurse_control.egg-info/dependency_links.txt
+[1.065s] writing entry points to nurse_control.egg-info/entry_points.txt
+[1.065s] writing requirements to nurse_control.egg-info/requires.txt
+[1.065s] writing top-level names to nurse_control.egg-info/top_level.txt
+[1.066s] writing manifest file 'nurse_control.egg-info/SOURCES.txt'
+[1.067s] reading manifest file 'nurse_control.egg-info/SOURCES.txt'
+[1.067s] writing manifest file 'nurse_control.egg-info/SOURCES.txt'
+[1.068s] running build_ext
+[1.068s] Creating /home/hrlsh/scrub_nurse_ws/install/nurse_control/lib/python3.10/site-packages/nurse-control.egg-link (link to .)
+[1.069s] 
+[1.069s] Installed /home/hrlsh/scrub_nurse_ws/build/nurse_control
+[1.069s] running symlink_data
+[1.069s] creating /home/hrlsh/scrub_nurse_ws/install/nurse_control/share/ament_index
+[1.069s] creating /home/hrlsh/scrub_nurse_ws/install/nurse_control/share/ament_index/resource_index
+[1.069s] creating /home/hrlsh/scrub_nurse_ws/install/nurse_control/share/ament_index/resource_index/packages
+[1.069s] symbolically linking /home/hrlsh/scrub_nurse_ws/build/nurse_control/resource/nurse_control -> /home/hrlsh/scrub_nurse_ws/install/nurse_control/share/ament_index/resource_index/packages
+[1.069s] symbolically linking /home/hrlsh/scrub_nurse_ws/build/nurse_control/package.xml -> /home/hrlsh/scrub_nurse_ws/install/nurse_control/share/nurse_control
+[1.092s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/nurse_control' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrlsh/scrub_nurse_ws/install/nurse_control/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrlsh/scrub_nurse_ws/build/nurse_control/build --no-deps symlink_data

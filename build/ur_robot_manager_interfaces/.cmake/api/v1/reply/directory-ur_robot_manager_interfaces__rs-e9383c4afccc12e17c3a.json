@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ur_robot_manager_interfaces__rs",
+		"source" : "/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/ur_robot_manager_interfaces__rs"
+	}
+}

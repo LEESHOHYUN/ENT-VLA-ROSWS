@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/rosidl_generator_py/nurse_interfaces/_nurse_interfaces_s.ep.rosidl_typesupport_c.c

@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0a570c6cfab9a92e8c01.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						18
+					]
+				},
+				{
+					"build" : "ur_robot_manager_interfaces__py",
+					"jsonFile" : "directory-ur_robot_manager_interfaces__py-2f0024bc862ed940837c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/ur_robot_manager_interfaces__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "ur_robot_manager_interfaces__rs",
+					"jsonFile" : "directory-ur_robot_manager_interfaces__rs-e9383c4afccc12e17c3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/ur_robot_manager_interfaces__rs",
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "ur_robot_manager_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ur_robot_manager_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ur_robot_manager_interfaces_egg-991ff96bc5ce0409121e.json",
+					"name" : "ament_cmake_python_build_ur_robot_manager_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_ur_robot_manager_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_ur_robot_manager_interfaces-99c1c9934d5c69c654e0.json",
+					"name" : "ament_cmake_python_symlink_ur_robot_manager_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-df88b84525b7bfce1697.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_interfaces-252e1bf19b66e6793ef9.json",
+					"name" : "ur_robot_manager_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_interfaces__cpp-39c8b91d15c268c3b1c7.json",
+					"name" : "ur_robot_manager_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ur_robot_manager_interfaces__py::@4e5ede106e38268bf8bb",
+					"jsonFile" : "target-ur_robot_manager_interfaces__py-0547b0495914896906bb.json",
+					"name" : "ur_robot_manager_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_interfaces__rosidl_generator_c-a46ce0952e9aa2c45e8f.json",
+					"name" : "ur_robot_manager_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_interfaces__rosidl_generator_py-5e2274bab7a2f00c5443.json",
+					"name" : "ur_robot_manager_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_interfaces__rosidl_typesupport_c-b52bea8c522d727faace.json",
+					"name" : "ur_robot_manager_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_interfaces__rosidl_typesupport_c__pyext-156e80bc2e7738ee25f2.json",
+					"name" : "ur_robot_manager_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_interfaces__rosidl_typesupport_cpp-9eea3a3140b03e574e0f.json",
+					"name" : "ur_robot_manager_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_interfaces__rosidl_typesupport_fastrtps_c-e80d3fd34fa8fecc8b62.json",
+					"name" : "ur_robot_manager_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_interfaces__rosidl_typesupport_fastrtps_c__pyext-86817e2583f41219f511.json",
+					"name" : "ur_robot_manager_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_interfaces__rosidl_typesupport_fastrtps_cpp-67addc0f8dffb5fc88f2.json",
+					"name" : "ur_robot_manager_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_interfaces__rosidl_typesupport_introspection_c-22916dd9e0eb700844fc.json",
+					"name" : "ur_robot_manager_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_interfaces__rosidl_typesupport_introspection_c__pyext-1d66f893f65f5515cb7f.json",
+					"name" : "ur_robot_manager_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_interfaces__rosidl_typesupport_introspection_cpp-24549f60fcacb5535ed3.json",
+					"name" : "ur_robot_manager_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ur_robot_manager_interfaces__rs::@9eb2c22bbcaa2329b3a1",
+					"jsonFile" : "target-ur_robot_manager_interfaces__rs-dd14bf4fcb042b7d8b4e.json",
+					"name" : "ur_robot_manager_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_interfaces_uninstall-6c5addf304909823477b.json",
+					"name" : "ur_robot_manager_interfaces_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces",
+		"source" : "/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

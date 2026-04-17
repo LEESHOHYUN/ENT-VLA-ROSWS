@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_generator_c/ur_robot_manager_interfaces/msg/rosidl_generator_c__visibility_control.h

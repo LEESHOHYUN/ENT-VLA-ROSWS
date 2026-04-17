@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-95d87d29ec440d81829c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gripper_test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_action_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_action_node-a1377a5b10e68f7538c4.json",
+					"name" : "gripper_action_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_action_node_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_action_node_autogen-d1a387da5c64e2354437.json",
+					"name" : "gripper_action_node_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_node-e58919da02b41a870add.json",
+					"name" : "gripper_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_node_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_node_autogen-d6f22932a78d174720e8.json",
+					"name" : "gripper_node_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_test_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_test_uninstall-bed7b01e4642ac91f08d.json",
+					"name" : "gripper_test_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1e317809917f434bc428.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hrlsh/scrub_nurse_ws/build/gripper_test",
+		"source" : "/home/hrlsh/scrub_nurse_ws/src/gripper_test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

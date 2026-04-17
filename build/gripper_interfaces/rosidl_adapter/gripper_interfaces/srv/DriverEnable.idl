@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gripper_interfaces/srv/DriverEnable.srv
+// generated code does not contain a copyright notice
+
+
+module gripper_interfaces {
+  module srv {
+    struct DriverEnable_Request {
+      boolean enable;
+    };
+    struct DriverEnable_Response {
+      boolean successed;
+    };
+  };
+};

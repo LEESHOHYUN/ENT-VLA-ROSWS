@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "nurse_interfaces__rs",
+		"source" : "/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/nurse_interfaces__rs"
+	}
+}

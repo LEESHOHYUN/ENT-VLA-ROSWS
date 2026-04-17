@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gripper_interfaces__py",
+		"source" : "/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/gripper_interfaces__py"
+	}
+}

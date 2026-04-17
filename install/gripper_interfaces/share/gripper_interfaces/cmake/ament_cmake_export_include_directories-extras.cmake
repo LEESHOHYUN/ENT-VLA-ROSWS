@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

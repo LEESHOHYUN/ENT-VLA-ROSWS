@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nurse_interfaces/msg/EmergencySignal.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module nurse_interfaces {
+  module msg {
+    module EmergencySignal_Constants {
+      @verbatim (language="comment", text=
+        "Status codes")
+      const uint8 NORMAL = 0;
+      const uint8 BLEEDING = 1;
+      const uint8 CONTAMINATION = 2;
+      const uint8 PHASE_COMPLETE = 3;
+      const uint8 UNKNOWN = 255;
+    };
+    @verbatim (language="comment", text=
+      "Emergency classification from endoscope camera")
+    struct EmergencySignal {
+      std_msgs::msg::Header header;
+
+      uint8 status;
+
+      float confidence;
+
+      @verbatim (language="comment", text=
+        "optional description")
+      string detail;
+    };
+  };
+};

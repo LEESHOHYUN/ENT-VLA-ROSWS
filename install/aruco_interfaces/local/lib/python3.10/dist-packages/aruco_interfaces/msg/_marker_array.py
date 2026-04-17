@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/msg/_marker_array.py

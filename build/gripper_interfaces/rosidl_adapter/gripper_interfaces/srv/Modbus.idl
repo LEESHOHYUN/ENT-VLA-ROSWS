@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gripper_interfaces/srv/Modbus.srv
+// generated code does not contain a copyright notice
+
+
+module gripper_interfaces {
+  module srv {
+    struct Modbus_Request {
+      boolean enable;
+
+      uint8 slave_address;
+    };
+    struct Modbus_Response {
+      boolean successed;
+    };
+  };
+};

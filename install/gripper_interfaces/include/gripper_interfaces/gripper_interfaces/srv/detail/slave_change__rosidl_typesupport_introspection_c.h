@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/rosidl_typesupport_introspection_c/gripper_interfaces/srv/detail/slave_change__rosidl_typesupport_introspection_c.h

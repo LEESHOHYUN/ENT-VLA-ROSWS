@@ -1,0 +1,287 @@
+[0.000000] (-) TimerEvent: {}
+[0.000098] (-) JobUnselected: {'identifier': 'aruco_interfaces'}
+[0.000248] (-) JobUnselected: {'identifier': 'gripper_interfaces'}
+[0.000333] (-) JobUnselected: {'identifier': 'gripper_test'}
+[0.000418] (-) JobUnselected: {'identifier': 'nurse_bringup'}
+[0.000449] (-) JobUnselected: {'identifier': 'nurse_control'}
+[0.000498] (-) JobUnselected: {'identifier': 'nurse_interfaces'}
+[0.000523] (-) JobUnselected: {'identifier': 'nurse_perception'}
+[0.000562] (-) JobUnselected: {'identifier': 'nurse_planning'}
+[0.000618] (-) JobUnselected: {'identifier': 'ur_robot_manager_interfaces'}
+[0.000634] (ur_robot_manager) JobQueued: {'identifier': 'ur_robot_manager', 'dependencies': OrderedDict([('gripper_interfaces', '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces'), ('ur_robot_manager_interfaces', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces')])}
+[0.000654] (ur_robot_manager) JobStarted: {'identifier': 'ur_robot_manager'}
+[0.006709] (ur_robot_manager) JobProgress: {'identifier': 'ur_robot_manager', 'progress': 'cmake'}
+[0.007114] (ur_robot_manager) JobProgress: {'identifier': 'ur_robot_manager', 'progress': 'build'}
+[0.007580] (ur_robot_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager', '--', '-j20', '-l20'], 'cwd': '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/hrlsh'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('USER', 'hrlsh'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.2.109'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hrlsh'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-206b32d8-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '2644'), ('SYSTEMD_EXEC_PID', '2904'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('QT_QPA_PLATFORM_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '39452'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hrlsh'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('JOURNAL_STREAM', '8:23493'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('APPLICATIONINSIGHTS_CONFIGURATION_CONTENT', '{}'), ('USERNAME', 'hrlsh'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '1'), ('CUDADIR', '/usr/local/cuda'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/hrlsh/.pyenv/versions/3.11.11/bin:/home/hrlsh/.local/bin:/home/hrlsh/.local/bin:/opt/ros/humble/bin:/home/hrlsh/.deno/bin:/home/hrlsh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/cuda/bin:/usr/local/cuda/bin'), ('SESSION_MANAGER', 'local/hrlsh-MS-7D38:@/tmp/.ICE-unix/2876,unix/hrlsh-MS-7D38:/tmp/.ICE-unix/2876'), ('INVOCATION_ID', 'f0b8bd7b99ec4d069390fd3bfd95c203'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VIRTUAL_ENV', '/home/hrlsh/.pyenv/versions/3.11.11'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/hrlsh/.config/Code/CachedData/560a9dba96f961efea7b1612916f89e5d5d4d679'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/hrlsh/.vscode/extensions/anthropic.claude-code-2.1.109-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '39452'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file'), ('CMAKE_PREFIX_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.037842] (ur_robot_manager) StdoutLine: {'line': b'[ 37%] Built target ur_robot_manager_utils\n'}
+[0.055858] (ur_robot_manager) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_robot_manager_core\n'}
+[0.068330] (ur_robot_manager) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_manager.cpp.o\n'}
+[0.069202] (ur_robot_manager) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_action_server.cpp.o\n'}
+[0.099870] (-) TimerEvent: {}
+[0.200128] (-) TimerEvent: {}
+[0.300460] (-) TimerEvent: {}
+[0.400717] (-) TimerEvent: {}
+[0.500862] (-) TimerEvent: {}
+[0.601022] (-) TimerEvent: {}
+[0.701182] (-) TimerEvent: {}
+[0.801330] (-) TimerEvent: {}
+[0.901476] (-) TimerEvent: {}
+[1.001623] (-) TimerEvent: {}
+[1.101775] (-) TimerEvent: {}
+[1.201922] (-) TimerEvent: {}
+[1.302069] (-) TimerEvent: {}
+[1.402219] (-) TimerEvent: {}
+[1.502377] (-) TimerEvent: {}
+[1.602523] (-) TimerEvent: {}
+[1.702678] (-) TimerEvent: {}
+[1.802829] (-) TimerEvent: {}
+[1.902979] (-) TimerEvent: {}
+[2.003139] (-) TimerEvent: {}
+[2.103303] (-) TimerEvent: {}
+[2.203461] (-) TimerEvent: {}
+[2.303616] (-) TimerEvent: {}
+[2.403771] (-) TimerEvent: {}
+[2.478312] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98bool urRobotManager::URRobotManager::moveJ(const std::vector<double, std::allocator<double> >&, double, double, bool)\xe2\x80\x99:\n'}
+[2.478490] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:224:12: warning: unused variable \xe2\x80\x98a\xe2\x80\x99 [-Wunused-variable]\n'}
+[2.478579] (ur_robot_manager) StderrLine: {'line': b'  224 |     double a = std::min(acceleration, max_joint_accel_);\n'}
+[2.478658] (ur_robot_manager) StderrLine: {'line': b'      |            ^\n'}
+[2.479487] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98bool urRobotManager::URRobotManager::moveL(const std::vector<double, std::allocator<double> >&, double, double, bool)\xe2\x80\x99:\n'}
+[2.479571] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:271:12: warning: unused variable \xe2\x80\x98a\xe2\x80\x99 [-Wunused-variable]\n'}
+[2.479647] (ur_robot_manager) StderrLine: {'line': b'  271 |     double a = std::min(acceleration, max_linear_accel_);\n'}
+[2.479723] (ur_robot_manager) StderrLine: {'line': b'      |            ^\n'}
+[2.480182] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98bool urRobotManager::URRobotManager::speedJ(const std::vector<double, std::allocator<double> >&, double, double)\xe2\x80\x99:\n'}
+[2.480270] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:306:37: warning: unused parameter \xe2\x80\x98acceleration\xe2\x80\x99 [-Wunused-parameter]\n'}
+[2.480346] (ur_robot_manager) StderrLine: {'line': b'  306 |                              double acceleration, double time)\n'}
+[2.480421] (ur_robot_manager) StderrLine: {'line': b'      |                              ~~~~~~~^~~~~~~~~~~~\n'}
+[2.480496] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:306:58: warning: unused parameter \xe2\x80\x98time\xe2\x80\x99 [-Wunused-parameter]\n'}
+[2.480571] (ur_robot_manager) StderrLine: {'line': b'  306 |                              double acceleration, double time)\n'}
+[2.480645] (ur_robot_manager) StderrLine: {'line': b'      |                                                   ~~~~~~~^~~~\n'}
+[2.480769] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98bool urRobotManager::URRobotManager::speedL(const std::vector<double, std::allocator<double> >&, double, double)\xe2\x80\x99:\n'}
+[2.480845] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:329:37: warning: unused parameter \xe2\x80\x98acceleration\xe2\x80\x99 [-Wunused-parameter]\n'}
+[2.480921] (ur_robot_manager) StderrLine: {'line': b'  329 |                              double acceleration, double time)\n'}
+[2.480994] (ur_robot_manager) StderrLine: {'line': b'      |                              ~~~~~~~^~~~~~~~~~~~\n'}
+[2.481068] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:329:58: warning: unused parameter \xe2\x80\x98time\xe2\x80\x99 [-Wunused-parameter]\n'}
+[2.481142] (ur_robot_manager) StderrLine: {'line': b'  329 |                              double acceleration, double time)\n'}
+[2.481216] (ur_robot_manager) StderrLine: {'line': b'      |                                                   ~~~~~~~^~~~\n'}
+[2.481417] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98bool urRobotManager::URRobotManager::customMoveL(const std::vector<double, std::allocator<double> >&, double, double, double)\xe2\x80\x99:\n'}
+[2.481501] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:362:12: warning: unused variable \xe2\x80\x98s\xe2\x80\x99 [-Wunused-variable]\n'}
+[2.481580] (ur_robot_manager) StderrLine: {'line': b'  362 |     double s = std::min(speed * speed_scale_, max_linear_speed_);\n'}
+[2.481655] (ur_robot_manager) StderrLine: {'line': b'      |            ^\n'}
+[2.481730] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:363:12: warning: unused variable \xe2\x80\x98a\xe2\x80\x99 [-Wunused-variable]\n'}
+[2.481805] (ur_robot_manager) StderrLine: {'line': b'  363 |     double a = std::min(acceleration, max_linear_accel_);\n'}
+[2.481879] (ur_robot_manager) StderrLine: {'line': b'      |            ^\n'}
+[2.484303] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98bool urRobotManager::URRobotManager::movePath(const std::vector<std::vector<double, std::allocator<double> > >&, double, double, double)\xe2\x80\x99:\n'}
+[2.484412] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:415:39: warning: unused parameter \xe2\x80\x98speed\xe2\x80\x99 [-Wunused-parameter]\n'}
+[2.484489] (ur_robot_manager) StderrLine: {'line': b'  415 |                                double speed, double acceleration,\n'}
+[2.484563] (ur_robot_manager) StderrLine: {'line': b'      |                                ~~~~~~~^~~~~\n'}
+[2.484637] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:415:53: warning: unused parameter \xe2\x80\x98acceleration\xe2\x80\x99 [-Wunused-parameter]\n'}
+[2.484721] (ur_robot_manager) StderrLine: {'line': b'  415 |                                double speed, double acceleration,\n'}
+[2.484794] (ur_robot_manager) StderrLine: {'line': b'      |                                              ~~~~~~~^~~~~~~~~~~~\n'}
+[2.493675] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98bool urRobotManager::URRobotManager::servoSpeedL(const std::vector<double, std::allocator<double> >&, double, double)\xe2\x80\x99:\n'}
+[2.493823] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:504:48: error: cannot convert \xe2\x80\x98std::vector<double, std::allocator<double> >\xe2\x80\x99 to \xe2\x80\x98const Eigen::Matrix<double, 6, 6>&\xe2\x80\x99\n'}
+[2.493906] (ur_robot_manager) StderrLine: {'line': b'  504 |     double manip = kinematics_->manipulability(q);\n'}
+[2.493981] (ur_robot_manager) StderrLine: {'line': b'      |                                                ^\n'}
+[2.494056] (ur_robot_manager) StderrLine: {'line': b'      |                                                |\n'}
+[2.494130] (ur_robot_manager) StderrLine: {'line': b'      |                                                std::vector<double, std::allocator<double> >\n'}
+[2.494206] (ur_robot_manager) StderrLine: {'line': b'In file included from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h:23,\n'}
+[2.494280] (ur_robot_manager) StderrLine: {'line': b'                 from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:10:\n'}
+[2.494355] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:74:65: note:   initializing argument 1 of \xe2\x80\x98static double URKinematics::manipulability(const Eigen::Matrix<double, 6, 6>&)\xe2\x80\x99\n'}
+[2.494430] (ur_robot_manager) StderrLine: {'line': b'   74 |   static double manipulability(const Eigen::Matrix<double,6,6>& J);\n'}
+[2.494505] (ur_robot_manager) StderrLine: {'line': b'      |                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n'}
+[2.494873] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98bool urRobotManager::URRobotManager::servoJ6Only(const std::vector<double, std::allocator<double> >&, double, double, double)\xe2\x80\x99:\n'}
+[2.494956] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:518:42: warning: unused parameter \xe2\x80\x98time\xe2\x80\x99 [-Wunused-parameter]\n'}
+[2.495031] (ur_robot_manager) StderrLine: {'line': b'  518 |                                   double time, double lookahead, double gain)\n'}
+[2.495105] (ur_robot_manager) StderrLine: {'line': b'      |                                   ~~~~~~~^~~~\n'}
+[2.495182] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:518:55: warning: unused parameter \xe2\x80\x98lookahead\xe2\x80\x99 [-Wunused-parameter]\n'}
+[2.495263] (ur_robot_manager) StderrLine: {'line': b'  518 |                                   double time, double lookahead, double gain)\n'}
+[2.495338] (ur_robot_manager) StderrLine: {'line': b'      |                                                ~~~~~~~^~~~~~~~~\n'}
+[2.495412] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:518:73: warning: unused parameter \xe2\x80\x98gain\xe2\x80\x99 [-Wunused-parameter]\n'}
+[2.495486] (ur_robot_manager) StderrLine: {'line': b'  518 |                                   double time, double lookahead, double gain)\n'}
+[2.495560] (ur_robot_manager) StderrLine: {'line': b'      |                                                                  ~~~~~~~^~~~\n'}
+[2.503864] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98std::vector<double, std::allocator<double> > urRobotManager::URRobotManager::computeStandardDLS(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&, double)\xe2\x80\x99:\n'}
+[2.504016] (-) TimerEvent: {}
+[2.504041] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:565:42: error: no matching function for call to \xe2\x80\x98URKinematics::velocityServoStep(const std::vector<double, std::allocator<double> >&, Eigen::Matrix<double, 6, 1>&, double&)\xe2\x80\x99\n'}
+[2.504120] (ur_robot_manager) StderrLine: {'line': b'  565 |     return kinematics_->velocityServoStep(q, tw, damping);\n'}
+[2.504194] (ur_robot_manager) StderrLine: {'line': b'      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\n'}
+[2.504268] (ur_robot_manager) StderrLine: {'line': b'In file included from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h:23,\n'}
+[2.504342] (ur_robot_manager) StderrLine: {'line': b'                 from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:10:\n'}
+[2.504416] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:52:8: note: candidate: \xe2\x80\x98void URKinematics::velocityServoStep(const Eigen::Matrix<double, 6, 1>&, const Matrix4d&, double, double, double, double, double, const string&, Eigen::Matrix<double, 6, 1>&, Eigen::Matrix<double, 6, 1>&, URKinematics::ServoStats*) const\xe2\x80\x99\n'}
+[2.504493] (ur_robot_manager) StderrLine: {'line': b'   52 |   void velocityServoStep(const Eigen::Matrix<double,6,1>& q,\n'}
+[2.504569] (ur_robot_manager) StderrLine: {'line': b'      |        ^~~~~~~~~~~~~~~~~\n'}
+[2.504642] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:52:8: note:   candidate expects 11 arguments, 3 provided\n'}
+[2.504721] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function \xe2\x80\x98std::vector<double, std::allocator<double> > urRobotManager::URRobotManager::computeSingularityRobustVelocity(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&)\xe2\x80\x99:\n'}
+[2.504803] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:572:48: error: cannot convert \xe2\x80\x98const std::vector<double, std::allocator<double> >\xe2\x80\x99 to \xe2\x80\x98const Eigen::Matrix<double, 6, 6>&\xe2\x80\x99\n'}
+[2.504878] (ur_robot_manager) StderrLine: {'line': b'  572 |     double manip = kinematics_->manipulability(q);\n'}
+[2.504952] (ur_robot_manager) StderrLine: {'line': b'      |                                                ^\n'}
+[2.505026] (ur_robot_manager) StderrLine: {'line': b'      |                                                |\n'}
+[2.505099] (ur_robot_manager) StderrLine: {'line': b'      |                                                const std::vector<double, std::allocator<double> >\n'}
+[2.505172] (ur_robot_manager) StderrLine: {'line': b'In file included from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h:23,\n'}
+[2.505245] (ur_robot_manager) StderrLine: {'line': b'                 from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:10:\n'}
+[2.505320] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:74:65: note:   initializing argument 1 of \xe2\x80\x98static double URKinematics::manipulability(const Eigen::Matrix<double, 6, 6>&)\xe2\x80\x99\n'}
+[2.505395] (ur_robot_manager) StderrLine: {'line': b'   74 |   static double manipulability(const Eigen::Matrix<double,6,6>& J);\n'}
+[2.505469] (ur_robot_manager) StderrLine: {'line': b'      |                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n'}
+[2.604110] (-) TimerEvent: {}
+[2.615069] (ur_robot_manager) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,\n'}
+[2.615223] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,\n'}
+[2.615316] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,\n'}
+[2.615393] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,\n'}
+[2.615549] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,\n'}
+[2.615626] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,\n'}
+[2.615701] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,\n'}
+[2.615839] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,\n'}
+[2.615913] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[2.615987] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,\n'}
+[2.616061] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[2.616134] (ur_robot_manager) StderrLine: {'line': b'                 from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_action_server.h:14,\n'}
+[2.616215] (ur_robot_manager) StderrLine: {'line': b'                 from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:13:\n'}
+[2.616290] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp: In member function \xe2\x80\x98rclcpp_action::GoalResponse urRobotManager::URRobotActionServer::handleGoal(const GoalUUID&, std::shared_ptr<const ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> > >)\xe2\x80\x99:\n'}
+[2.616375] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:61:23: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98task_type\xe2\x80\x99; did you mean \xe2\x80\x98tool_type\xe2\x80\x99?\n'}
+[2.616454] (ur_robot_manager) StderrLine: {'line': b'   61 |                 goal->task_type, goal->task_id.c_str());\n'}
+[2.616529] (ur_robot_manager) StderrLine: {'line': b'      |                       ^~~~~~~~~\n'}
+[2.616601] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:61:48: error: request for member \xe2\x80\x98c_str\xe2\x80\x99 in \xe2\x80\x98((std::__shared_ptr_access<const ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& goal))->std::__shared_ptr_access<const ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >::task_id\xe2\x80\x99, which is of non-class type \xe2\x80\x98const _task_id_type\xe2\x80\x99 {aka \xe2\x80\x98const int\xe2\x80\x99}\n'}
+[2.616684] (ur_robot_manager) StderrLine: {'line': b'   61 |                 goal->task_type, goal->task_id.c_str());\n'}
+[2.616763] (ur_robot_manager) StderrLine: {'line': b'      |                                                ^~~~~\n'}
+[2.616839] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:71:15: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98task_type\xe2\x80\x99; did you mean \xe2\x80\x98tool_type\xe2\x80\x99?\n'}
+[2.616919] (ur_robot_manager) StderrLine: {'line': b'   71 |     if (goal->task_type < 0 || goal->task_type > 4) {\n'}
+[2.616994] (ur_robot_manager) StderrLine: {'line': b'      |               ^~~~~~~~~\n'}
+[2.617067] (ur_robot_manager) StderrLine: {'line': b'      |               tool_type\n'}
+[2.617140] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:71:38: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98task_type\xe2\x80\x99; did you mean \xe2\x80\x98tool_type\xe2\x80\x99?\n'}
+[2.617216] (ur_robot_manager) StderrLine: {'line': b'   71 |     if (goal->task_type < 0 || goal->task_type > 4) {\n'}
+[2.617289] (ur_robot_manager) StderrLine: {'line': b'      |                                      ^~~~~~~~~\n'}
+[2.617362] (ur_robot_manager) StderrLine: {'line': b'      |                                      tool_type\n'}
+[2.617435] (ur_robot_manager) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,\n'}
+[2.617509] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,\n'}
+[2.617582] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,\n'}
+[2.617656] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,\n'}
+[2.617730] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,\n'}
+[2.617806] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,\n'}
+[2.617880] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,\n'}
+[2.617953] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,\n'}
+[2.618026] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[2.618099] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,\n'}
+[2.618173] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[2.618245] (ur_robot_manager) StderrLine: {'line': b'                 from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_action_server.h:14,\n'}
+[2.618322] (ur_robot_manager) StderrLine: {'line': b'                 from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:13:\n'}
+[2.618396] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:73:62: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98task_type\xe2\x80\x99; did you mean \xe2\x80\x98tool_type\xe2\x80\x99?\n'}
+[2.618475] (ur_robot_manager) StderrLine: {'line': b'   73 |                     "Rejecting: invalid task_type %d", goal->task_type);\n'}
+[2.618549] (ur_robot_manager) StderrLine: {'line': b'      |                                                              ^~~~~~~~~\n'}
+[2.621029] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp: In member function \xe2\x80\x98void urRobotManager::URRobotActionServer::executeTask(std::shared_ptr<rclcpp_action::ServerGoalHandle<ur_robot_manager_interfaces::action::RobotTask> >)\xe2\x80\x99:\n'}
+[2.621154] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:106:23: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98task_type\xe2\x80\x99; did you mean \xe2\x80\x98tool_type\xe2\x80\x99?\n'}
+[2.621232] (ur_robot_manager) StderrLine: {'line': b'  106 |                 goal->task_type, goal->task_id.c_str());\n'}
+[2.621306] (ur_robot_manager) StderrLine: {'line': b'      |                       ^~~~~~~~~\n'}
+[2.621380] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:106:48: error: request for member \xe2\x80\x98c_str\xe2\x80\x99 in \xe2\x80\x98((std::__shared_ptr_access<const ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& goal))->std::__shared_ptr_access<const ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >::task_id\xe2\x80\x99, which is of non-class type \xe2\x80\x98const _task_id_type\xe2\x80\x99 {aka \xe2\x80\x98const int\xe2\x80\x99}\n'}
+[2.621464] (ur_robot_manager) StderrLine: {'line': b'  106 |                 goal->task_type, goal->task_id.c_str());\n'}
+[2.621538] (ur_robot_manager) StderrLine: {'line': b'      |                                                ^~~~~\n'}
+[2.621609] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:112:23: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98task_type\xe2\x80\x99; did you mean \xe2\x80\x98tool_type\xe2\x80\x99?\n'}
+[2.621691] (ur_robot_manager) StderrLine: {'line': b'  112 |         switch (goal->task_type) {\n'}
+[2.621766] (ur_robot_manager) StderrLine: {'line': b'      |                       ^~~~~~~~~\n'}
+[2.621839] (ur_robot_manager) StderrLine: {'line': b'      |                       tool_type\n'}
+[2.622060] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:121:27: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98target_joints\xe2\x80\x99\n'}
+[2.622169] (ur_robot_manager) StderrLine: {'line': b'  121 |                 if (goal->target_joints.size() == 6) {\n'}
+[2.622245] (ur_robot_manager) StderrLine: {'line': b'      |                           ^~~~~~~~~~~~~\n'}
+[2.622353] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:122:34: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98target_joints\xe2\x80\x99\n'}
+[2.622462] (ur_robot_manager) StderrLine: {'line': b'  122 |                     home = goal->target_joints;\n'}
+[2.622570] (ur_robot_manager) StderrLine: {'line': b'      |                                  ^~~~~~~~~~~~~\n'}
+[2.622644] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:133:27: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98target_pose\xe2\x80\x99\n'}
+[2.622758] (ur_robot_manager) StderrLine: {'line': b'  133 |                 if (goal->target_pose.size() != 6) {\n'}
+[2.622872] (ur_robot_manager) StderrLine: {'line': b'      |                           ^~~~~~~~~~~\n'}
+[2.622989] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:142:54: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98target_pose\xe2\x80\x99\n'}
+[2.623066] (ur_robot_manager) StderrLine: {'line': b'  142 |                 success = robot_manager_.moveL(goal->target_pose, 0.1, 0.5);\n'}
+[2.623141] (ur_robot_manager) StderrLine: {'line': b'      |                                                      ^~~~~~~~~~~\n'}
+[2.623215] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:151:27: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98target_joints\xe2\x80\x99\n'}
+[2.623300] (ur_robot_manager) StderrLine: {'line': b'  151 |                 if (goal->target_joints.size() != 6) {\n'}
+[2.623379] (ur_robot_manager) StderrLine: {'line': b'      |                           ^~~~~~~~~~~~~\n'}
+[2.623452] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:160:54: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98target_joints\xe2\x80\x99\n'}
+[2.623528] (ur_robot_manager) StderrLine: {'line': b'  160 |                 success = robot_manager_.moveJ(goal->target_joints, 0.5, 0.5);\n'}
+[2.623602] (ur_robot_manager) StderrLine: {'line': b'      |                                                      ^~~~~~~~~~~~~\n'}
+[2.623675] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:176:27: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98target_pose\xe2\x80\x99\n'}
+[2.623750] (ur_robot_manager) StderrLine: {'line': b'  176 |                 if (goal->target_pose.size() == 6) {\n'}
+[2.623824] (ur_robot_manager) StderrLine: {'line': b'      |                           ^~~~~~~~~~~\n'}
+[2.623897] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:180:48: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98target_pose\xe2\x80\x99\n'}
+[2.623982] (ur_robot_manager) StderrLine: {'line': b'  180 |                     robot_manager_.moveL(goal->target_pose, 0.05, 0.3);\n'}
+[2.624056] (ur_robot_manager) StderrLine: {'line': b'      |                                                ^~~~~~~~~~~\n'}
+[2.624130] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:198:27: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98waypoints\xe2\x80\x99\n'}
+[2.624206] (ur_robot_manager) StderrLine: {'line': b'  198 |                 if (goal->waypoints.empty()) {\n'}
+[2.624280] (ur_robot_manager) StderrLine: {'line': b'      |                           ^~~~~~~~~\n'}
+[2.625195] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:204:50: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98waypoints\xe2\x80\x99\n'}
+[2.625371] (ur_robot_manager) StderrLine: {'line': b'  204 |                 for (size_t i = 0; i + 5 < goal->waypoints.size(); i += 6) {\n'}
+[2.625446] (ur_robot_manager) StderrLine: {'line': b'      |                                                  ^~~~~~~~~\n'}
+[2.625519] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:206:31: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98waypoints\xe2\x80\x99\n'}
+[2.625772] (ur_robot_manager) StderrLine: {'line': b'  206 |                         goal->waypoints[i],   goal->waypoints[i+1],\n'}
+[2.625848] (ur_robot_manager) StderrLine: {'line': b'      |                               ^~~~~~~~~\n'}
+[2.625923] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:206:53: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98waypoints\xe2\x80\x99\n'}
+[2.625999] (ur_robot_manager) StderrLine: {'line': b'  206 |                         goal->waypoints[i],   goal->waypoints[i+1],\n'}
+[2.626072] (ur_robot_manager) StderrLine: {'line': b'      |                                                     ^~~~~~~~~\n'}
+[2.626146] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:207:31: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98waypoints\xe2\x80\x99\n'}
+[2.626225] (ur_robot_manager) StderrLine: {'line': b'  207 |                         goal->waypoints[i+2], goal->waypoints[i+3],\n'}
+[2.626299] (ur_robot_manager) StderrLine: {'line': b'      |                               ^~~~~~~~~\n'}
+[2.626373] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:207:53: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98waypoints\xe2\x80\x99\n'}
+[2.626449] (ur_robot_manager) StderrLine: {'line': b'  207 |                         goal->waypoints[i+2], goal->waypoints[i+3],\n'}
+[2.626524] (ur_robot_manager) StderrLine: {'line': b'      |                                                     ^~~~~~~~~\n'}
+[2.626597] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:208:31: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98waypoints\xe2\x80\x99\n'}
+[2.626673] (ur_robot_manager) StderrLine: {'line': b'  208 |                         goal->waypoints[i+4], goal->waypoints[i+5]\n'}
+[2.626746] (ur_robot_manager) StderrLine: {'line': b'      |                               ^~~~~~~~~\n'}
+[2.626820] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:208:53: error: \xe2\x80\x98using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99 {aka \xe2\x80\x98const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >\xe2\x80\x99} has no member named \xe2\x80\x98waypoints\xe2\x80\x99\n'}
+[2.626900] (ur_robot_manager) StderrLine: {'line': b'  208 |                         goal->waypoints[i+4], goal->waypoints[i+5]\n'}
+[2.626975] (ur_robot_manager) StderrLine: {'line': b'      |                                                     ^~~~~~~~~\n'}
+[2.627048] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:205:40: error: no matching function for call to \xe2\x80\x98std::vector<std::vector<double, std::allocator<double> > >::push_back(<brace-enclosed initializer list>)\xe2\x80\x99\n'}
+[2.627130] (ur_robot_manager) StderrLine: {'line': b'  205 |                     waypoints.push_back({\n'}
+[2.627203] (ur_robot_manager) StderrLine: {'line': b'      |                     ~~~~~~~~~~~~~~~~~~~^~\n'}
+[2.627285] (ur_robot_manager) StderrLine: {'line': b'  206 |                         goal->waypoints[i],   goal->waypoints[i+1],\n'}
+[2.627359] (ur_robot_manager) StderrLine: {'line': b'      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[2.627433] (ur_robot_manager) StderrLine: {'line': b'  207 |                         goal->waypoints[i+2], goal->waypoints[i+3],\n'}
+[2.627506] (ur_robot_manager) StderrLine: {'line': b'      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[2.627580] (ur_robot_manager) StderrLine: {'line': b'  208 |                         goal->waypoints[i+4], goal->waypoints[i+5]\n'}
+[2.627653] (ur_robot_manager) StderrLine: {'line': b'      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[2.627726] (ur_robot_manager) StderrLine: {'line': b'  209 |                     });\n'}
+[2.627798] (ur_robot_manager) StderrLine: {'line': b'      |                     ~~                  \n'}
+[2.627871] (ur_robot_manager) StderrLine: {'line': b'In file included from /usr/include/c++/11/vector:67,\n'}
+[2.627945] (ur_robot_manager) StderrLine: {'line': b'                 from /usr/include/c++/11/functional:62,\n'}
+[2.628018] (ur_robot_manager) StderrLine: {'line': b'                 from /usr/include/c++/11/pstl/glue_algorithm_defs.h:13,\n'}
+[2.628091] (ur_robot_manager) StderrLine: {'line': b'                 from /usr/include/c++/11/algorithm:74,\n'}
+[2.628164] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18,\n'}
+[2.628241] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[2.628315] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,\n'}
+[2.628388] (ur_robot_manager) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[2.628462] (ur_robot_manager) StderrLine: {'line': b'                 from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_action_server.h:14,\n'}
+[2.628535] (ur_robot_manager) StderrLine: {'line': b'                 from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:13:\n'}
+[2.628608] (ur_robot_manager) StderrLine: {'line': b'/usr/include/c++/11/bits/stl_vector.h:1187:7: note: candidate: \xe2\x80\x98void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = std::vector<double, std::allocator<double> >; _Alloc = std::allocator<std::vector<double, std::allocator<double> > >; std::vector<_Tp, _Alloc>::value_type = std::vector<double, std::allocator<double> >]\xe2\x80\x99\n'}
+[2.628685] (ur_robot_manager) StderrLine: {'line': b' 1187 |       push_back(const value_type& __x)\n'}
+[2.628758] (ur_robot_manager) StderrLine: {'line': b'      |       ^~~~~~~~~\n'}
+[2.628831] (ur_robot_manager) StderrLine: {'line': b'/usr/include/c++/11/bits/stl_vector.h:1187:35: note:   no known conversion for argument 1 from \xe2\x80\x98<brace-enclosed initializer list>\xe2\x80\x99 to \xe2\x80\x98const value_type&\xe2\x80\x99 {aka \xe2\x80\x98const std::vector<double, std::allocator<double> >&\xe2\x80\x99}\n'}
+[2.628906] (ur_robot_manager) StderrLine: {'line': b' 1187 |       push_back(const value_type& __x)\n'}
+[2.628980] (ur_robot_manager) StderrLine: {'line': b'      |                 ~~~~~~~~~~~~~~~~~~^~~\n'}
+[2.629053] (ur_robot_manager) StderrLine: {'line': b'/usr/include/c++/11/bits/stl_vector.h:1203:7: note: candidate: \xe2\x80\x98void std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = std::vector<double, std::allocator<double> >; _Alloc = std::allocator<std::vector<double, std::allocator<double> > >; std::vector<_Tp, _Alloc>::value_type = std::vector<double, std::allocator<double> >]\xe2\x80\x99\n'}
+[2.629132] (ur_robot_manager) StderrLine: {'line': b' 1203 |       push_back(value_type&& __x)\n'}
+[2.629205] (ur_robot_manager) StderrLine: {'line': b'      |       ^~~~~~~~~\n'}
+[2.629278] (ur_robot_manager) StderrLine: {'line': b'/usr/include/c++/11/bits/stl_vector.h:1203:30: note:   no known conversion for argument 1 from \xe2\x80\x98<brace-enclosed initializer list>\xe2\x80\x99 to \xe2\x80\x98std::vector<std::vector<double, std::allocator<double> > >::value_type&&\xe2\x80\x99 {aka \xe2\x80\x98std::vector<double, std::allocator<double> >&&\xe2\x80\x99}\n'}
+[2.629354] (ur_robot_manager) StderrLine: {'line': b' 1203 |       push_back(value_type&& __x)\n'}
+[2.629427] (ur_robot_manager) StderrLine: {'line': b'      |                 ~~~~~~~~~~~~~^~~\n'}
+[2.704192] (-) TimerEvent: {}
+[2.804345] (-) TimerEvent: {}
+[2.904499] (-) TimerEvent: {}
+[3.004652] (-) TimerEvent: {}
+[3.104807] (-) TimerEvent: {}
+[3.204962] (-) TimerEvent: {}
+[3.305119] (-) TimerEvent: {}
+[3.405291] (-) TimerEvent: {}
+[3.505462] (-) TimerEvent: {}
+[3.605608] (-) TimerEvent: {}
+[3.705755] (-) TimerEvent: {}
+[3.743380] (ur_robot_manager) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ur_robot_manager_core.dir/build.make:90: CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_action_server.cpp.o] Error 1\n'}
+[3.743509] (ur_robot_manager) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.805842] (-) TimerEvent: {}
+[3.905984] (-) TimerEvent: {}
+[4.006130] (-) TimerEvent: {}
+[4.106288] (-) TimerEvent: {}
+[4.206453] (-) TimerEvent: {}
+[4.306616] (-) TimerEvent: {}
+[4.406771] (-) TimerEvent: {}
+[4.506928] (-) TimerEvent: {}
+[4.607088] (-) TimerEvent: {}
+[4.688043] (ur_robot_manager) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ur_robot_manager_core.dir/build.make:76: CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_manager.cpp.o] Error 1\n'}
+[4.688245] (ur_robot_manager) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/ur_robot_manager_core.dir/all] Error 2\n'}
+[4.688362] (ur_robot_manager) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.689544] (ur_robot_manager) CommandEnded: {'returncode': 2}
+[4.696206] (ur_robot_manager) JobEnded: {'identifier': 'ur_robot_manager', 'rc': 2}
+[4.706443] (-) EventReactorShutdown: {}

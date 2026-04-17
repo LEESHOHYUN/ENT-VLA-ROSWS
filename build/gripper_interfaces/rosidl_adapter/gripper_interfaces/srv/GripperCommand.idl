@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gripper_interfaces/srv/GripperCommand.srv
+// generated code does not contain a copyright notice
+
+
+module gripper_interfaces {
+  module srv {
+    struct GripperCommand_Request {
+      uint8 command;
+
+      int16 value;
+    };
+    struct GripperCommand_Response {
+      boolean successed;
+    };
+  };
+};

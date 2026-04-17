@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+nurse_control/__init__.py
+nurse_control.egg-info/PKG-INFO
+nurse_control.egg-info/SOURCES.txt
+nurse_control.egg-info/dependency_links.txt
+nurse_control.egg-info/entry_points.txt
+nurse_control.egg-info/requires.txt
+nurse_control.egg-info/top_level.txt
+nurse_control.egg-info/zip-safe
+resource/nurse_control

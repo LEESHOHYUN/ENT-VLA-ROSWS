@@ -1,0 +1,12 @@
+# Goal
+int32 task_id
+float64[] positions
+int32 tool_type
+---
+# Result
+bool success
+string error_message
+---
+# Feedback
+string status
+float32 completion_percentage

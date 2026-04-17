@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/ament_cmake_core/ur_robot_manager_interfacesConfig-version.cmake

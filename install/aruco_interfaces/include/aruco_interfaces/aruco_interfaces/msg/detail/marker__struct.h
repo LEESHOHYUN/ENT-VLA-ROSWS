@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/marker__struct.h

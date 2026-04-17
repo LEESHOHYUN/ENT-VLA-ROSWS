@@ -1,0 +1,226 @@
+[0.008s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager -- -j20 -l20
+[0.033s] Consolidate compiler generated dependencies of target ur_robot_manager_utils
+[0.040s] [ 37%] Built target ur_robot_manager_utils
+[0.055s] Consolidate compiler generated dependencies of target ur_robot_manager_core
+[0.067s] [ 50%] Building CXX object CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_manager.cpp.o
+[0.067s] [ 62%] Building CXX object CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_action_server.cpp.o
+[2.451s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::moveJ(const std::vector<double, std::allocator<double> >&, double, double, bool)’:
+[2.451s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:224:12: warning: unused variable ‘a’ [-Wunused-variable]
+[2.451s]   224 |     double a = std::min(acceleration, max_joint_accel_);
+[2.451s]       |            ^
+[2.452s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::moveL(const std::vector<double, std::allocator<double> >&, double, double, bool)’:
+[2.452s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:271:12: warning: unused variable ‘a’ [-Wunused-variable]
+[2.452s]   271 |     double a = std::min(acceleration, max_linear_accel_);
+[2.452s]       |            ^
+[2.453s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::speedJ(const std::vector<double, std::allocator<double> >&, double, double)’:
+[2.453s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:306:37: warning: unused parameter ‘acceleration’ [-Wunused-parameter]
+[2.453s]   306 |                              double acceleration, double time)
+[2.453s]       |                              ~~~~~~~^~~~~~~~~~~~
+[2.453s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:306:58: warning: unused parameter ‘time’ [-Wunused-parameter]
+[2.453s]   306 |                              double acceleration, double time)
+[2.453s]       |                                                   ~~~~~~~^~~~
+[2.454s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::speedL(const std::vector<double, std::allocator<double> >&, double, double)’:
+[2.454s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:329:37: warning: unused parameter ‘acceleration’ [-Wunused-parameter]
+[2.454s]   329 |                              double acceleration, double time)
+[2.454s]       |                              ~~~~~~~^~~~~~~~~~~~
+[2.454s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:329:58: warning: unused parameter ‘time’ [-Wunused-parameter]
+[2.454s]   329 |                              double acceleration, double time)
+[2.454s]       |                                                   ~~~~~~~^~~~
+[2.454s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::customMoveL(const std::vector<double, std::allocator<double> >&, double, double, double)’:
+[2.454s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:362:12: warning: unused variable ‘s’ [-Wunused-variable]
+[2.454s]   362 |     double s = std::min(speed * speed_scale_, max_linear_speed_);
+[2.454s]       |            ^
+[2.454s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:363:12: warning: unused variable ‘a’ [-Wunused-variable]
+[2.454s]   363 |     double a = std::min(acceleration, max_linear_accel_);
+[2.454s]       |            ^
+[2.457s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::movePath(const std::vector<std::vector<double, std::allocator<double> > >&, double, double, double)’:
+[2.457s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:415:39: warning: unused parameter ‘speed’ [-Wunused-parameter]
+[2.457s]   415 |                                double speed, double acceleration,
+[2.457s]       |                                ~~~~~~~^~~~~
+[2.457s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:415:53: warning: unused parameter ‘acceleration’ [-Wunused-parameter]
+[2.457s]   415 |                                double speed, double acceleration,
+[2.457s]       |                                              ~~~~~~~^~~~~~~~~~~~
+[2.466s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::servoSpeedL(const std::vector<double, std::allocator<double> >&, double, double)’:
+[2.466s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:504:48: error: cannot convert ‘std::vector<double, std::allocator<double> >’ to ‘const Eigen::Matrix<double, 6, 6>&’
+[2.466s]   504 |     double manip = kinematics_->manipulability(q);
+[2.466s]       |                                                ^
+[2.466s]       |                                                |
+[2.466s]       |                                                std::vector<double, std::allocator<double> >
+[2.467s] In file included from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h:23,
+[2.467s]                  from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:10:
+[2.467s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:74:65: note:   initializing argument 1 of ‘static double URKinematics::manipulability(const Eigen::Matrix<double, 6, 6>&)’
+[2.467s]    74 |   static double manipulability(const Eigen::Matrix<double,6,6>& J);
+[2.467s]       |                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[2.467s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::servoJ6Only(const std::vector<double, std::allocator<double> >&, double, double, double)’:
+[2.467s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:518:42: warning: unused parameter ‘time’ [-Wunused-parameter]
+[2.467s]   518 |                                   double time, double lookahead, double gain)
+[2.468s]       |                                   ~~~~~~~^~~~
+[2.468s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:518:55: warning: unused parameter ‘lookahead’ [-Wunused-parameter]
+[2.468s]   518 |                                   double time, double lookahead, double gain)
+[2.468s]       |                                                ~~~~~~~^~~~~~~~~
+[2.468s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:518:73: warning: unused parameter ‘gain’ [-Wunused-parameter]
+[2.468s]   518 |                                   double time, double lookahead, double gain)
+[2.468s]       |                                                                  ~~~~~~~^~~~
+[2.476s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘std::vector<double, std::allocator<double> > urRobotManager::URRobotManager::computeStandardDLS(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&, double)’:
+[2.476s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:565:42: error: no matching function for call to ‘URKinematics::velocityServoStep(const std::vector<double, std::allocator<double> >&, Eigen::Matrix<double, 6, 1>&, double&)’
+[2.476s]   565 |     return kinematics_->velocityServoStep(q, tw, damping);
+[2.476s]       |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+[2.476s] In file included from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h:23,
+[2.477s]                  from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:10:
+[2.477s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:52:8: note: candidate: ‘void URKinematics::velocityServoStep(const Eigen::Matrix<double, 6, 1>&, const Matrix4d&, double, double, double, double, double, const string&, Eigen::Matrix<double, 6, 1>&, Eigen::Matrix<double, 6, 1>&, URKinematics::ServoStats*) const’
+[2.477s]    52 |   void velocityServoStep(const Eigen::Matrix<double,6,1>& q,
+[2.477s]       |        ^~~~~~~~~~~~~~~~~
+[2.477s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:52:8: note:   candidate expects 11 arguments, 3 provided
+[2.477s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘std::vector<double, std::allocator<double> > urRobotManager::URRobotManager::computeSingularityRobustVelocity(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&)’:
+[2.477s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:572:48: error: cannot convert ‘const std::vector<double, std::allocator<double> >’ to ‘const Eigen::Matrix<double, 6, 6>&’
+[2.477s]   572 |     double manip = kinematics_->manipulability(q);
+[2.477s]       |                                                ^
+[2.477s]       |                                                |
+[2.477s]       |                                                const std::vector<double, std::allocator<double> >
+[2.477s] In file included from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h:23,
+[2.477s]                  from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:10:
+[2.477s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:74:65: note:   initializing argument 1 of ‘static double URKinematics::manipulability(const Eigen::Matrix<double, 6, 6>&)’
+[2.477s]    74 |   static double manipulability(const Eigen::Matrix<double,6,6>& J);
+[2.477s]       |                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[2.564s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+[2.564s]                  from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+[2.564s]                  from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+[2.564s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+[2.564s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[2.564s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[2.564s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[2.564s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[2.564s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.564s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.564s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.564s]                  from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_action_server.h:14,
+[2.564s]                  from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:13:
+[2.564s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp: In member function ‘rclcpp_action::GoalResponse urRobotManager::URRobotActionServer::handleGoal(const GoalUUID&, std::shared_ptr<const ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> > >)’:
+[2.565s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:61:23: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘task_type’; did you mean ‘tool_type’?
+[2.565s]    61 |                 goal->task_type, goal->task_id.c_str());
+[2.565s]       |                       ^~~~~~~~~
+[2.565s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:61:48: error: request for member ‘c_str’ in ‘((std::__shared_ptr_access<const ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& goal))->std::__shared_ptr_access<const ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >::task_id’, which is of non-class type ‘const _task_id_type’ {aka ‘const int’}
+[2.565s]    61 |                 goal->task_type, goal->task_id.c_str());
+[2.565s]       |                                                ^~~~~
+[2.565s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:71:15: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘task_type’; did you mean ‘tool_type’?
+[2.565s]    71 |     if (goal->task_type < 0 || goal->task_type > 4) {
+[2.565s]       |               ^~~~~~~~~
+[2.565s]       |               tool_type
+[2.565s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:71:38: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘task_type’; did you mean ‘tool_type’?
+[2.565s]    71 |     if (goal->task_type < 0 || goal->task_type > 4) {
+[2.565s]       |                                      ^~~~~~~~~
+[2.565s]       |                                      tool_type
+[2.565s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+[2.565s]                  from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+[2.565s]                  from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+[2.565s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+[2.565s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[2.565s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[2.566s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[2.566s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[2.566s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.566s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.566s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.566s]                  from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_action_server.h:14,
+[2.566s]                  from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:13:
+[2.566s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:73:62: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘task_type’; did you mean ‘tool_type’?
+[2.566s]    73 |                     "Rejecting: invalid task_type %d", goal->task_type);
+[2.566s]       |                                                              ^~~~~~~~~
+[2.570s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp: In member function ‘void urRobotManager::URRobotActionServer::executeTask(std::shared_ptr<rclcpp_action::ServerGoalHandle<ur_robot_manager_interfaces::action::RobotTask> >)’:
+[2.570s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:106:23: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘task_type’; did you mean ‘tool_type’?
+[2.570s]   106 |                 goal->task_type, goal->task_id.c_str());
+[2.570s]       |                       ^~~~~~~~~
+[2.570s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:106:48: error: request for member ‘c_str’ in ‘((std::__shared_ptr_access<const ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& goal))->std::__shared_ptr_access<const ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >::task_id’, which is of non-class type ‘const _task_id_type’ {aka ‘const int’}
+[2.570s]   106 |                 goal->task_type, goal->task_id.c_str());
+[2.570s]       |                                                ^~~~~
+[2.570s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:112:23: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘task_type’; did you mean ‘tool_type’?
+[2.570s]   112 |         switch (goal->task_type) {
+[2.570s]       |                       ^~~~~~~~~
+[2.570s]       |                       tool_type
+[2.571s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:121:27: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘target_joints’
+[2.571s]   121 |                 if (goal->target_joints.size() == 6) {
+[2.571s]       |                           ^~~~~~~~~~~~~
+[2.571s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:122:34: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘target_joints’
+[2.571s]   122 |                     home = goal->target_joints;
+[2.571s]       |                                  ^~~~~~~~~~~~~
+[2.571s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:133:27: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘target_pose’
+[2.571s]   133 |                 if (goal->target_pose.size() != 6) {
+[2.571s]       |                           ^~~~~~~~~~~
+[2.571s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:142:54: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘target_pose’
+[2.571s]   142 |                 success = robot_manager_.moveL(goal->target_pose, 0.1, 0.5);
+[2.571s]       |                                                      ^~~~~~~~~~~
+[2.572s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:151:27: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘target_joints’
+[2.572s]   151 |                 if (goal->target_joints.size() != 6) {
+[2.572s]       |                           ^~~~~~~~~~~~~
+[2.572s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:160:54: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘target_joints’
+[2.572s]   160 |                 success = robot_manager_.moveJ(goal->target_joints, 0.5, 0.5);
+[2.572s]       |                                                      ^~~~~~~~~~~~~
+[2.572s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:176:27: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘target_pose’
+[2.572s]   176 |                 if (goal->target_pose.size() == 6) {
+[2.572s]       |                           ^~~~~~~~~~~
+[2.572s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:180:48: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘target_pose’
+[2.572s]   180 |                     robot_manager_.moveL(goal->target_pose, 0.05, 0.3);
+[2.572s]       |                                                ^~~~~~~~~~~
+[2.572s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:198:27: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘waypoints’
+[2.572s]   198 |                 if (goal->waypoints.empty()) {
+[2.572s]       |                           ^~~~~~~~~
+[2.574s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:204:50: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘waypoints’
+[2.574s]   204 |                 for (size_t i = 0; i + 5 < goal->waypoints.size(); i += 6) {
+[2.574s]       |                                                  ^~~~~~~~~
+[2.574s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:206:31: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘waypoints’
+[2.574s]   206 |                         goal->waypoints[i],   goal->waypoints[i+1],
+[2.574s]       |                               ^~~~~~~~~
+[2.574s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:206:53: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘waypoints’
+[2.575s]   206 |                         goal->waypoints[i],   goal->waypoints[i+1],
+[2.575s]       |                                                     ^~~~~~~~~
+[2.575s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:207:31: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘waypoints’
+[2.575s]   207 |                         goal->waypoints[i+2], goal->waypoints[i+3],
+[2.575s]       |                               ^~~~~~~~~
+[2.575s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:207:53: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘waypoints’
+[2.575s]   207 |                         goal->waypoints[i+2], goal->waypoints[i+3],
+[2.575s]       |                                                     ^~~~~~~~~
+[2.575s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:208:31: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘waypoints’
+[2.575s]   208 |                         goal->waypoints[i+4], goal->waypoints[i+5]
+[2.575s]       |                               ^~~~~~~~~
+[2.575s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:208:53: error: ‘using element_type = const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’ {aka ‘const struct ur_robot_manager_interfaces::action::RobotTask_Goal_<std::allocator<void> >’} has no member named ‘waypoints’
+[2.575s]   208 |                         goal->waypoints[i+4], goal->waypoints[i+5]
+[2.575s]       |                                                     ^~~~~~~~~
+[2.575s] /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:205:40: error: no matching function for call to ‘std::vector<std::vector<double, std::allocator<double> > >::push_back(<brace-enclosed initializer list>)’
+[2.575s]   205 |                     waypoints.push_back({
+[2.575s]       |                     ~~~~~~~~~~~~~~~~~~~^~
+[2.575s]   206 |                         goal->waypoints[i],   goal->waypoints[i+1],
+[2.575s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.575s]   207 |                         goal->waypoints[i+2], goal->waypoints[i+3],
+[2.575s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.576s]   208 |                         goal->waypoints[i+4], goal->waypoints[i+5]
+[2.576s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.576s]   209 |                     });
+[2.576s]       |                     ~~                  
+[2.576s] In file included from /usr/include/c++/11/vector:67,
+[2.576s]                  from /usr/include/c++/11/functional:62,
+[2.576s]                  from /usr/include/c++/11/pstl/glue_algorithm_defs.h:13,
+[2.576s]                  from /usr/include/c++/11/algorithm:74,
+[2.576s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18,
+[2.576s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.576s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.576s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.576s]                  from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_action_server.h:14,
+[2.576s]                  from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_action_server.cpp:13:
+[2.576s] /usr/include/c++/11/bits/stl_vector.h:1187:7: note: candidate: ‘void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = std::vector<double, std::allocator<double> >; _Alloc = std::allocator<std::vector<double, std::allocator<double> > >; std::vector<_Tp, _Alloc>::value_type = std::vector<double, std::allocator<double> >]’
+[2.576s]  1187 |       push_back(const value_type& __x)
+[2.576s]       |       ^~~~~~~~~
+[2.576s] /usr/include/c++/11/bits/stl_vector.h:1187:35: note:   no known conversion for argument 1 from ‘<brace-enclosed initializer list>’ to ‘const value_type&’ {aka ‘const std::vector<double, std::allocator<double> >&’}
+[2.576s]  1187 |       push_back(const value_type& __x)
+[2.576s]       |                 ~~~~~~~~~~~~~~~~~~^~~
+[2.576s] /usr/include/c++/11/bits/stl_vector.h:1203:7: note: candidate: ‘void std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = std::vector<double, std::allocator<double> >; _Alloc = std::allocator<std::vector<double, std::allocator<double> > >; std::vector<_Tp, _Alloc>::value_type = std::vector<double, std::allocator<double> >]’
+[2.577s]  1203 |       push_back(value_type&& __x)
+[2.577s]       |       ^~~~~~~~~
+[2.577s] /usr/include/c++/11/bits/stl_vector.h:1203:30: note:   no known conversion for argument 1 from ‘<brace-enclosed initializer list>’ to ‘std::vector<std::vector<double, std::allocator<double> > >::value_type&&’ {aka ‘std::vector<double, std::allocator<double> >&&’}
+[2.577s]  1203 |       push_back(value_type&& __x)
+[2.577s]       |                 ~~~~~~~~~~~~~^~~
+[3.694s] gmake[2]: *** [CMakeFiles/ur_robot_manager_core.dir/build.make:90: CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_action_server.cpp.o] Error 1
+[3.694s] gmake[2]: *** Waiting for unfinished jobs....
+[4.630s] gmake[2]: *** [CMakeFiles/ur_robot_manager_core.dir/build.make:76: CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_manager.cpp.o] Error 1
+[4.631s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/ur_robot_manager_core.dir/all] Error 2
+[4.631s] gmake: *** [Makefile:146: all] Error 2
+[4.632s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager' returned '2': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager -- -j20 -l20

@@ -1,0 +1,29 @@
+[0.907s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/nurse_planning': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrlsh/scrub_nurse_ws/install/nurse_planning/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrlsh/scrub_nurse_ws/build/nurse_planning/build --no-deps symlink_data
+[1.147s] running develop
+[1.211s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[1.211s]   warnings.warn(
+[1.212s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[1.212s]   warnings.warn(
+[1.212s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.13.1-unknown is an invalid version and will not be supported in a future release
+[1.212s]   warnings.warn(
+[1.342s] running egg_info
+[1.342s] creating nurse_planning.egg-info
+[1.342s] writing nurse_planning.egg-info/PKG-INFO
+[1.343s] writing dependency_links to nurse_planning.egg-info/dependency_links.txt
+[1.343s] writing entry points to nurse_planning.egg-info/entry_points.txt
+[1.343s] writing requirements to nurse_planning.egg-info/requires.txt
+[1.343s] writing top-level names to nurse_planning.egg-info/top_level.txt
+[1.343s] writing manifest file 'nurse_planning.egg-info/SOURCES.txt'
+[1.344s] reading manifest file 'nurse_planning.egg-info/SOURCES.txt'
+[1.345s] writing manifest file 'nurse_planning.egg-info/SOURCES.txt'
+[1.346s] running build_ext
+[1.346s] Creating /home/hrlsh/scrub_nurse_ws/install/nurse_planning/lib/python3.10/site-packages/nurse-planning.egg-link (link to .)
+[1.347s] 
+[1.347s] Installed /home/hrlsh/scrub_nurse_ws/build/nurse_planning
+[1.347s] running symlink_data
+[1.347s] creating /home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/ament_index
+[1.347s] creating /home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/ament_index/resource_index
+[1.347s] creating /home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/ament_index/resource_index/packages
+[1.347s] symbolically linking /home/hrlsh/scrub_nurse_ws/build/nurse_planning/resource/nurse_planning -> /home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/ament_index/resource_index/packages
+[1.347s] symbolically linking /home/hrlsh/scrub_nurse_ws/build/nurse_planning/package.xml -> /home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/nurse_planning
+[1.370s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/nurse_planning' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrlsh/scrub_nurse_ws/install/nurse_planning/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrlsh/scrub_nurse_ws/build/nurse_planning/build --no-deps symlink_data

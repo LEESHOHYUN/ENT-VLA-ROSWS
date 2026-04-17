@@ -1,0 +1,73 @@
+[ 37%] Built target ur_robot_manager_utils
+Consolidate compiler generated dependencies of target ur_robot_manager_core
+[ 50%] Building CXX object CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_manager.cpp.o
+[ 62%] Building CXX object CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_action_server.cpp.o
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::moveJ(const std::vector<double, std::allocator<double> >&, double, double, bool)’:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:224:12: warning: unused variable ‘a’ [-Wunused-variable]
+  224 |     double a = std::min(acceleration, max_joint_accel_);
+      |            ^
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::moveL(const std::vector<double, std::allocator<double> >&, double, double, bool)’:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:271:12: warning: unused variable ‘a’ [-Wunused-variable]
+  271 |     double a = std::min(acceleration, max_linear_accel_);
+      |            ^
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::speedJ(const std::vector<double, std::allocator<double> >&, double, double)’:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:306:37: warning: unused parameter ‘acceleration’ [-Wunused-parameter]
+  306 |                              double acceleration, double time)
+      |                              ~~~~~~~^~~~~~~~~~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:306:58: warning: unused parameter ‘time’ [-Wunused-parameter]
+  306 |                              double acceleration, double time)
+      |                                                   ~~~~~~~^~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::speedL(const std::vector<double, std::allocator<double> >&, double, double)’:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:329:37: warning: unused parameter ‘acceleration’ [-Wunused-parameter]
+  329 |                              double acceleration, double time)
+      |                              ~~~~~~~^~~~~~~~~~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:329:58: warning: unused parameter ‘time’ [-Wunused-parameter]
+  329 |                              double acceleration, double time)
+      |                                                   ~~~~~~~^~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::customMoveL(const std::vector<double, std::allocator<double> >&, double, double, double)’:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:362:12: warning: unused variable ‘s’ [-Wunused-variable]
+  362 |     double s = std::min(speed * speed_scale_, max_linear_speed_);
+      |            ^
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:363:12: warning: unused variable ‘a’ [-Wunused-variable]
+  363 |     double a = std::min(acceleration, max_linear_accel_);
+      |            ^
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::movePath(const std::vector<std::vector<double, std::allocator<double> > >&, double, double, double)’:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:415:39: warning: unused parameter ‘speed’ [-Wunused-parameter]
+  415 |                                double speed, double acceleration,
+      |                                ~~~~~~~^~~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:415:53: warning: unused parameter ‘acceleration’ [-Wunused-parameter]
+  415 |                                double speed, double acceleration,
+      |                                              ~~~~~~~^~~~~~~~~~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::servoJ6Only(const std::vector<double, std::allocator<double> >&, double, double, double)’:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:521:42: warning: unused parameter ‘time’ [-Wunused-parameter]
+  521 |                                   double time, double lookahead, double gain)
+      |                                   ~~~~~~~^~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:521:55: warning: unused parameter ‘lookahead’ [-Wunused-parameter]
+  521 |                                   double time, double lookahead, double gain)
+      |                                                ~~~~~~~^~~~~~~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:521:73: warning: unused parameter ‘gain’ [-Wunused-parameter]
+  521 |                                   double time, double lookahead, double gain)
+      |                                                                  ~~~~~~~^~~~
+[ 75%] Linking CXX shared library libur_robot_manager_core.so
+[ 75%] Built target ur_robot_manager_core
+[ 87%] Building CXX object CMakeFiles/ur_robot_manager_node.dir/src/nodes/main_node.cpp.o
+[100%] Linking CXX executable ur_robot_manager_node
+[100%] Built target ur_robot_manager_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/libur_robot_manager_utils.so
+-- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/libur_robot_manager_core.so
+-- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/ur_robot_manager/ur_robot_manager_node
+-- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/core/ur_robot_action_server.h
+-- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h
+-- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/robot_types.h
+-- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/utils/robot_trajectory.h
+-- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:105 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/launch'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:328 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+

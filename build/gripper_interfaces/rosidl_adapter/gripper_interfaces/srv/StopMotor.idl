@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gripper_interfaces/srv/StopMotor.srv
+// generated code does not contain a copyright notice
+
+
+module gripper_interfaces {
+  module srv {
+    struct StopMotor_Request {
+      uint16 duration;
+    };
+    struct StopMotor_Response {
+      boolean successed;
+    };
+  };
+};

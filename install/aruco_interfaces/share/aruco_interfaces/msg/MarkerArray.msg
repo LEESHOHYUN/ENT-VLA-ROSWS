@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/src/aruco_interfaces/msg/MarkerArray.msg

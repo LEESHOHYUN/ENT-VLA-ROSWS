@@ -1,0 +1,16 @@
+{
+  "package_name": "gripper_interfaces",
+  "non_idl_tuples": [
+    "/home/hrlsh/scrub_nurse_ws/src/gripper_interfaces:msg/GripperMsg.msg",
+    "/home/hrlsh/scrub_nurse_ws/src/gripper_interfaces:srv/SlaveChange.srv",
+    "/home/hrlsh/scrub_nurse_ws/src/gripper_interfaces:srv/PosVelCurCtrl.srv",
+    "/home/hrlsh/scrub_nurse_ws/src/gripper_interfaces:srv/DriverEnable.srv",
+    "/home/hrlsh/scrub_nurse_ws/src/gripper_interfaces:srv/SetParameter.srv",
+    "/home/hrlsh/scrub_nurse_ws/src/gripper_interfaces:srv/GripperControl.srv",
+    "/home/hrlsh/scrub_nurse_ws/src/gripper_interfaces:srv/ArduinoControl.srv",
+    "/home/hrlsh/scrub_nurse_ws/src/gripper_interfaces:srv/Modbus.srv",
+    "/home/hrlsh/scrub_nurse_ws/src/gripper_interfaces:srv/GripperCommand.srv",
+    "/home/hrlsh/scrub_nurse_ws/src/gripper_interfaces:srv/StopMotor.srv",
+    "/home/hrlsh/scrub_nurse_ws/src/gripper_interfaces:action/Gripper.action"
+  ]
+}

@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/rosidl_typesupport_introspection_c/gripper_interfaces/msg/detail/gripper_msg__rosidl_typesupport_introspection_c.h

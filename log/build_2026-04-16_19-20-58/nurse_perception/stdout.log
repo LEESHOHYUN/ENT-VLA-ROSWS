@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating nurse_perception.egg-info
+writing nurse_perception.egg-info/PKG-INFO
+writing dependency_links to nurse_perception.egg-info/dependency_links.txt
+writing entry points to nurse_perception.egg-info/entry_points.txt
+writing requirements to nurse_perception.egg-info/requires.txt
+writing top-level names to nurse_perception.egg-info/top_level.txt
+writing manifest file 'nurse_perception.egg-info/SOURCES.txt'
+reading manifest file 'nurse_perception.egg-info/SOURCES.txt'
+writing manifest file 'nurse_perception.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hrlsh/scrub_nurse_ws/install/nurse_perception/lib/python3.10/site-packages/nurse-perception.egg-link (link to .)
+
+Installed /home/hrlsh/scrub_nurse_ws/build/nurse_perception
+running symlink_data
+creating /home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/ament_index
+creating /home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/ament_index/resource_index
+creating /home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/ament_index/resource_index/packages
+symbolically linking /home/hrlsh/scrub_nurse_ws/build/nurse_perception/resource/nurse_perception -> /home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/ament_index/resource_index/packages
+symbolically linking /home/hrlsh/scrub_nurse_ws/build/nurse_perception/package.xml -> /home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/nurse_perception

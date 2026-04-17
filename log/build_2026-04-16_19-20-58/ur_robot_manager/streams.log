@@ -1,0 +1,302 @@
+[0.244s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager
+[0.276s] -- The C compiler identification is GNU 11.4.0
+[0.312s] -- The CXX compiler identification is GNU 11.4.0
+[0.319s] -- Detecting C compiler ABI info
+[0.362s] -- Detecting C compiler ABI info - done
+[0.367s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.368s] -- Detecting C compile features
+[0.368s] -- Detecting C compile features - done
+[0.370s] -- Detecting CXX compiler ABI info
+[0.417s] -- Detecting CXX compiler ABI info - done
+[0.422s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.422s] -- Detecting CXX compile features
+[0.423s] -- Detecting CXX compile features - done
+[0.424s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.531s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.577s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.594s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.625s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.629s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.635s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.643s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.687s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.689s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.705s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.711s] -- Looking for pthread.h
+[0.753s] -- Looking for pthread.h - found
+[0.753s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.795s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.796s] -- Found Threads: TRUE  
+[0.837s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.867s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[0.877s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.901s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.963s] -- Found ur_robot_manager_interfaces: 0.1.0 (/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/cmake)
+[0.974s] -- Found gripper_interfaces: 0.1.0 (/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/cmake)
+[1.000s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread 
+[1.075s] -- Configuring done
+[1.094s] -- Generating done
+[1.100s] -- Build files have been written to: /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager
+[1.107s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager
+[1.108s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager -- -j20 -l20
+[1.137s] [ 25%] [32mBuilding CXX object CMakeFiles/ur_robot_manager_utils.dir/src/utils/ur_kinematics.cpp.o[0m
+[1.137s] [ 25%] [32mBuilding CXX object CMakeFiles/ur_robot_manager_utils.dir/src/utils/robot_trajectory.cpp.o[0m
+[1.916s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:23:28:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[KURKinematics::URKinematics()[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.916s]    23 | URKinematics::URKinematics([01;31m[K)[m[K
+[1.916s]       |                            [01;31m[K^[m[K
+[1.919s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:[m[K In constructor ‘[01m[KURKinematics::URKinematics()[m[K’:
+[1.919s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[KT_tool_[m[K’ was not declared in this scope
+[1.919s]    34 |     [01;31m[KT_tool_[m[K = Eigen::Isometry3d::Identity();
+[1.919s]       |     [01;31m[K^~~~~~~[m[K
+[1.924s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_tool_[m[K’ was not declared in this scope
+[1.925s]    35 |     [01;31m[Khas_tool_[m[K = false;
+[1.925s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.925s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:[m[K At global scope:
+[1.925s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:41:66:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kvoid URKinematics::setToolTCP(const std::vector<double>&)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.925s]    41 | void URKinematics::setToolTCP(const std::vector<double>& tcp_pose[01;31m[K)[m[K
+[1.925s]       |                                                                  [01;31m[K^[m[K
+[1.925s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:41:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid URKinematics::setToolTCP(const std::vector<double>&)[m[K’
+[1.925s]    41 | void [01;31m[KURKinematics[m[K::setToolTCP(const std::vector<double>& tcp_pose)
+[1.925s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[1.925s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[1.925s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:24:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid URKinematics::setToolTCP(const Vector3d&, const Vector3d&)[m[K’
+[1.925s]    24 |   void [01;36m[KsetToolTCP[m[K(const Eigen::Vector3d& t_tcp, const Eigen::Vector3d& rvec_tcp);
+[1.925s]       |        [01;36m[K^~~~~~~~~~[m[K
+[1.925s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass URKinematics[m[K’ defined here
+[1.925s]    19 | class [01;36m[KURKinematics[m[K {
+[1.925s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.925s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:50:46:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[KEigen::Matrix3d URKinematics::Rx(double)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.925s]    50 | Eigen::Matrix3d URKinematics::Rx(double theta[01;31m[K)[m[K
+[1.925s]       |                                              [01;31m[K^[m[K
+[1.925s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:50:17:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KEigen::Matrix3d URKinematics::Rx(double)[m[K’
+[1.926s]    50 | Eigen::Matrix3d [01;31m[KURKinematics[m[K::Rx(double theta)
+[1.926s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[1.926s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[1.926s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:99:26:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstatic Eigen::Matrix4d URKinematics::Rx(double)[m[K’
+[1.926s]    99 |   static Eigen::Matrix4d [01;36m[KRx[m[K(double a);
+[1.926s]       |                          [01;36m[K^~[m[K
+[1.926s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass URKinematics[m[K’ defined here
+[1.926s]    19 | class [01;36m[KURKinematics[m[K {
+[1.926s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.926s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:60:58:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[KEigen::Matrix4d URKinematics::RzTz(double, double)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.926s]    60 | Eigen::Matrix4d URKinematics::RzTz(double theta, double d[01;31m[K)[m[K
+[1.926s]       |                                                          [01;31m[K^[m[K
+[1.933s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:73:68:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[KEigen::Matrix3d URKinematics::rodrigues(const Vector3d&)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.933s]    73 | Eigen::Matrix3d URKinematics::rodrigues(const Eigen::Vector3d& rvec[01;31m[K)[m[K
+[1.933s]       |                                                                    [01;31m[K^[m[K
+[1.933s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:73:17:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KEigen::Matrix3d URKinematics::rodrigues(const Vector3d&)[m[K’
+[1.933s]    73 | Eigen::Matrix3d [01;31m[KURKinematics[m[K::rodrigues(const Eigen::Vector3d& rvec)
+[1.933s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[1.933s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[1.933s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:28:26:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstatic Eigen::Matrix3d URKinematics::rodrigues(const Vector3d&, double)[m[K’
+[1.933s]    28 |   static Eigen::Matrix3d [01;36m[Krodrigues[m[K(const Eigen::Vector3d& axis, double ang);
+[1.933s]       |                          [01;36m[K^~~~~~~~~[m[K
+[1.933s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass URKinematics[m[K’ defined here
+[1.933s]    19 | class [01;36m[KURKinematics[m[K {
+[1.933s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.933s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:88:66:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[KEigen::Matrix3d URKinematics::rvecToR(const Vector3d&)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.933s]    88 | Eigen::Matrix3d URKinematics::rvecToR(const Eigen::Vector3d& rvec[01;31m[K)[m[K
+[1.933s]       |                                                                  [01;31m[K^[m[K
+[1.941s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:[m[K In static member function ‘[01m[Kstatic Eigen::Matrix3d URKinematics::rvecToR(const Vector3d&)[m[K’:
+[1.941s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:90:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KURKinematics::rodrigues(const Vector3d&)[m[K’
+[1.941s]    90 |     return [01;31m[Krodrigues(rvec)[m[K;
+[1.941s]       |            [01;31m[K~~~~~~~~~^~~~~~[m[K
+[1.941s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[1.941s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:28:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic Eigen::Matrix3d URKinematics::rodrigues(const Vector3d&, double)[m[K’
+[1.941s]    28 |   static Eigen::Matrix3d [01;36m[Krodrigues[m[K(const Eigen::Vector3d& axis, double ang);
+[1.941s]       |                          [01;36m[K^~~~~~~~~[m[K
+[1.941s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:28:26:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.941s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:[m[K At global scope:
+[1.941s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:93:63:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[KEigen::Vector3d URKinematics::RToRvec(const Matrix3d&)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.941s]    93 | Eigen::Vector3d URKinematics::RToRvec(const Eigen::Matrix3d& R[01;31m[K)[m[K
+[1.941s]       |                                                               [01;31m[K^[m[K
+[1.954s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:100:69:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[KEigen::Vector3d URKinematics::unwrapRvec(const Vector3d&, const Vector3d&)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.954s]   100 |                                           const Eigen::Vector3d& ref[01;31m[K)[m[K
+[1.954s]       |                                                                     [01;31m[K^[m[K
+[1.985s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:121:72:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[KEigen::Isometry3d URKinematics::poseToT(const std::vector<double>&)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.986s]   121 | Eigen::Isometry3d URKinematics::poseToT(const std::vector<double>& pose[01;31m[K)[m[K
+[1.986s]       |                                                                        [01;31m[K^[m[K
+[1.986s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:121:19:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KEigen::Isometry3d URKinematics::poseToT(const std::vector<double>&)[m[K’
+[1.986s]   121 | Eigen::Isometry3d [01;31m[KURKinematics[m[K::poseToT(const std::vector<double>& pose)
+[1.986s]       |                   [01;31m[K^~~~~~~~~~~~[m[K
+[1.986s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[1.986s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:35:26:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstatic Eigen::Matrix4d URKinematics::poseToT(const PoseAA&)[m[K’
+[1.986s]    35 |   static Eigen::Matrix4d [01;36m[KposeToT[m[K(const PoseAA& pose);
+[1.986s]       |                          [01;36m[K^~~~~~~[m[K
+[1.986s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass URKinematics[m[K’ defined here
+[1.986s]    19 | class [01;36m[KURKinematics[m[K {
+[1.986s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.986s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:130:69:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kstd::vector<double> URKinematics::TToPose(const Isometry3d&)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.986s]   130 | std::vector<double> URKinematics::TToPose(const Eigen::Isometry3d& T[01;31m[K)[m[K
+[1.986s]       |                                                                     [01;31m[K^[m[K
+[1.986s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:130:21:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<double> URKinematics::TToPose(const Isometry3d&)[m[K’
+[1.986s]   130 | std::vector<double> [01;31m[KURKinematics[m[K::TToPose(const Eigen::Isometry3d& T)
+[1.986s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[1.986s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[1.986s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:36:17:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstatic PoseAA URKinematics::TToPose(const Matrix4d&)[m[K’
+[1.986s]    36 |   static PoseAA [01;36m[KTToPose[m[K(const Eigen::Matrix4d& T);
+[1.986s]       |                 [01;36m[K^~~~~~~[m[K
+[1.987s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass URKinematics[m[K’ defined here
+[1.987s]    19 | class [01;36m[KURKinematics[m[K {
+[1.987s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.987s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:140:79:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[KEigen::Isometry3d URKinematics::forwardKinematics(const std::vector<double>&)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.987s]   140 | Eigen::Isometry3d URKinematics::forwardKinematics(const std::vector<double>& q[01;31m[K)[m[K
+[1.987s]       |                                                                               [01;31m[K^[m[K
+[1.987s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:140:19:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KEigen::Isometry3d URKinematics::forwardKinematics(const std::vector<double>&)[m[K’
+[1.987s]   140 | Eigen::Isometry3d [01;31m[KURKinematics[m[K::forwardKinematics(const std::vector<double>& q)
+[1.987s]       |                   [01;31m[K^~~~~~~~~~~~[m[K
+[1.987s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[1.987s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:39:19:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KEigen::Matrix4d URKinematics::forwardKinematics(const Eigen::Matrix<double, 6, 1>&, std::vector<Eigen::Matrix<double, 4, 4> >*) const[m[K’
+[1.987s]    39 |   Eigen::Matrix4d [01;36m[KforwardKinematics[m[K(const Eigen::Matrix<double,6,1>& q,
+[1.987s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[1.987s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass URKinematics[m[K’ defined here
+[1.987s]    19 | class [01;36m[KURKinematics[m[K {
+[1.987s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.987s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:189:82:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[KEigen::Isometry3d URKinematics::forwardKinematicsTCP(const std::vector<double>&)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.987s]   189 | Eigen::Isometry3d URKinematics::forwardKinematicsTCP(const std::vector<double>& q[01;31m[K)[m[K
+[1.987s]       |                                                                                  [01;31m[K^[m[K
+[1.987s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:189:19:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KEigen::Isometry3d URKinematics::forwardKinematicsTCP(const std::vector<double>&)[m[K’
+[1.987s]   189 | Eigen::Isometry3d [01;31m[KURKinematics[m[K::forwardKinematicsTCP(const std::vector<double>& q)
+[1.987s]       |                   [01;31m[K^~~~~~~~~~~~[m[K
+[1.987s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[1.988s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:41:19:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KEigen::Matrix4d URKinematics::forwardKinematicsTCP(const Eigen::Matrix<double, 6, 1>&, std::vector<Eigen::Matrix<double, 4, 4> >*) const[m[K’
+[1.988s]    41 |   Eigen::Matrix4d [01;36m[KforwardKinematicsTCP[m[K(const Eigen::Matrix<double,6,1>& q,
+[1.988s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.988s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass URKinematics[m[K’ defined here
+[1.988s]    19 | class [01;36m[KURKinematics[m[K {
+[1.988s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.988s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:202:33:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[KEigen::Matrix<double, 6, 6> URKinematics::geometricJacobianTCP(const std::vector<double>&)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.988s]   202 |     const std::vector<double>& q[01;31m[K)[m[K
+[1.988s]       |                                 [01;31m[K^[m[K
+[1.988s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:201:29:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KEigen::Matrix<double, 6, 6> URKinematics::geometricJacobianTCP(const std::vector<double>&)[m[K’
+[1.988s]   201 | Eigen::Matrix<double, 6, 6> [01;31m[KURKinematics[m[K::geometricJacobianTCP(
+[1.988s]       |                             [01;31m[K^~~~~~~~~~~~[m[K
+[1.988s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[1.988s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:45:29:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KEigen::Matrix<double, 6, 6> URKinematics::geometricJacobianTCP(const Eigen::Matrix<double, 6, 1>&) const[m[K’
+[1.988s]    45 |   Eigen::Matrix<double,6,6> [01;36m[KgeometricJacobianTCP[m[K(const Eigen::Matrix<double,6,1>& q) const;
+[1.988s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.988s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass URKinematics[m[K’ defined here
+[1.988s]    19 | class [01;36m[KURKinematics[m[K {
+[1.988s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.988s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:234:57:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[KEigen::Matrix<double, 6, 6> URKinematics::dlsInverse(const Eigen::Matrix<double, 6, 6>&, double)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.988s]   234 |     const Eigen::Matrix<double, 6, 6>& J, double damping[01;31m[K)[m[K
+[1.988s]       |                                                         [01;31m[K^[m[K
+[2.048s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:248:19:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kstd::vector<double> URKinematics::velocityServoStep(const std::vector<double>&, const Eigen::Matrix<double, 6, 1>&, double)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.048s]   248 |     double damping[01;31m[K)[m[K
+[2.048s]       |                   [01;31m[K^[m[K
+[2.048s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:245:21:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<double> URKinematics::velocityServoStep(const std::vector<double>&, const Eigen::Matrix<double, 6, 1>&, double)[m[K’
+[2.048s]   245 | std::vector<double> [01;31m[KURKinematics[m[K::velocityServoStep(
+[2.048s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[2.048s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[2.048s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:52:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid URKinematics::velocityServoStep(const Eigen::Matrix<double, 6, 1>&, const Matrix4d&, double, double, double, double, double, const string&, Eigen::Matrix<double, 6, 1>&, Eigen::Matrix<double, 6, 1>&, URKinematics::ServoStats*) const[m[K’
+[2.048s]    52 |   void [01;36m[KvelocityServoStep[m[K(const Eigen::Matrix<double,6,1>& q,
+[2.048s]       |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.048s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass URKinematics[m[K’ defined here
+[2.048s]    19 | class [01;36m[KURKinematics[m[K {
+[2.048s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[2.087s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:[m[K In function ‘[01m[Kbool urRobotManager::solveIKConfig(const Isometry3d&, int, int, int, double, double, double, double, double, double, std::vector<double>&)[m[K’:
+[2.087s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:342:27:[m[K [01;31m[Kerror: [m[K‘[01m[KRzTz[m[K’ was not declared in this scope
+[2.087s]   342 |     Eigen::Matrix4d T01 = [01;31m[KRzTz[m[K(q_out[0], d1);
+[2.088s]       |                           [01;31m[K^~~~[m[K
+[2.088s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:345:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc5[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.088s]   345 |         double [01;35m[Kc5[m[K = std::cos(q_out[4]);
+[2.088s]       |                [01;35m[K^~[m[K
+[2.147s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:[m[K At global scope:
+[2.147s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:404:38:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kstd::vector<std::vector<double> > URKinematics::inverseKinematics8(const Isometry3d&)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.147s]   404 |     const Eigen::Isometry3d& T_target[01;31m[K)[m[K
+[2.147s]       |                                      [01;31m[K^[m[K
+[2.147s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:403:34:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<std::vector<double> > URKinematics::inverseKinematics8(const Isometry3d&)[m[K’
+[2.147s]   403 | std::vector<std::vector<double>> [01;31m[KURKinematics[m[K::inverseKinematics8(
+[2.148s]       |                                  [01;31m[K^~~~~~~~~~~~[m[K
+[2.148s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[2.148s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:62:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid URKinematics::inverseKinematics8(const Matrix4d&, const Eigen::Matrix<double, 6, 1>*, std::array<Eigen::Matrix<double, 6, 1>, 8>&, std::array<bool, 8>&) const[m[K’
+[2.148s]    62 |   void [01;36m[KinverseKinematics8[m[K(
+[2.148s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.148s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass URKinematics[m[K’ defined here
+[2.148s]    19 | class [01;36m[KURKinematics[m[K {
+[2.148s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[2.148s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:455:32:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kbool URKinematics::pickBestFrom8(const std::vector<std::vector<double> >&, const std::vector<double>&, std::vector<double>&)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.148s]   455 |     std::vector<double>& q_best[01;31m[K)[m[K
+[2.148s]       |                                [01;31m[K^[m[K
+[2.148s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:452:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool URKinematics::pickBestFrom8(const std::vector<std::vector<double> >&, const std::vector<double>&, std::vector<double>&)[m[K’
+[2.148s]   452 | bool [01;31m[KURKinematics[m[K::pickBestFrom8(
+[2.148s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[2.148s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[2.148s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:68:45:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstd::pair<Eigen::Matrix<double, 6, 1>, int> URKinematics::pickBestFrom8(const Matrix4d&, const std::array<Eigen::Matrix<double, 6, 1>, 8>&, const std::array<bool, 8>&, const Eigen::Matrix<double, 6, 1>&) const[m[K’
+[2.148s]    68 |   std::pair<Eigen::Matrix<double,6,1>, int> [01;36m[KpickBestFrom8[m[K(
+[2.148s]       |                                             [01;36m[K^~~~~~~~~~~~~[m[K
+[2.148s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass URKinematics[m[K’ defined here
+[2.148s]    19 | class [01;36m[KURKinematics[m[K {
+[2.148s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[2.148s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:480:65:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kdouble URKinematics::manipulability(const std::vector<double>&)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.149s]   480 | double URKinematics::manipulability(const std::vector<double>& q[01;31m[K)[m[K
+[2.149s]       |                                                                 [01;31m[K^[m[K
+[2.149s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:480:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble URKinematics::manipulability(const std::vector<double>&)[m[K’
+[2.149s]   480 | double [01;31m[KURKinematics[m[K::manipulability(const std::vector<double>& q)
+[2.149s]       |        [01;31m[K^~~~~~~~~~~~[m[K
+[2.149s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[2.149s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:74:17:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstatic double URKinematics::manipulability(const Eigen::Matrix<double, 6, 6>&)[m[K’
+[2.149s]    74 |   static double [01;36m[Kmanipulability[m[K(const Eigen::Matrix<double,6,6>& J);
+[2.149s]       |                 [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.149s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass URKinematics[m[K’ defined here
+[2.149s]    19 | class [01;36m[KURKinematics[m[K {
+[2.149s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[2.149s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:491:42:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[KEigen::Isometry3d URKinematics::tcpTargetToFlangeTarget(const Isometry3d&)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.149s]   491 |     const Eigen::Isometry3d& T_tcp_target[01;31m[K)[m[K
+[2.149s]       |                                          [01;31m[K^[m[K
+[2.149s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:490:19:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KEigen::Isometry3d URKinematics::tcpTargetToFlangeTarget(const Isometry3d&)[m[K’
+[2.149s]   490 | Eigen::Isometry3d [01;31m[KURKinematics[m[K::tcpTargetToFlangeTarget(
+[2.149s]       |                   [01;31m[K^~~~~~~~~~~~[m[K
+[2.149s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[2.149s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:76:19:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KEigen::Matrix4d URKinematics::tcpTargetToFlangeTarget(const Matrix4d&) const[m[K’
+[2.149s]    76 |   Eigen::Matrix4d [01;36m[KtcpTargetToFlangeTarget[m[K(const Eigen::Matrix4d& T_tcp) const;
+[2.149s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.149s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass URKinematics[m[K’ defined here
+[2.149s]    19 | class [01;36m[KURKinematics[m[K {
+[2.150s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[2.150s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:505:34:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kbool URKinematics::ikBestForTCPPose(const std::vector<double>&, const std::vector<double>&, std::vector<double>&)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.150s]   505 |     std::vector<double>& q_result[01;31m[K)[m[K
+[2.150s]       |                                  [01;31m[K^[m[K
+[2.150s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:502:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool URKinematics::ikBestForTCPPose(const std::vector<double>&, const std::vector<double>&, std::vector<double>&)[m[K’
+[2.150s]   502 | bool [01;31m[KURKinematics[m[K::ikBestForTCPPose(
+[2.150s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[2.150s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[2.150s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:78:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kbool URKinematics::ikBestForTCPPose(const Matrix4d&, const Eigen::Matrix<double, 6, 1>&, Eigen::Matrix<double, 6, 1>&, int*) const[m[K’
+[2.150s]    78 |   bool [01;36m[KikBestForTCPPose[m[K(const Eigen::Matrix4d& T_tcp,
+[2.150s]       |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.150s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass URKinematics[m[K’ defined here
+[2.150s]    19 | class [01;36m[KURKinematics[m[K {
+[2.150s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[2.150s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:521:29:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kstd::vector<double> URKinematics::solveTwistPrioritized(const std::vector<double>&, const Eigen::Matrix<double, 6, 1>&, const Eigen::Matrix<double, 6, 1>&, double, double)[m[K’ is not in namespace enclosing ‘[01m[KURKinematics[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.150s]   521 |     double damping_secondary[01;31m[K)[m[K
+[2.150s]       |                             [01;31m[K^[m[K
+[2.150s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:516:21:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<double> URKinematics::solveTwistPrioritized(const std::vector<double>&, const Eigen::Matrix<double, 6, 1>&, const Eigen::Matrix<double, 6, 1>&, double, double)[m[K’
+[2.150s]   516 | std::vector<double> [01;31m[KURKinematics[m[K::solveTwistPrioritized(
+[2.150s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[2.150s] In file included from [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:9[m[K:
+[2.150s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:83:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid URKinematics::solveTwistPrioritized(const Eigen::Matrix<double, 6, 1>&, const Eigen::Matrix<double, 6, 1>&, double, double, Eigen::Matrix<double, 6, 1>&, double) const[m[K’
+[2.150s]    83 |   void [01;36m[KsolveTwistPrioritized[m[K(const Eigen::Matrix<double,6,1>& q,
+[2.151s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.151s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass URKinematics[m[K’ defined here
+[2.151s]    19 | class [01;36m[KURKinematics[m[K {
+[2.151s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[3.743s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:435:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble urRobotManager::scoreSolution(const std::vector<double>&, const std::vector<double>&, const std::vector<double>&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[3.743s]   435 | static double [01;35m[KscoreSolution[m[K(const std::vector<double>& q,
+[3.744s]       |               [01;35m[K^~~~~~~~~~~~~[m[K
+[3.744s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:294:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool urRobotManager::solveIKConfig(const Isometry3d&, int, int, int, double, double, double, double, double, double, std::vector<double>&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[3.744s]   294 | static bool [01;35m[KsolveIKConfig[m[K(
+[3.744s]       |             [01;35m[K^~~~~~~~~~~~~[m[K
+[3.744s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:286:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble urRobotManager::adjust_and_wrap(double, double)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[3.744s]   286 | static double [01;35m[Kadjust_and_wrap[m[K(double angle, double ref)
+[3.744s]       |               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[3.744s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:272:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble urRobotManager::wrap_to_2pi(double)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[3.744s]   272 | static double [01;35m[Kwrap_to_2pi[m[K(double angle)
+[3.744s]       |               [01;35m[K^~~~~~~~~~~[m[K
+[3.744s] [01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/utils/ur_kinematics.cpp:267:26:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::Isometry3d urRobotManager::fastInverse(const Isometry3d&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[3.744s]   267 | static Eigen::Isometry3d [01;35m[KfastInverse[m[K(const Eigen::Isometry3d& T)
+[3.744s]       |                          [01;35m[K^~~~~~~~~~~[m[K
+[3.758s] gmake[2]: *** [CMakeFiles/ur_robot_manager_utils.dir/build.make:90: CMakeFiles/ur_robot_manager_utils.dir/src/utils/ur_kinematics.cpp.o] Error 1
+[3.758s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ur_robot_manager_utils.dir/all] Error 2
+[3.758s] gmake: *** [Makefile:146: all] Error 2
+[3.759s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager' returned '2': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager -- -j20 -l20
