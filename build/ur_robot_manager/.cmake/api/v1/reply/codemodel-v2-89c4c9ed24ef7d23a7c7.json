@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d338f73ad166aee61ffc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ur_robot_manager",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5610ca751ccfd91fbe09.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_hardware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_hardware-cae9254d0b191ff7591e.json",
+					"name" : "ur_hardware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_core-404682ad63c0473ad694.json",
+					"name" : "ur_robot_manager_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_node-7d30af12c4c2f58e469b.json",
+					"name" : "ur_robot_manager_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_uninstall-a5add2cf6cd2cbf78be0.json",
+					"name" : "ur_robot_manager_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_robot_manager_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_robot_manager_utils-15a366b8e613967f9774.json",
+					"name" : "ur_robot_manager_utils",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager",
+		"source" : "/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

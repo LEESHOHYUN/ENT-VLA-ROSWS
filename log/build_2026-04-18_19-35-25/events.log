@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000070] (-) JobUnselected: {'identifier': 'aruco_interfaces'}
+[0.000153] (-) JobUnselected: {'identifier': 'gripper_interfaces'}
+[0.000310] (-) JobUnselected: {'identifier': 'gripper_test'}
+[0.000397] (-) JobUnselected: {'identifier': 'nurse_bringup'}
+[0.000484] (-) JobUnselected: {'identifier': 'nurse_control'}
+[0.000515] (-) JobUnselected: {'identifier': 'nurse_interfaces'}
+[0.000562] (-) JobUnselected: {'identifier': 'nurse_perception'}
+[0.000598] (-) JobUnselected: {'identifier': 'nurse_planning'}
+[0.000667] (-) JobUnselected: {'identifier': 'ur_robot_manager_interfaces'}
+[0.000683] (ur_robot_manager) JobQueued: {'identifier': 'ur_robot_manager', 'dependencies': OrderedDict([('gripper_interfaces', '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces'), ('ur_robot_manager_interfaces', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces')])}
+[0.000704] (ur_robot_manager) JobStarted: {'identifier': 'ur_robot_manager'}
+[0.006960] (ur_robot_manager) JobProgress: {'identifier': 'ur_robot_manager', 'progress': 'cmake'}
+[0.007254] (ur_robot_manager) Command: {'cmd': ['/usr/bin/cmake', '/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager', '-DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager'], 'cwd': '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/hrlsh'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('USER', 'hrlsh'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.2.112'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hrlsh'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-206b32d8-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '2644'), ('SYSTEMD_EXEC_PID', '2904'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('QT_QPA_PLATFORM_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '39452'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hrlsh'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('JOURNAL_STREAM', '8:23493'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('APPLICATIONINSIGHTS_CONFIGURATION_CONTENT', '{}'), ('USERNAME', 'hrlsh'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '1'), ('CUDADIR', '/usr/local/cuda'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/hrlsh/.pyenv/versions/3.11.11/bin:/home/hrlsh/.local/bin:/home/hrlsh/.local/bin:/opt/ros/humble/bin:/home/hrlsh/.deno/bin:/home/hrlsh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/cuda/bin:/usr/local/cuda/bin'), ('SESSION_MANAGER', 'local/hrlsh-MS-7D38:@/tmp/.ICE-unix/2876,unix/hrlsh-MS-7D38:/tmp/.ICE-unix/2876'), ('INVOCATION_ID', 'f0b8bd7b99ec4d069390fd3bfd95c203'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VIRTUAL_ENV', '/home/hrlsh/.pyenv/versions/3.11.11'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ENABLE_PYTHON_MIGRATION', 'true'), ('VSCODE_CODE_CACHE_PATH', '/home/hrlsh/.config/Code/CachedData/560a9dba96f961efea7b1612916f89e5d5d4d679'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/hrlsh/.vscode/extensions/anthropic.claude-code-2.1.112-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '39452'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file'), ('CMAKE_PREFIX_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.041695] (ur_robot_manager) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.094948] (ur_robot_manager) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099858] (-) TimerEvent: {}
+[0.106361] (ur_robot_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200083] (-) TimerEvent: {}
+[0.300529] (-) TimerEvent: {}
+[0.302215] (ur_robot_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.335010] (ur_robot_manager) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.335806] (ur_robot_manager) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.337549] (ur_robot_manager) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.349824] (ur_robot_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400722] (-) TimerEvent: {}
+[0.501129] (-) TimerEvent: {}
+[0.601473] (-) TimerEvent: {}
+[0.610528] (ur_robot_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.646942] (ur_robot_manager) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.648181] (ur_robot_manager) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.650153] (ur_robot_manager) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.664694] (ur_robot_manager) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.701635] (-) TimerEvent: {}
+[0.802014] (-) TimerEvent: {}
+[0.902419] (-) TimerEvent: {}
+[1.002843] (-) TimerEvent: {}
+[1.103256] (-) TimerEvent: {}
+[1.203535] (-) TimerEvent: {}
+[1.303695] (-) TimerEvent: {}
+[1.403861] (-) TimerEvent: {}
+[1.504081] (-) TimerEvent: {}
+[1.604338] (-) TimerEvent: {}
+[1.665111] (ur_robot_manager) StdoutLine: {'line': b'-- Found Python3: /home/hrlsh/.pyenv/versions/3.11.11/bin/python3 (found version "3.11.11") found components: Interpreter \n'}
+[1.704412] (-) TimerEvent: {}
+[1.753110] (ur_robot_manager) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.804576] (-) TimerEvent: {}
+[1.901053] (ur_robot_manager) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.904697] (-) TimerEvent: {}
+[1.921051] (ur_robot_manager) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.955542] (ur_robot_manager) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.004880] (-) TimerEvent: {}
+[2.005792] (ur_robot_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.074025] (ur_robot_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.104957] (-) TimerEvent: {}
+[2.145459] (ur_robot_manager) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.149023] (ur_robot_manager) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.180382] (ur_robot_manager) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.192082] (ur_robot_manager) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.205062] (-) TimerEvent: {}
+[2.305334] (-) TimerEvent: {}
+[2.327999] (ur_robot_manager) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.328755] (ur_robot_manager) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.405530] (-) TimerEvent: {}
+[2.505936] (-) TimerEvent: {}
+[2.559277] (ur_robot_manager) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.562712] (ur_robot_manager) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.606086] (-) TimerEvent: {}
+[2.706401] (-) TimerEvent: {}
+[2.788659] (ur_robot_manager) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[2.806539] (-) TimerEvent: {}
+[2.876505] (ur_robot_manager) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.887426] (ur_robot_manager) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.906599] (-) TimerEvent: {}
+[2.914763] (ur_robot_manager) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.966337] (ur_robot_manager) StdoutLine: {'line': b'-- Found ur_robot_manager_interfaces: 0.1.0 (/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/cmake)\n'}
+[2.977005] (ur_robot_manager) StdoutLine: {'line': b'-- Found gripper_interfaces: 0.1.0 (/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/cmake)\n'}
+[3.001516] (ur_robot_manager) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread \n'}
+[3.006663] (-) TimerEvent: {}
+[3.022789] (ur_robot_manager) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.022946] (ur_robot_manager) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>\n'}
+[3.023031] (ur_robot_manager) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[3.023112] (ur_robot_manager) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[3.025202] (ur_robot_manager) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[3.025293] (ur_robot_manager) StderrLine: {'line': b'  execute_process(/home/hrlsh/.pyenv/versions/3.11.11/bin/python3\n'}
+[3.025411] (ur_robot_manager) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[3.025495] (ur_robot_manager) StderrLine: {'line': b'  /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/package.xml\n'}
+[3.025579] (ur_robot_manager) StderrLine: {'line': b'  /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager/ament_cmake_core/package.cmake)\n'}
+[3.025660] (ur_robot_manager) StderrLine: {'line': b'  returned error code 1\n'}
+[3.025738] (ur_robot_manager) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.025816] (ur_robot_manager) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[3.025894] (ur_robot_manager) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[3.025971] (ur_robot_manager) StderrLine: {'line': b'  CMakeLists.txt:104 (ament_package)\n'}
+[3.026048] (ur_robot_manager) StderrLine: {'line': b'\n'}
+[3.026125] (ur_robot_manager) StderrLine: {'line': b'\n'}
+[3.026201] (ur_robot_manager) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.026278] (ur_robot_manager) StdoutLine: {'line': b'See also "/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager/CMakeFiles/CMakeOutput.log".\n'}
+[3.032059] (ur_robot_manager) CommandEnded: {'returncode': 1}
+[3.044790] (ur_robot_manager) JobEnded: {'identifier': 'ur_robot_manager', 'rc': 1}
+[3.055049] (-) EventReactorShutdown: {}

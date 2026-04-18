@@ -65,7 +65,7 @@ rclcpp_action::GoalResponse URRobotActionServer::handleGoal(
         RCLCPP_WARN(node_->get_logger(), "Rejecting: already executing");
         return rclcpp_action::GoalResponse::REJECT;
     }
-    if (!robot_manager_.isRobotConnected()) {
+    if (!robot_manager_.hw().isConnected()) {
         RCLCPP_WARN(node_->get_logger(), "Rejecting: robot not connected");
         return rclcpp_action::GoalResponse::REJECT;
     }
@@ -83,7 +83,7 @@ rclcpp_action::CancelResponse URRobotActionServer::handleCancel(
 {
     (void)goal_handle;
     RCLCPP_INFO(node_->get_logger(), "Cancel requested, stopping robot");
-    robot_manager_.stopRobot();
+    robot_manager_.hw().stop();
     return rclcpp_action::CancelResponse::ACCEPT;
 }
 
@@ -122,7 +122,7 @@ void URRobotActionServer::executeTask(
                 if (goal->positions.size() == 6) {
                     home.assign(goal->positions.begin(), goal->positions.end());
                 }
-                success = robot_manager_.moveJ(home, 0.5, 0.5);
+                success = robot_manager_.hw().moveJ(home, 0.5, 0.5);
 
                 feedback->completion_percentage = 1.0f;
                 goal_handle->publish_feedback(feedback);
@@ -142,7 +142,7 @@ void URRobotActionServer::executeTask(
                 if (goal_handle->is_canceling()) break;
                 std::vector<double> target_pose(goal->positions.begin(),
                                                 goal->positions.end());
-                success = robot_manager_.moveL(target_pose, 0.1, 0.5);
+                success = robot_manager_.hw().moveL(target_pose, 0.1, 0.5);
 
                 feedback->completion_percentage = 1.0f;
                 goal_handle->publish_feedback(feedback);
@@ -162,7 +162,7 @@ void URRobotActionServer::executeTask(
                 if (goal_handle->is_canceling()) break;
                 std::vector<double> target_joints(goal->positions.begin(),
                                                   goal->positions.end());
-                success = robot_manager_.moveJ(target_joints, 0.5, 0.5);
+                success = robot_manager_.hw().moveJ(target_joints, 0.5, 0.5);
 
                 feedback->completion_percentage = 1.0f;
                 goal_handle->publish_feedback(feedback);
@@ -174,7 +174,7 @@ void URRobotActionServer::executeTask(
                 feedback->status = "Tool change: opening gripper";
                 feedback->completion_percentage = 0.1f;
                 goal_handle->publish_feedback(feedback);
-                robot_manager_.gripperOpen();
+                robot_manager_.hw().gripperOpen();
 
                 if (goal_handle->is_canceling()) break;
 
@@ -184,7 +184,7 @@ void URRobotActionServer::executeTask(
                     goal_handle->publish_feedback(feedback);
                     std::vector<double> pickup_pose(goal->positions.begin(),
                                                     goal->positions.end());
-                    robot_manager_.moveL(pickup_pose, 0.05, 0.3);
+                    robot_manager_.hw().moveL(pickup_pose, 0.05, 0.3);
                 }
 
                 if (goal_handle->is_canceling()) break;
@@ -192,7 +192,7 @@ void URRobotActionServer::executeTask(
                 feedback->status = "Tool change: closing gripper";
                 feedback->completion_percentage = 0.8f;
                 goal_handle->publish_feedback(feedback);
-                robot_manager_.gripperClose();
+                robot_manager_.hw().gripperClose();
 
                 feedback->completion_percentage = 1.0f;
                 goal_handle->publish_feedback(feedback);
@@ -225,7 +225,7 @@ void URRobotActionServer::executeTask(
                                          static_cast<float>(waypoints.size());
                     goal_handle->publish_feedback(feedback);
 
-                    if (!robot_manager_.moveL(waypoints[i], 0.05, 0.5)) break;
+                    if (!robot_manager_.hw().moveL(waypoints[i], 0.05, 0.5)) break;
                     if (i == waypoints.size() - 1) success = true;
                 }
 
@@ -247,7 +247,7 @@ void URRobotActionServer::executeTask(
                 if (goal_handle->is_canceling()) break;
                 std::vector<double> tcp_target(goal->positions.begin(),
                                                 goal->positions.end());
-                success = robot_manager_.customMoveL(tcp_target, 0.5, 0.5);
+                success = robot_manager_.hw().customMoveL(tcp_target, 0.5, 0.5);
 
                 feedback->completion_percentage = 1.0f;
                 goal_handle->publish_feedback(feedback);

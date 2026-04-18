@@ -211,6 +211,19 @@ ur_robot_manager_utils/fast:
 .PHONY : ur_robot_manager_utils/fast
 
 #=============================================================================
+# Target rules for targets named ur_hardware
+
+# Build rule for target.
+ur_hardware: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ur_hardware
+.PHONY : ur_hardware
+
+# fast build rule for target.
+ur_hardware/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur_hardware.dir/build.make CMakeFiles/ur_hardware.dir/build
+.PHONY : ur_hardware/fast
+
+#=============================================================================
 # Target rules for targets named ur_robot_manager_core
 
 # Build rule for target.
@@ -283,6 +296,30 @@ src/core/ur_robot_manager.s: src/core/ur_robot_manager.cpp.s
 src/core/ur_robot_manager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur_robot_manager_core.dir/build.make CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_manager.cpp.s
 .PHONY : src/core/ur_robot_manager.cpp.s
+
+src/hardware/ur_hardware.o: src/hardware/ur_hardware.cpp.o
+.PHONY : src/hardware/ur_hardware.o
+
+# target to build an object file
+src/hardware/ur_hardware.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur_hardware.dir/build.make CMakeFiles/ur_hardware.dir/src/hardware/ur_hardware.cpp.o
+.PHONY : src/hardware/ur_hardware.cpp.o
+
+src/hardware/ur_hardware.i: src/hardware/ur_hardware.cpp.i
+.PHONY : src/hardware/ur_hardware.i
+
+# target to preprocess a source file
+src/hardware/ur_hardware.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur_hardware.dir/build.make CMakeFiles/ur_hardware.dir/src/hardware/ur_hardware.cpp.i
+.PHONY : src/hardware/ur_hardware.cpp.i
+
+src/hardware/ur_hardware.s: src/hardware/ur_hardware.cpp.s
+.PHONY : src/hardware/ur_hardware.s
+
+# target to generate assembly for a file
+src/hardware/ur_hardware.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur_hardware.dir/build.make CMakeFiles/ur_hardware.dir/src/hardware/ur_hardware.cpp.s
+.PHONY : src/hardware/ur_hardware.cpp.s
 
 src/nodes/main_node.o: src/nodes/main_node.cpp.o
 .PHONY : src/nodes/main_node.o
@@ -371,6 +408,7 @@ help:
 	@echo "... test"
 	@echo "... uninstall"
 	@echo "... ur_robot_manager_uninstall"
+	@echo "... ur_hardware"
 	@echo "... ur_robot_manager_core"
 	@echo "... ur_robot_manager_node"
 	@echo "... ur_robot_manager_utils"
@@ -380,6 +418,9 @@ help:
 	@echo "... src/core/ur_robot_manager.o"
 	@echo "... src/core/ur_robot_manager.i"
 	@echo "... src/core/ur_robot_manager.s"
+	@echo "... src/hardware/ur_hardware.o"
+	@echo "... src/hardware/ur_hardware.i"
+	@echo "... src/hardware/ur_hardware.s"
 	@echo "... src/nodes/main_node.o"
 	@echo "... src/nodes/main_node.i"
 	@echo "... src/nodes/main_node.s"

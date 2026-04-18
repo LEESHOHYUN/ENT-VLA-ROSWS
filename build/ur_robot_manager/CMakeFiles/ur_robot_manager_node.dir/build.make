@@ -93,7 +93,6 @@ ur_robot_manager_node_EXTERNAL_OBJECTS =
 ur_robot_manager_node: CMakeFiles/ur_robot_manager_node.dir/src/nodes/main_node.cpp.o
 ur_robot_manager_node: CMakeFiles/ur_robot_manager_node.dir/build.make
 ur_robot_manager_node: libur_robot_manager_core.so
-ur_robot_manager_node: libur_robot_manager_utils.so
 ur_robot_manager_node: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
 ur_robot_manager_node: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
 ur_robot_manager_node: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
@@ -226,10 +225,12 @@ ur_robot_manager_node: /opt/ros/humble/lib/librosidl_typesupport_c.so
 ur_robot_manager_node: /opt/ros/humble/lib/librcpputils.so
 ur_robot_manager_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 ur_robot_manager_node: /opt/ros/humble/lib/librcutils.so
+ur_robot_manager_node: libur_hardware.so
 ur_robot_manager_node: /usr/local/lib/librtde.so.1.6.0
 ur_robot_manager_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 ur_robot_manager_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 ur_robot_manager_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.71.0
+ur_robot_manager_node: libur_robot_manager_utils.so
 ur_robot_manager_node: CMakeFiles/ur_robot_manager_node.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ur_robot_manager_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ur_robot_manager_node.dir/link.txt --verbose=$(VERBOSE)

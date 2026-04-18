@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager/libur_robot_manager_utils.so" "/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager/libur_robot_manager_core.so" "TARGETS" "ur_robot_manager_utils" "ur_robot_manager_core" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

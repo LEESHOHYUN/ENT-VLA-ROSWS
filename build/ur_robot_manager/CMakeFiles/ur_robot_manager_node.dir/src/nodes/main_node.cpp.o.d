@@ -619,66 +619,6 @@ CMakeFiles/ur_robot_manager_node.dir/src/nodes/main_node.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
- /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
- /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/action_type_support.hpp \
- /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp \
- /opt/ros/humble/include/rcl_action/rcl_action/action_client.h \
- /opt/ros/humble/include/rcl_action/rcl_action/types.h \
- /opt/ros/humble/include/rcl_action/rcl_action/visibility_control.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
- /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
- /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h \
- /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.h \
- /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h \
- /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
- /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp \
- /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp \
- /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp \
- /opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp \
- /usr/include/c++/11/climits \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp \
- /opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
- /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp \
- /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp \
- /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp \
- /opt/ros/humble/include/rcl_action/rcl_action/action_server.h \
- /opt/ros/humble/include/rcl_action/rcl_action/goal_handle.h \
- /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
- /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
- /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
  /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp \
@@ -718,7 +658,9 @@ CMakeFiles/ur_robot_manager_node.dir/src/nodes/main_node.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__type_support.hpp \
- /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Core \
+ /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/hardware/ur_hardware.h \
+ /usr/include/c++/11/cstdarg /usr/include/eigen3/Eigen/Dense \
+ /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
  /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
@@ -728,7 +670,15 @@ CMakeFiles/ur_robot_manager_node.dir/src/nodes/main_node.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
  /usr/include/c++/11/complex \
  /usr/include/eigen3/Eigen/src/Core/util/MKL_support.h \
- /usr/include/c++/11/cstddef \
+ /usr/include/c++/11/cstddef /usr/include/c++/11/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
  /usr/include/eigen3/Eigen/src/Core/util/Constants.h \
  /usr/include/eigen3/Eigen/src/Core/util/Meta.h \
  /usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
@@ -1746,6 +1696,57 @@ CMakeFiles/ur_robot_manager_node.dir/src/nodes/main_node.cpp.o: \
  /usr/include/boost/variant/bad_visit.hpp \
  /usr/local/include/ur_rtde/rtde_io_interface.h \
  /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_action_server.h \
+ /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
+ /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+ /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/action_type_support.hpp \
+ /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp \
+ /opt/ros/humble/include/rcl_action/rcl_action/action_client.h \
+ /opt/ros/humble/include/rcl_action/rcl_action/types.h \
+ /opt/ros/humble/include/rcl_action/rcl_action/visibility_control.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
+ /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp \
+ /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp \
+ /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp \
+ /opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp \
+ /opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+ /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp \
+ /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp \
+ /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp \
+ /opt/ros/humble/include/rcl_action/rcl_action/action_server.h \
+ /opt/ros/humble/include/rcl_action/rcl_action/goal_handle.h \
+ /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
+ /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
+ /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
  /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_generator_cpp/ur_robot_manager_interfaces/action/robot_task.hpp \
  /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_generator_cpp/ur_robot_manager_interfaces/action/detail/robot_task__struct.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
@@ -1761,7 +1762,4 @@ CMakeFiles/ur_robot_manager_node.dir/src/nodes/main_node.cpp.o: \
  /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_generator_cpp/ur_robot_manager_interfaces/action/detail/robot_task__builder.hpp \
  /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_generator_cpp/ur_robot_manager_interfaces/action/detail/robot_task__traits.hpp \
  /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_generator_cpp/ur_robot_manager_interfaces/action/detail/robot_task__type_support.hpp \
- /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_generator_cpp/ur_robot_manager_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/utils/robot_trajectory.h \
- /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/robot_types.h \
- /usr/include/eigen3/Eigen/Geometry
+ /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_generator_cpp/ur_robot_manager_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp

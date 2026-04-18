@@ -1,1 +1,1 @@
-/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_robot_manager
+rclcpp;rclcpp_action;std_msgs;std_srvs;sensor_msgs;geometry_msgs;tf2_ros;ur_robot_manager_interfaces;gripper_interfaces;Eigen3

@@ -38,19 +38,33 @@ set(DEPENDENCIES
   gripper_interfaces
 )
 
-# Utils library (kinematics + trajectory)
+# Utils library (kinematics + trajectory) — pure Eigen math, no ROS
 add_library(ur_robot_manager_utils SHARED
   src/utils/robot_trajectory.cpp
   src/utils/ur_kinematics.cpp
 )
-ament_target_dependencies(ur_robot_manager_utils ${DEPENDENCIES})
 target_include_directories(ur_robot_manager_utils PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>
   ${EIGEN3_INCLUDE_DIR}
 )
 
-# Core library (robot manager + action server)
+# Hardware library — headless UR5e control (ur_rtde + Eigen + kinematics)
+# NO ROS DEPENDENCIES. Reusable for ROS1/LCM/embedded/unit tests.
+add_library(ur_hardware SHARED
+  src/hardware/ur_hardware.cpp
+)
+target_include_directories(ur_hardware PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>
+  ${EIGEN3_INCLUDE_DIR}
+)
+target_link_libraries(ur_hardware ur_robot_manager_utils)
+if(ur_rtde_FOUND)
+  target_link_libraries(ur_hardware ur_rtde::rtde)
+endif()
+
+# Core library (ROS adapter + action server) — wraps ur_hardware
 add_library(ur_robot_manager_core SHARED
   src/core/ur_robot_manager.cpp
   src/core/ur_robot_action_server.cpp
@@ -61,10 +75,7 @@ target_include_directories(ur_robot_manager_core PUBLIC
   $<INSTALL_INTERFACE:include>
   ${EIGEN3_INCLUDE_DIR}
 )
-target_link_libraries(ur_robot_manager_core ur_robot_manager_utils)
-if(ur_rtde_FOUND)
-  target_link_libraries(ur_robot_manager_core ur_rtde::rtde)
-endif()
+target_link_libraries(ur_robot_manager_core ur_hardware ur_robot_manager_utils)
 
 # Main executable
 add_executable(ur_robot_manager_node src/nodes/main_node.cpp)
@@ -79,6 +90,7 @@ target_link_libraries(ur_robot_manager_node ur_robot_manager_core)
 # Install
 install(TARGETS
   ur_robot_manager_utils
+  ur_hardware
   ur_robot_manager_core
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
