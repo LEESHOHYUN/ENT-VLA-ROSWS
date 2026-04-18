@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/src/nurse_bringup/launch/full_system_launch.py

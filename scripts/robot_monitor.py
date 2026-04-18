@@ -66,6 +66,7 @@ class MonitorNode(Node):
         self.pub_stop = self.create_publisher(Bool, "/cmd/stop", 10)
         self.pub_speed = self.create_publisher(Float64MultiArray, "/speed_scale", 10)
         self.pub_freedrive = self.create_publisher(Bool, "/cmd/freedrive", 10)
+        self.pub_reconnect = self.create_publisher(Bool, "/cmd/reconnect", 10)
 
     def _joint_cb(self, msg):
         if msg.position:
@@ -113,6 +114,9 @@ class MonitorNode(Node):
 
     def send_freedrive(self, enable):
         self.pub_freedrive.publish(Bool(data=enable))
+
+    def send_reconnect(self):
+        self.pub_reconnect.publish(Bool(data=True))
 
 
 class RobotMonitorApp:
@@ -228,6 +232,9 @@ class RobotMonitorApp:
         style.configure("Stop.TButton", foreground="red", font=("", 10, "bold"))
         ttk.Button(cf, text="STOP", command=lambda: (self.node.send_stop(), self.log("STOP")),
                    style="Stop.TButton").pack(side="right", padx=5)
+        ttk.Button(cf, text="Reconnect",
+                   command=lambda: (self.node.send_reconnect(), self.log("→ Reconnect control"))
+                   ).pack(side="right", padx=5)
 
         # -- Freedrive / Trajectory Recording --
         ff = ttk.LabelFrame(self.root, text="Freedrive (Kinesthetic Teaching)", padding=8)

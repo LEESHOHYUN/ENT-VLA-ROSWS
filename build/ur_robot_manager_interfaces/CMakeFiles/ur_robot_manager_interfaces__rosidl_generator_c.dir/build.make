@@ -92,7 +92,7 @@ rosidl_generator_c/ur_robot_manager_interfaces/msg/delay_info.h: /opt/ros/humble
 rosidl_generator_c/ur_robot_manager_interfaces/msg/delay_info.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_c/ur_robot_manager_interfaces/msg/delay_info.h: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_generator_c__arguments.json
+	/home/hrlsh/ai_env/vla_venv/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/ur_robot_manager_interfaces/msg/detail/delay_info__functions.h: rosidl_generator_c/ur_robot_manager_interfaces/msg/delay_info.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ur_robot_manager_interfaces/msg/detail/delay_info__functions.h

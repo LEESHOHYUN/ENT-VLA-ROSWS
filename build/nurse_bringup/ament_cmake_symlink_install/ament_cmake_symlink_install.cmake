@@ -320,3 +320,45 @@ ament_cmake_symlink_install_directory("/home/hrlsh/scrub_nurse_ws/src/nurse_brin
 
 # install(DIRECTORY "config/" "DESTINATION" "share/nurse_bringup/config")
 ament_cmake_symlink_install_directory("/home/hrlsh/scrub_nurse_ws/src/nurse_bringup" DIRECTORY "config/" "DESTINATION" "share/nurse_bringup/config")
+
+# install(FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/nurse_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/hrlsh/scrub_nurse_ws/src/nurse_bringup" FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/nurse_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/nurse_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/hrlsh/scrub_nurse_ws/src/nurse_bringup" FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/nurse_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/nurse_bringup/environment")
+ament_cmake_symlink_install_files("/home/hrlsh/scrub_nurse_ws/src/nurse_bringup" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/nurse_bringup/environment")
+
+# install(FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/nurse_bringup/environment")
+ament_cmake_symlink_install_files("/home/hrlsh/scrub_nurse_ws/src/nurse_bringup" FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/nurse_bringup/environment")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/nurse_bringup/environment")
+ament_cmake_symlink_install_files("/home/hrlsh/scrub_nurse_ws/src/nurse_bringup" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/nurse_bringup/environment")
+
+# install(FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/nurse_bringup/environment")
+ament_cmake_symlink_install_files("/home/hrlsh/scrub_nurse_ws/src/nurse_bringup" FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/nurse_bringup/environment")
+
+# install(FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/nurse_bringup")
+ament_cmake_symlink_install_files("/home/hrlsh/scrub_nurse_ws/src/nurse_bringup" FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/nurse_bringup")
+
+# install(FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/nurse_bringup")
+ament_cmake_symlink_install_files("/home/hrlsh/scrub_nurse_ws/src/nurse_bringup" FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/nurse_bringup")
+
+# install(FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/nurse_bringup")
+ament_cmake_symlink_install_files("/home/hrlsh/scrub_nurse_ws/src/nurse_bringup" FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/nurse_bringup")
+
+# install(FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/nurse_bringup")
+ament_cmake_symlink_install_files("/home/hrlsh/scrub_nurse_ws/src/nurse_bringup" FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/nurse_bringup")
+
+# install(FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/nurse_bringup")
+ament_cmake_symlink_install_files("/home/hrlsh/scrub_nurse_ws/src/nurse_bringup" FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/nurse_bringup")
+
+# install(FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_index/share/ament_index/resource_index/packages/nurse_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/hrlsh/scrub_nurse_ws/src/nurse_bringup" FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_index/share/ament_index/resource_index/packages/nurse_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_core/nurse_bringupConfig.cmake" "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_core/nurse_bringupConfig-version.cmake" "DESTINATION" "share/nurse_bringup/cmake")
+ament_cmake_symlink_install_files("/home/hrlsh/scrub_nurse_ws/src/nurse_bringup" FILES "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_core/nurse_bringupConfig.cmake" "/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_core/nurse_bringupConfig-version.cmake" "DESTINATION" "share/nurse_bringup/cmake")
+
+# install(FILES "/home/hrlsh/scrub_nurse_ws/src/nurse_bringup/package.xml" "DESTINATION" "share/nurse_bringup")
+ament_cmake_symlink_install_files("/home/hrlsh/scrub_nurse_ws/src/nurse_bringup" FILES "/home/hrlsh/scrub_nurse_ws/src/nurse_bringup/package.xml" "DESTINATION" "share/nurse_bringup")

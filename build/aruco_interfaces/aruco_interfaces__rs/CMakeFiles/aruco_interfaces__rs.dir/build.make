@@ -153,7 +153,7 @@ rosidl_generator_rs/aruco_interfaces/rust/src/lib.rs: /opt/ros/humble/share/geom
 rosidl_generator_rs/aruco_interfaces/rust/src/lib.rs: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_rs/aruco_interfaces/rust/src/lib.rs: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Rust code for ROS interfaces"
-	cd /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/aruco_interfaces__rs && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/rosidl_generator_rs__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	cd /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/aruco_interfaces__rs && /home/hrlsh/ai_env/vla_venv/bin/python3 /opt/ros/humble/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/rosidl_generator_rs__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_rs/aruco_interfaces/rust/build.rs: rosidl_generator_rs/aruco_interfaces/rust/src/lib.rs
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/aruco_interfaces/rust/build.rs

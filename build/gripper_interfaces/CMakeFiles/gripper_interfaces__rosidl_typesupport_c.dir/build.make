@@ -94,7 +94,7 @@ rosidl_typesupport_c/gripper_interfaces/msg/gripper_msg__type_support.cpp: /opt/
 rosidl_typesupport_c/gripper_interfaces/msg/gripper_msg__type_support.cpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_typesupport_c/gripper_interfaces/msg/gripper_msg__type_support.cpp: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
+	/home/hrlsh/ai_env/vla_venv/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
 rosidl_typesupport_c/gripper_interfaces/srv/slave_change__type_support.cpp: rosidl_typesupport_c/gripper_interfaces/msg/gripper_msg__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/gripper_interfaces/srv/slave_change__type_support.cpp

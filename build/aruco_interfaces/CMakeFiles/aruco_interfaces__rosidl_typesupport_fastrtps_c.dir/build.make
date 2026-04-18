@@ -144,7 +144,7 @@ rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/marker__rosidl_typesup
 rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/marker__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/marker__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
-	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/rosidl_typesupport_fastrtps_c__arguments.json
+	/home/hrlsh/ai_env/vla_venv/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/rosidl_typesupport_fastrtps_c__arguments.json
 
 rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/marker__type_support_c.cpp: rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/marker__type_support_c.cpp

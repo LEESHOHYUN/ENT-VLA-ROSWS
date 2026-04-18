@@ -142,7 +142,7 @@ rosidl_typesupport_cpp/aruco_interfaces/msg/marker__type_support.cpp: /opt/ros/h
 rosidl_typesupport_cpp/aruco_interfaces/msg/marker__type_support.cpp: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_typesupport_cpp/aruco_interfaces/msg/marker__type_support.cpp: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
+	/home/hrlsh/ai_env/vla_venv/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
 
 rosidl_typesupport_cpp/aruco_interfaces/msg/marker_array__type_support.cpp: rosidl_typesupport_cpp/aruco_interfaces/msg/marker__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/aruco_interfaces/msg/marker_array__type_support.cpp

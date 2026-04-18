@@ -149,7 +149,7 @@ rosidl_generator_c/aruco_interfaces/msg/marker.h: /opt/ros/humble/share/geometry
 rosidl_generator_c/aruco_interfaces/msg/marker.h: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_c/aruco_interfaces/msg/marker.h: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/rosidl_generator_c__arguments.json
+	/home/hrlsh/ai_env/vla_venv/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/aruco_interfaces/msg/detail/marker__functions.h: rosidl_generator_c/aruco_interfaces/msg/marker.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aruco_interfaces/msg/detail/marker__functions.h

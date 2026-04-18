@@ -1,0 +1,1 @@
+/home/hrlsh/scrub_nurse_ws/build/nurse_bringup/ament_cmake_core/nurse_bringupConfig-version.cmake

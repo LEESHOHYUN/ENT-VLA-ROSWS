@@ -1,0 +1,88 @@
+[0.009s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/gripper_test': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake /home/hrlsh/scrub_nurse_ws/src/gripper_test -DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/gripper_test
+[0.244s] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.245s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.245s]   CMake.
+[0.245s] 
+[0.245s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.245s]   to tell CMake that the project requires at least <min> but has been updated
+[0.245s]   to work with policies introduced by <max> or earlier.
+[0.246s] 
+[0.246s] 
+[0.246s] -- The C compiler identification is GNU 11.4.0
+[0.246s] -- The CXX compiler identification is GNU 11.4.0
+[0.246s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.246s] -- Detecting CXX compiler ABI info
+[0.254s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.268s] -- Detecting CXX compile features - done
+[0.271s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.402s] -- Found Python3: /home/hrlsh/ai_env/vla_venv/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.458s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.464s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.493s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.496s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.501s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.511s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.558s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.559s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.578s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.632s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.666s] -- Found gripper_interfaces: 0.1.0 (/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/cmake)
+[0.692s] CMake Warning (dev) at CMakeLists.txt:17 (find_package):
+[0.692s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[0.692s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[0.692s]   set the policy and suppress this warning.
+[0.692s] 
+[0.692s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.692s] 
+[0.699s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread
+[0.755s] -- Configuring done (0.7s)
+[0.797s] -- Generating done (0.0s)
+[0.800s] -- Build files have been written to: /home/hrlsh/scrub_nurse_ws/build/gripper_test
+[0.808s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/gripper_test' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake /home/hrlsh/scrub_nurse_ws/src/gripper_test -DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/gripper_test
+[0.809s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/gripper_test': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/gripper_test -- -j20 -l20
+[0.877s] [  0%] Built target gripper_node_autogen_timestamp_deps
+[0.877s] [  0%] Built target gripper_action_node_autogen_timestamp_deps
+[0.882s] [ 20%] Automatic MOC for target gripper_node
+[0.882s] [ 20%] Automatic MOC for target gripper_action_node
+[0.894s] [ 20%] Built target gripper_action_node_autogen
+[0.894s] [ 20%] Built target gripper_node_autogen
+[0.912s] [ 30%] Building CXX object CMakeFiles/gripper_node.dir/gripper_node_autogen/mocs_compilation.cpp.o
+[0.912s] [ 40%] Building CXX object CMakeFiles/gripper_action_node.dir/gripper_action_node_autogen/mocs_compilation.cpp.o
+[0.913s] [ 60%] Building CXX object CMakeFiles/gripper_node.dir/src/gripper_node.cpp.o
+[0.913s] [ 60%] Building CXX object CMakeFiles/gripper_action_node.dir/src/gripper_action_node.cpp.o
+[7.776s] [ 70%] Linking CXX executable gripper_action_node
+[8.087s] [ 80%] Built target gripper_action_node
+[11.385s] [ 90%] Linking CXX executable gripper_node
+[11.911s] [100%] Built target gripper_node
+[11.913s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/gripper_test' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/gripper_test -- -j20 -l20
+[11.914s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/gripper_test': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/gripper_test
+[11.970s] -- Install configuration: ""
+[11.970s] -- Execute custom install script
+[11.971s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/lib/gripper_test/gripper_node
+[11.971s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/lib/gripper_test/gripper_action_node
+[11.971s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/include/gripper_test/gripper_action_node.hpp
+[11.971s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/include/gripper_test/gripper_node.hpp
+[11.971s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/launch/gripper_launch.py
+[11.971s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/ament_index/resource_index/package_run_dependencies/gripper_test
+[11.971s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/ament_index/resource_index/parent_prefix_path/gripper_test
+[11.972s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/environment/ament_prefix_path.sh
+[11.972s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/environment/ament_prefix_path.dsv
+[11.972s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/environment/path.sh
+[11.972s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/environment/path.dsv
+[11.972s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/local_setup.bash
+[11.972s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/local_setup.sh
+[11.972s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/local_setup.zsh
+[11.972s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/local_setup.dsv
+[11.972s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/package.dsv
+[11.974s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/ament_index/resource_index/packages/gripper_test
+[11.974s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/cmake/gripper_testConfig.cmake
+[11.974s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/cmake/gripper_testConfig-version.cmake
+[11.974s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/package.xml
+[11.975s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/gripper_test' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/gripper_test

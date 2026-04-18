@@ -175,7 +175,7 @@ rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/object_
 rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/object_token__type_support.cpp: /opt/ros/humble/share/sensor_msgs/msg/TimeReference.idl
 rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/object_token__type_support.cpp: /opt/ros/humble/share/sensor_msgs/srv/SetCameraInfo.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support for eProsima Fast-RTPS"
-	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/rosidl_typesupport_fastrtps_cpp__arguments.json
+	/home/hrlsh/ai_env/vla_venv/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/rosidl_typesupport_fastrtps_cpp__arguments.json
 
 rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/object_token__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/dds_fastrtps/object_token__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/nurse_interfaces/msg/detail/object_token__rosidl_typesupport_fastrtps_cpp.hpp

@@ -101,7 +101,7 @@ rosidl_generator_c/gripper_interfaces/msg/gripper_msg.h: /opt/ros/humble/share/b
 rosidl_generator_c/gripper_interfaces/msg/gripper_msg.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_c/gripper_interfaces/msg/gripper_msg.h: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/rosidl_generator_c__arguments.json
+	/home/hrlsh/ai_env/vla_venv/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/gripper_interfaces/msg/detail/gripper_msg__functions.h: rosidl_generator_c/gripper_interfaces/msg/gripper_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/gripper_interfaces/msg/detail/gripper_msg__functions.h

@@ -1,0 +1,48 @@
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:[m[K In member function ‘[01m[Kbool urRobotManager::URRobotManager::moveJ(const std::vector<double, std::allocator<double> >&, double, double, bool)[m[K’:
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:246:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  246 |     double [01;35m[Ka[m[K = std::min(acceleration, max_joint_accel_);
+      |            [01;35m[K^[m[K
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:[m[K In member function ‘[01m[Kbool urRobotManager::URRobotManager::moveL(const std::vector<double, std::allocator<double> >&, double, double, bool)[m[K’:
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:293:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  293 |     double [01;35m[Ka[m[K = std::min(acceleration, max_linear_accel_);
+      |            [01;35m[K^[m[K
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:[m[K In member function ‘[01m[Kbool urRobotManager::URRobotManager::speedJ(const std::vector<double, std::allocator<double> >&, double, double)[m[K’:
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:328:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kacceleration[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  328 |                       [01;35m[Kdouble acceleration[m[K, double time)
+      |                       [01;35m[K~~~~~~~^~~~~~~~~~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:328:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  328 |        double acceleration, [01;35m[Kdouble time[m[K)
+      |                             [01;35m[K~~~~~~~^~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:[m[K In member function ‘[01m[Kbool urRobotManager::URRobotManager::speedL(const std::vector<double, std::allocator<double> >&, double, double)[m[K’:
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:351:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kacceleration[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  351 |                       [01;35m[Kdouble acceleration[m[K, double time)
+      |                       [01;35m[K~~~~~~~^~~~~~~~~~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:351:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  351 |        double acceleration, [01;35m[Kdouble time[m[K)
+      |                             [01;35m[K~~~~~~~^~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:[m[K In member function ‘[01m[Kbool urRobotManager::URRobotManager::movePath(const std::vector<std::vector<double, std::allocator<double> > >&, double, double, double)[m[K’:
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:445:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kspeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  445 |                       [01;35m[Kdouble speed[m[K, double acceleration,
+      |                       [01;35m[K~~~~~~~^~~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:445:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kacceleration[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  445 |         double speed, [01;35m[Kdouble acceleration[m[K,
+      |                       [01;35m[K~~~~~~~^~~~~~~~~~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:[m[K In member function ‘[01m[Kbool urRobotManager::URRobotManager::servoJ6Only(const std::vector<double, std::allocator<double> >&, double, double, double)[m[K’:
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:551:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  551 |                       [01;35m[Kdouble time[m[K, double lookahead, double gain)
+      |                       [01;35m[K~~~~~~~^~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:551:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klookahead[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  551 |          double time, [01;35m[Kdouble lookahead[m[K, double gain)
+      |                       [01;35m[K~~~~~~~^~~~~~~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:551:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgain[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  551 | ble time, double lookahead, [01;35m[Kdouble gain[m[K)
+      |                             [01;35m[K~~~~~~~^~~~[m[K
+

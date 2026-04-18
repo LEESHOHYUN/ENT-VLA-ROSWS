@@ -1,0 +1,22 @@
+[0.984s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/nurse_perception': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrlsh/scrub_nurse_ws/install/nurse_perception/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrlsh/scrub_nurse_ws/build/nurse_perception/build --no-deps symlink_data
+[1.227s] running develop
+[1.294s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[1.294s]   warnings.warn(
+[1.294s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[1.294s]   warnings.warn(
+[1.295s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.13.1-unknown is an invalid version and will not be supported in a future release
+[1.295s]   warnings.warn(
+[1.427s] running egg_info
+[1.427s] writing nurse_perception.egg-info/PKG-INFO
+[1.427s] writing dependency_links to nurse_perception.egg-info/dependency_links.txt
+[1.428s] writing entry points to nurse_perception.egg-info/entry_points.txt
+[1.428s] writing requirements to nurse_perception.egg-info/requires.txt
+[1.428s] writing top-level names to nurse_perception.egg-info/top_level.txt
+[1.429s] reading manifest file 'nurse_perception.egg-info/SOURCES.txt'
+[1.430s] writing manifest file 'nurse_perception.egg-info/SOURCES.txt'
+[1.431s] running build_ext
+[1.431s] Creating /home/hrlsh/scrub_nurse_ws/install/nurse_perception/lib/python3.10/site-packages/nurse-perception.egg-link (link to .)
+[1.432s] 
+[1.432s] Installed /home/hrlsh/scrub_nurse_ws/build/nurse_perception
+[1.432s] running symlink_data
+[1.456s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/nurse_perception' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrlsh/scrub_nurse_ws/install/nurse_perception/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrlsh/scrub_nurse_ws/build/nurse_perception/build --no-deps symlink_data

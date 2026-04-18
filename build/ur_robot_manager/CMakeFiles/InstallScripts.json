@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,829 @@
+[0.140s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3']
+[0.141s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f6cf8f8f220>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6cf8f4cc10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6cf8f4cc10>>, mixin_verb=('build',))
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.353s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hrlsh/scrub_nurse_ws'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'ros'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extensions ['cmake', 'python']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'cmake'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'python'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extensions ['python_setup_py']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/__pycache__) by extension 'python_setup_py'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) ignored
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/install) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/install) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/install) ignored
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/log) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/log) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/log) ignored
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_interfaces) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_interfaces) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_interfaces) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_interfaces) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_interfaces) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_interfaces) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_interfaces) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_interfaces) by extension 'ros'
+[0.373s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_interfaces' with type 'ros.ament_cmake' and name 'aruco_interfaces'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_interfaces) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_interfaces) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_interfaces) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_interfaces) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_interfaces) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_interfaces) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_interfaces) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_interfaces) by extension 'ros'
+[0.373s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gripper_interfaces' with type 'ros.ament_cmake' and name 'gripper_interfaces'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_test) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_test) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_test) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_test) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_test) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_test) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_test) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_test) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/gripper_test) by extension 'ros'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gripper_test' with type 'ros.ament_cmake' and name 'gripper_test'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_bringup) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_bringup) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_bringup) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_bringup) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_bringup) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_bringup) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_bringup) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_bringup) by extension 'ros'
+[0.375s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nurse_bringup' with type 'ros.ament_cmake' and name 'nurse_bringup'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_control) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_control) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_control) by extension 'ignore_ament_install'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_control) by extensions ['colcon_pkg']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_control) by extension 'colcon_pkg'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_control) by extensions ['colcon_meta']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_control) by extension 'colcon_meta'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_control) by extensions ['ros']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_control) by extension 'ros'
+[0.376s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nurse_control' with type 'ros.ament_python' and name 'nurse_control'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_interfaces) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_interfaces) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_interfaces) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_interfaces) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_interfaces) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_interfaces) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_interfaces) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_interfaces) by extension 'ros'
+[0.377s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nurse_interfaces' with type 'ros.ament_cmake' and name 'nurse_interfaces'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_perception) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_perception) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_perception) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_perception) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_perception) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_perception) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_perception) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_perception) by extension 'ros'
+[0.378s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nurse_perception' with type 'ros.ament_python' and name 'nurse_perception'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_planning) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_planning) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_planning) by extension 'ignore_ament_install'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_planning) by extensions ['colcon_pkg']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_planning) by extension 'colcon_pkg'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_planning) by extensions ['colcon_meta']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_planning) by extension 'colcon_meta'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_planning) by extensions ['ros']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/nurse_planning) by extension 'ros'
+[0.379s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nurse_planning' with type 'ros.ament_python' and name 'nurse_planning'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder) by extension 'ignore_ament_install'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder) by extensions ['colcon_pkg']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder) by extension 'colcon_pkg'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder) by extensions ['colcon_meta']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder) by extension 'colcon_meta'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder) by extension 'ros'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder) by extensions ['cmake', 'python']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder) by extension 'cmake'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder) by extension 'python'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder) by extensions ['python_setup_py']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder) by extension 'python_setup_py'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/config) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/config) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/config) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/config) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/config) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/config) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/config) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/config) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/config) by extension 'ros'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/config) by extensions ['cmake', 'python']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/config) by extension 'cmake'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/config) by extension 'python'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/config) by extensions ['python_setup_py']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/config) by extension 'python_setup_py'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/launch) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/launch) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/launch) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/launch) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/launch) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/launch) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/launch) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/launch) by extension 'ros'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/launch) by extensions ['cmake', 'python']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/launch) by extension 'cmake'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/launch) by extension 'python'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/launch) by extensions ['python_setup_py']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/launch) by extension 'python_setup_py'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/nodes) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/nodes) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/nodes) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/nodes) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/nodes) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/nodes) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/nodes) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/nodes) by extension 'ros'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/nodes) by extensions ['cmake', 'python']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/nodes) by extension 'cmake'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/nodes) by extension 'python'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/nodes) by extensions ['python_setup_py']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_recorder/nodes) by extension 'python_setup_py'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager) by extension 'ros'
+[0.383s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_robot_manager' with type 'ros.ament_cmake' and name 'ur_robot_manager'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager_interfaces) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager_interfaces) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager_interfaces) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager_interfaces) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager_interfaces) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager_interfaces) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager_interfaces) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robot_manager_interfaces) by extension 'ros'
+[0.383s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_robot_manager_interfaces' with type 'ros.ament_cmake' and name 'ur_robot_manager_interfaces'
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.401s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 331 installed packages in /opt/ros/humble
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'cmake_args' from command line to '['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3']'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.434s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces', 'merge_install': False, 'path': '/home/hrlsh/scrub_nurse_ws/src/aruco_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'gripper_interfaces' build argument 'cmake_args' from command line to '['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3']'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'gripper_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'gripper_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'gripper_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'gripper_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'gripper_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'gripper_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'gripper_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'gripper_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.434s] DEBUG:colcon.colcon_core.verb:Building package 'gripper_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces', 'merge_install': False, 'path': '/home/hrlsh/scrub_nurse_ws/src/gripper_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'nurse_interfaces' build argument 'cmake_args' from command line to '['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3']'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'nurse_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'nurse_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'nurse_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'nurse_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'nurse_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'nurse_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'nurse_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'nurse_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'nurse_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces', 'merge_install': False, 'path': '/home/hrlsh/scrub_nurse_ws/src/nurse_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager_interfaces' build argument 'cmake_args' from command line to '['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3']'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'ur_robot_manager_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces', 'merge_install': False, 'path': '/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gripper_test' build argument 'cmake_args' from command line to '['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3']'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gripper_test' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gripper_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gripper_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gripper_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gripper_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gripper_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gripper_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gripper_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'gripper_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrlsh/scrub_nurse_ws/build/gripper_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrlsh/scrub_nurse_ws/install/gripper_test', 'merge_install': False, 'path': '/home/hrlsh/scrub_nurse_ws/src/gripper_test', 'symlink_install': True, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'nurse_control' build argument 'cmake_args' from command line to '['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3']'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'nurse_control' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'nurse_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'nurse_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'nurse_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'nurse_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'nurse_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'nurse_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'nurse_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'nurse_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrlsh/scrub_nurse_ws/build/nurse_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrlsh/scrub_nurse_ws/install/nurse_control', 'merge_install': False, 'path': '/home/hrlsh/scrub_nurse_ws/src/nurse_control', 'symlink_install': True, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'nurse_perception' build argument 'cmake_args' from command line to '['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3']'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_perception' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'nurse_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrlsh/scrub_nurse_ws/build/nurse_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrlsh/scrub_nurse_ws/install/nurse_perception', 'merge_install': False, 'path': '/home/hrlsh/scrub_nurse_ws/src/nurse_perception', 'symlink_install': True, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_planning' build argument 'cmake_args' from command line to '['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3']'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_planning' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_planning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_planning' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_planning' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_planning' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_planning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'nurse_planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'nurse_planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrlsh/scrub_nurse_ws/build/nurse_planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrlsh/scrub_nurse_ws/install/nurse_planning', 'merge_install': False, 'path': '/home/hrlsh/scrub_nurse_ws/src/nurse_planning', 'symlink_install': True, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager' build argument 'cmake_args' from command line to '['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3']'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'ur_robot_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager', 'merge_install': False, 'path': '/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager', 'symlink_install': True, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'nurse_bringup' build argument 'cmake_args' from command line to '['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3']'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'nurse_bringup' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'nurse_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'nurse_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'nurse_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'nurse_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'nurse_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'nurse_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'nurse_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'nurse_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrlsh/scrub_nurse_ws/build/nurse_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup', 'merge_install': False, 'path': '/home/hrlsh/scrub_nurse_ws/src/nurse_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.438s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.439s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.439s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hrlsh/scrub_nurse_ws/src/gripper_interfaces' with build type 'ament_cmake'
+[0.439s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hrlsh/scrub_nurse_ws/src/gripper_interfaces'
+[0.441s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.441s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.441s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.443s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hrlsh/scrub_nurse_ws/src/nurse_interfaces' with build type 'ament_cmake'
+[0.443s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hrlsh/scrub_nurse_ws/src/nurse_interfaces'
+[0.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.443s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.444s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager_interfaces' with build type 'ament_cmake'
+[0.445s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager_interfaces'
+[0.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.445s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.446s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hrlsh/scrub_nurse_ws/src/aruco_interfaces' with build type 'ament_cmake'
+[0.446s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hrlsh/scrub_nurse_ws/src/aruco_interfaces'
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake /home/hrlsh/scrub_nurse_ws/src/gripper_interfaces -DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces
+[0.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake /home/hrlsh/scrub_nurse_ws/src/nurse_interfaces -DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces
+[0.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager_interfaces -DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces
+[0.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake /home/hrlsh/scrub_nurse_ws/src/aruco_interfaces -DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces
+[7.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager_interfaces -DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces
+[7.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces -- -j20 -l20
+[7.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake /home/hrlsh/scrub_nurse_ws/src/gripper_interfaces -DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces
+[7.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/gripper_interfaces -- -j20 -l20
+[8.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake /home/hrlsh/scrub_nurse_ws/src/aruco_interfaces -DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces
+[8.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces -- -j20 -l20
+[8.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake /home/hrlsh/scrub_nurse_ws/src/nurse_interfaces -DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces
+[8.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/nurse_interfaces -- -j20 -l20
+[10.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces -- -j20 -l20
+[10.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces
+[10.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_interfaces)
+[10.432s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces' for CMake module files
+[10.433s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces' for CMake config files
+[10.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_interfaces', 'cmake_prefix_path')
+[10.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/hook/cmake_prefix_path.ps1'
+[10.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/hook/cmake_prefix_path.dsv'
+[10.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/hook/cmake_prefix_path.sh'
+[10.440s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib'
+[10.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_interfaces', 'ld_library_path_lib')
+[10.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/hook/ld_library_path_lib.ps1'
+[10.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/hook/ld_library_path_lib.dsv'
+[10.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/hook/ld_library_path_lib.sh'
+[10.441s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/bin'
+[10.441s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/pkgconfig/aruco_interfaces.pc'
+[10.442s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/python3.10/site-packages'
+[10.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces
+[10.445s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/bin'
+[10.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/package.ps1'
+[10.447s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/package.dsv'
+[10.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/package.sh'
+[10.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/package.bash'
+[10.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/package.zsh'
+[10.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/colcon-core/packages/aruco_interfaces)
+[10.452s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_interfaces)
+[10.453s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces' for CMake module files
+[10.453s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces' for CMake config files
+[10.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_interfaces', 'cmake_prefix_path')
+[10.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/hook/cmake_prefix_path.ps1'
+[10.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/hook/cmake_prefix_path.dsv'
+[10.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/hook/cmake_prefix_path.sh'
+[10.456s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib'
+[10.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_interfaces', 'ld_library_path_lib')
+[10.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/hook/ld_library_path_lib.ps1'
+[10.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/hook/ld_library_path_lib.dsv'
+[10.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/hook/ld_library_path_lib.sh'
+[10.458s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/bin'
+[10.458s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/pkgconfig/aruco_interfaces.pc'
+[10.459s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/python3.10/site-packages'
+[10.459s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/bin'
+[10.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/package.ps1'
+[10.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/package.dsv'
+[10.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/package.sh'
+[10.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/package.bash'
+[10.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/package.zsh'
+[10.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/colcon-core/packages/aruco_interfaces)
+[10.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces -- -j20 -l20
+[10.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces
+[10.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_manager_interfaces)
+[10.781s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces' for CMake module files
+[10.782s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces' for CMake config files
+[10.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_manager_interfaces', 'cmake_prefix_path')
+[10.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/hook/cmake_prefix_path.ps1'
+[10.784s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/hook/cmake_prefix_path.dsv'
+[10.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/hook/cmake_prefix_path.sh'
+[10.785s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib'
+[10.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_manager_interfaces', 'ld_library_path_lib')
+[10.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/hook/ld_library_path_lib.ps1'
+[10.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/hook/ld_library_path_lib.dsv'
+[10.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/hook/ld_library_path_lib.sh'
+[10.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces
+[10.788s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/bin'
+[10.788s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib/pkgconfig/ur_robot_manager_interfaces.pc'
+[10.789s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib/python3.10/site-packages'
+[10.789s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/bin'
+[10.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/package.ps1'
+[10.791s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/package.dsv'
+[10.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/package.sh'
+[10.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/package.bash'
+[10.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/package.zsh'
+[10.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/colcon-core/packages/ur_robot_manager_interfaces)
+[10.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_manager_interfaces)
+[10.797s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces' for CMake module files
+[10.798s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces' for CMake config files
+[10.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_manager_interfaces', 'cmake_prefix_path')
+[10.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/hook/cmake_prefix_path.ps1'
+[10.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/hook/cmake_prefix_path.dsv'
+[10.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/hook/cmake_prefix_path.sh'
+[10.801s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib'
+[10.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_manager_interfaces', 'ld_library_path_lib')
+[10.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/hook/ld_library_path_lib.ps1'
+[10.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/hook/ld_library_path_lib.dsv'
+[10.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/hook/ld_library_path_lib.sh'
+[10.803s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/bin'
+[10.803s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib/pkgconfig/ur_robot_manager_interfaces.pc'
+[10.804s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib/python3.10/site-packages'
+[10.804s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/bin'
+[10.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/package.ps1'
+[10.806s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/package.dsv'
+[10.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/package.sh'
+[10.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/package.bash'
+[10.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/package.zsh'
+[10.809s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/colcon-core/packages/ur_robot_manager_interfaces)
+[11.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/nurse_interfaces -- -j20 -l20
+[11.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/nurse_interfaces
+[12.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nurse_interfaces)
+[12.091s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces' for CMake module files
+[12.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/nurse_interfaces
+[12.092s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces' for CMake config files
+[12.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('nurse_interfaces', 'cmake_prefix_path')
+[12.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/hook/cmake_prefix_path.ps1'
+[12.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/hook/cmake_prefix_path.dsv'
+[12.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/hook/cmake_prefix_path.sh'
+[12.094s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib'
+[12.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('nurse_interfaces', 'ld_library_path_lib')
+[12.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/hook/ld_library_path_lib.ps1'
+[12.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/hook/ld_library_path_lib.dsv'
+[12.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/hook/ld_library_path_lib.sh'
+[12.095s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/bin'
+[12.095s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/pkgconfig/nurse_interfaces.pc'
+[12.095s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/python3.10/site-packages'
+[12.096s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/bin'
+[12.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/package.ps1'
+[12.096s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/package.dsv'
+[12.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/package.sh'
+[12.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/package.bash'
+[12.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/package.zsh'
+[12.098s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/colcon-core/packages/nurse_interfaces)
+[12.098s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nurse_interfaces)
+[12.098s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces' for CMake module files
+[12.099s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces' for CMake config files
+[12.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('nurse_interfaces', 'cmake_prefix_path')
+[12.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/hook/cmake_prefix_path.ps1'
+[12.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/hook/cmake_prefix_path.dsv'
+[12.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/hook/cmake_prefix_path.sh'
+[12.101s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib'
+[12.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('nurse_interfaces', 'ld_library_path_lib')
+[12.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/hook/ld_library_path_lib.ps1'
+[12.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/hook/ld_library_path_lib.dsv'
+[12.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/hook/ld_library_path_lib.sh'
+[12.102s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/bin'
+[12.102s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/pkgconfig/nurse_interfaces.pc'
+[12.102s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib/python3.10/site-packages'
+[12.102s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/bin'
+[12.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/package.ps1'
+[12.103s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/package.dsv'
+[12.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/package.sh'
+[12.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/package.bash'
+[12.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/nurse_interfaces/package.zsh'
+[12.105s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/share/colcon-core/packages/nurse_interfaces)
+[12.105s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hrlsh/scrub_nurse_ws/src/nurse_perception' with build type 'ament_python'
+[12.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('nurse_perception', 'ament_prefix_path')
+[12.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/nurse_perception/hook/ament_prefix_path.ps1'
+[12.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/nurse_perception/hook/ament_prefix_path.dsv'
+[12.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/nurse_perception/hook/ament_prefix_path.sh'
+[12.106s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.107s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.108s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hrlsh/scrub_nurse_ws/src/nurse_planning' with build type 'ament_python'
+[12.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('nurse_planning', 'ament_prefix_path')
+[12.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/nurse_planning/hook/ament_prefix_path.ps1'
+[12.109s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/nurse_planning/hook/ament_prefix_path.dsv'
+[12.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/nurse_planning/hook/ament_prefix_path.sh'
+[12.110s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.110s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.350s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hrlsh/scrub_nurse_ws/src/nurse_perception'
+[12.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.588s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hrlsh/scrub_nurse_ws/src/nurse_planning'
+[12.588s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.588s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/gripper_interfaces -- -j20 -l20
+[12.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/gripper_interfaces
+[12.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gripper_interfaces)
+[12.828s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces' for CMake module files
+[12.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(vla_venv) VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/gripper_interfaces
+[12.829s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces' for CMake config files
+[12.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('gripper_interfaces', 'cmake_prefix_path')
+[12.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/hook/cmake_prefix_path.ps1'
+[12.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/hook/cmake_prefix_path.dsv'
+[12.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/hook/cmake_prefix_path.sh'
+[12.831s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib'
+[12.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('gripper_interfaces', 'ld_library_path_lib')
+[12.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/hook/ld_library_path_lib.ps1'
+[12.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/hook/ld_library_path_lib.dsv'
+[12.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/hook/ld_library_path_lib.sh'
+[12.832s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/bin'
+[12.832s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib/pkgconfig/gripper_interfaces.pc'
+[12.832s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib/python3.10/site-packages'
+[12.832s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/bin'
+[12.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/package.ps1'
+[12.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/package.dsv'
+[12.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/package.sh'
+[12.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/package.bash'
+[12.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/package.zsh'
+[12.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/colcon-core/packages/gripper_interfaces)
+[12.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gripper_interfaces)
+[12.835s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces' for CMake module files
+[12.835s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces' for CMake config files
+[12.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('gripper_interfaces', 'cmake_prefix_path')
+[12.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/hook/cmake_prefix_path.ps1'
+[12.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/hook/cmake_prefix_path.dsv'
+[12.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/hook/cmake_prefix_path.sh'
+[12.837s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib'
+[12.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('gripper_interfaces', 'ld_library_path_lib')
+[12.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/hook/ld_library_path_lib.ps1'
+[12.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/hook/ld_library_path_lib.dsv'
+[12.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/hook/ld_library_path_lib.sh'
+[12.838s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/bin'
+[12.838s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib/pkgconfig/gripper_interfaces.pc'
+[12.838s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib/python3.10/site-packages'
+[12.838s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/bin'
+[12.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/package.ps1'
+[12.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/package.dsv'
+[12.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/package.sh'
+[12.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/package.bash'
+[12.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/package.zsh'
+[12.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/colcon-core/packages/gripper_interfaces)
+[12.841s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hrlsh/scrub_nurse_ws/src/gripper_test' with build type 'ament_cmake'
+[12.841s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hrlsh/scrub_nurse_ws/src/gripper_test'
+[12.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.841s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.843s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hrlsh/scrub_nurse_ws/src/nurse_control' with build type 'ament_python'
+[12.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('nurse_control', 'ament_prefix_path')
+[12.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_control/share/nurse_control/hook/ament_prefix_path.ps1'
+[12.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_control/share/nurse_control/hook/ament_prefix_path.dsv'
+[12.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_control/share/nurse_control/hook/ament_prefix_path.sh'
+[12.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.846s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager' with build type 'ament_cmake'
+[12.846s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager'
+[12.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/gripper_test': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake /home/hrlsh/scrub_nurse_ws/src/gripper_test -DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/gripper_test
+[13.083s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hrlsh/scrub_nurse_ws/src/nurse_control'
+[13.083s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager -DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager
+[13.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/nurse_perception': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrlsh/scrub_nurse_ws/install/nurse_perception/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrlsh/scrub_nurse_ws/build/nurse_perception/build --no-deps symlink_data
+[13.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/nurse_planning': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrlsh/scrub_nurse_ws/install/nurse_planning/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrlsh/scrub_nurse_ws/build/nurse_planning/build --no-deps symlink_data
+[13.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/nurse_control': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrlsh/scrub_nurse_ws/install/nurse_control/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrlsh/scrub_nurse_ws/build/nurse_control/build --no-deps symlink_data
+[13.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('nurse_perception', 'pythonpath_develop')
+[13.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/build/nurse_perception/share/nurse_perception/hook/pythonpath_develop.ps1'
+[13.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/nurse_perception' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrlsh/scrub_nurse_ws/install/nurse_perception/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrlsh/scrub_nurse_ws/build/nurse_perception/build --no-deps symlink_data
+[13.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/build/nurse_perception/share/nurse_perception/hook/pythonpath_develop.dsv'
+[13.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/build/nurse_perception/share/nurse_perception/hook/pythonpath_develop.sh'
+[13.563s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_perception' for CMake module files
+[13.564s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_perception' for CMake config files
+[13.564s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/lib'
+[13.564s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/bin'
+[13.564s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/lib/pkgconfig/nurse_perception.pc'
+[13.564s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/lib/python3.10/site-packages'
+[13.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('nurse_perception', 'pythonpath')
+[13.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/nurse_perception/hook/pythonpath.ps1'
+[13.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/nurse_perception/hook/pythonpath.dsv'
+[13.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/nurse_perception/hook/pythonpath.sh'
+[13.566s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/bin'
+[13.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nurse_perception)
+[13.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/nurse_perception/package.ps1'
+[13.566s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/nurse_perception/package.dsv'
+[13.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/nurse_perception/package.sh'
+[13.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/nurse_perception/package.bash'
+[13.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/nurse_perception/package.zsh'
+[13.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/nurse_perception/share/colcon-core/packages/nurse_perception)
+[13.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('nurse_planning', 'pythonpath_develop')
+[13.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/build/nurse_planning/share/nurse_planning/hook/pythonpath_develop.ps1'
+[13.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/build/nurse_planning/share/nurse_planning/hook/pythonpath_develop.dsv'
+[13.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/nurse_planning' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrlsh/scrub_nurse_ws/install/nurse_planning/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrlsh/scrub_nurse_ws/build/nurse_planning/build --no-deps symlink_data
+[13.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/build/nurse_planning/share/nurse_planning/hook/pythonpath_develop.sh'
+[13.570s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_planning' for CMake module files
+[13.570s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_planning' for CMake config files
+[13.570s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/lib'
+[13.570s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/bin'
+[13.570s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/lib/pkgconfig/nurse_planning.pc'
+[13.571s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/lib/python3.10/site-packages'
+[13.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('nurse_planning', 'pythonpath')
+[13.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/nurse_planning/hook/pythonpath.ps1'
+[13.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/nurse_planning/hook/pythonpath.dsv'
+[13.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/nurse_planning/hook/pythonpath.sh'
+[13.572s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/bin'
+[13.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nurse_planning)
+[13.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/nurse_planning/package.ps1'
+[13.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/nurse_planning/package.dsv'
+[13.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/nurse_planning/package.sh'
+[13.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/nurse_planning/package.bash'
+[13.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/nurse_planning/package.zsh'
+[13.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/nurse_planning/share/colcon-core/packages/nurse_planning)
+[13.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/gripper_test' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake /home/hrlsh/scrub_nurse_ws/src/gripper_test -DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/gripper_test
+[13.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/gripper_test': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/gripper_test -- -j20 -l20
+[13.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('nurse_control', 'pythonpath_develop')
+[13.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/build/nurse_control/share/nurse_control/hook/pythonpath_develop.ps1'
+[13.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/nurse_control' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrlsh/scrub_nurse_ws/install/nurse_control/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrlsh/scrub_nurse_ws/build/nurse_control/build --no-deps symlink_data
+[13.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/build/nurse_control/share/nurse_control/hook/pythonpath_develop.dsv'
+[13.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/build/nurse_control/share/nurse_control/hook/pythonpath_develop.sh'
+[13.933s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_control' for CMake module files
+[13.933s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_control' for CMake config files
+[13.934s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_control/lib'
+[13.934s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_control/bin'
+[13.934s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_control/lib/pkgconfig/nurse_control.pc'
+[13.934s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_control/lib/python3.10/site-packages'
+[13.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('nurse_control', 'pythonpath')
+[13.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_control/share/nurse_control/hook/pythonpath.ps1'
+[13.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_control/share/nurse_control/hook/pythonpath.dsv'
+[13.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_control/share/nurse_control/hook/pythonpath.sh'
+[13.935s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_control/bin'
+[13.935s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nurse_control)
+[13.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_control/share/nurse_control/package.ps1'
+[13.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_control/share/nurse_control/package.dsv'
+[13.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_control/share/nurse_control/package.sh'
+[13.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_control/share/nurse_control/package.bash'
+[13.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_control/share/nurse_control/package.zsh'
+[13.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/nurse_control/share/colcon-core/packages/nurse_control)
+[13.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager -DPython3_EXECUTABLE=/home/hrlsh/ai_env/vla_venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager
+[14.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager -- -j20 -l20
+[24.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/gripper_test' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/gripper_test -- -j20 -l20
+[24.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/gripper_test': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/gripper_test
+[24.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gripper_test)
+[24.817s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_test' for CMake module files
+[24.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/gripper_test' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/gripper_test
+[24.817s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_test' for CMake config files
+[24.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('gripper_test', 'cmake_prefix_path')
+[24.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/hook/cmake_prefix_path.ps1'
+[24.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/hook/cmake_prefix_path.dsv'
+[24.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/hook/cmake_prefix_path.sh'
+[24.819s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_test/lib'
+[24.819s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_test/bin'
+[24.819s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_test/lib/pkgconfig/gripper_test.pc'
+[24.819s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_test/lib/python3.10/site-packages'
+[24.819s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_test/bin'
+[24.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/package.ps1'
+[24.820s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/package.dsv'
+[24.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/package.sh'
+[24.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/package.bash'
+[24.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/package.zsh'
+[24.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/colcon-core/packages/gripper_test)
+[24.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gripper_test)
+[24.821s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_test' for CMake module files
+[24.822s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_test' for CMake config files
+[24.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('gripper_test', 'cmake_prefix_path')
+[24.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/hook/cmake_prefix_path.ps1'
+[24.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/hook/cmake_prefix_path.dsv'
+[24.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/hook/cmake_prefix_path.sh'
+[24.823s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_test/lib'
+[24.823s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_test/bin'
+[24.823s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_test/lib/pkgconfig/gripper_test.pc'
+[24.823s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_test/lib/python3.10/site-packages'
+[24.823s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/gripper_test/bin'
+[24.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/package.ps1'
+[24.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/package.dsv'
+[24.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/package.sh'
+[24.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/package.bash'
+[24.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/gripper_test/package.zsh'
+[24.825s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/gripper_test/share/colcon-core/packages/gripper_test)
+[34.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager -- -j20 -l20
+[34.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager
+[34.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_manager)
+[34.588s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager' for CMake module files
+[34.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager
+[34.589s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager' for CMake config files
+[34.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_manager', 'cmake_prefix_path')
+[34.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/hook/cmake_prefix_path.ps1'
+[34.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/hook/cmake_prefix_path.dsv'
+[34.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/hook/cmake_prefix_path.sh'
+[34.590s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib'
+[34.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_manager', 'ld_library_path_lib')
+[34.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/hook/ld_library_path_lib.ps1'
+[34.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/hook/ld_library_path_lib.dsv'
+[34.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/hook/ld_library_path_lib.sh'
+[34.591s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/bin'
+[34.591s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/pkgconfig/ur_robot_manager.pc'
+[34.591s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/python3.10/site-packages'
+[34.591s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/bin'
+[34.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.ps1'
+[34.592s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.dsv'
+[34.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.sh'
+[34.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.bash'
+[34.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.zsh'
+[34.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/colcon-core/packages/ur_robot_manager)
+[34.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_manager)
+[34.594s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager' for CMake module files
+[34.594s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager' for CMake config files
+[34.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_manager', 'cmake_prefix_path')
+[34.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/hook/cmake_prefix_path.ps1'
+[34.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/hook/cmake_prefix_path.dsv'
+[34.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/hook/cmake_prefix_path.sh'
+[34.595s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib'
+[34.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_manager', 'ld_library_path_lib')
+[34.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/hook/ld_library_path_lib.ps1'
+[34.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/hook/ld_library_path_lib.dsv'
+[34.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/hook/ld_library_path_lib.sh'
+[34.596s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/bin'
+[34.597s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/pkgconfig/ur_robot_manager.pc'
+[34.597s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/python3.10/site-packages'
+[34.597s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/bin'
+[34.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.ps1'
+[34.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.dsv'
+[34.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.sh'
+[34.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.bash'
+[34.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.zsh'
+[34.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/colcon-core/packages/ur_robot_manager)
+[34.599s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hrlsh/scrub_nurse_ws/src/nurse_bringup' with build type 'ament_cmake'
+[34.599s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hrlsh/scrub_nurse_ws/src/nurse_bringup'
+[34.599s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.599s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[34.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/nurse_bringup': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager:/home/hrlsh/scrub_nurse_ws/install/nurse_planning:/home/hrlsh/scrub_nurse_ws/install/nurse_perception:/home/hrlsh/scrub_nurse_ws/install/nurse_control:/home/hrlsh/scrub_nurse_ws/install/gripper_test:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager:/home/hrlsh/scrub_nurse_ws/install/gripper_test:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_planning:/home/hrlsh/scrub_nurse_ws/install/nurse_planning/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/build/nurse_perception:/home/hrlsh/scrub_nurse_ws/install/nurse_perception/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/build/nurse_control:/home/hrlsh/scrub_nurse_ws/install/nurse_control/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/nurse_bringup -- -j20 -l20
+[34.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/nurse_bringup' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager:/home/hrlsh/scrub_nurse_ws/install/nurse_planning:/home/hrlsh/scrub_nurse_ws/install/nurse_perception:/home/hrlsh/scrub_nurse_ws/install/nurse_control:/home/hrlsh/scrub_nurse_ws/install/gripper_test:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager:/home/hrlsh/scrub_nurse_ws/install/gripper_test:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_planning:/home/hrlsh/scrub_nurse_ws/install/nurse_planning/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/build/nurse_perception:/home/hrlsh/scrub_nurse_ws/install/nurse_perception/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/build/nurse_control:/home/hrlsh/scrub_nurse_ws/install/nurse_control/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/nurse_bringup -- -j20 -l20
+[34.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrlsh/scrub_nurse_ws/build/nurse_bringup': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager:/home/hrlsh/scrub_nurse_ws/install/nurse_planning:/home/hrlsh/scrub_nurse_ws/install/nurse_perception:/home/hrlsh/scrub_nurse_ws/install/nurse_control:/home/hrlsh/scrub_nurse_ws/install/gripper_test:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager:/home/hrlsh/scrub_nurse_ws/install/gripper_test:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_planning:/home/hrlsh/scrub_nurse_ws/install/nurse_planning/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/build/nurse_perception:/home/hrlsh/scrub_nurse_ws/install/nurse_perception/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/build/nurse_control:/home/hrlsh/scrub_nurse_ws/install/nurse_control/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/nurse_bringup
+[34.745s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nurse_bringup)
+[34.745s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup' for CMake module files
+[34.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrlsh/scrub_nurse_ws/build/nurse_bringup' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager:/home/hrlsh/scrub_nurse_ws/install/nurse_planning:/home/hrlsh/scrub_nurse_ws/install/nurse_perception:/home/hrlsh/scrub_nurse_ws/install/nurse_control:/home/hrlsh/scrub_nurse_ws/install/gripper_test:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager:/home/hrlsh/scrub_nurse_ws/install/gripper_test:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PS1=(vla_venv) PYTHONPATH=/home/hrlsh/scrub_nurse_ws/build/nurse_planning:/home/hrlsh/scrub_nurse_ws/install/nurse_planning/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/build/nurse_perception:/home/hrlsh/scrub_nurse_ws/install/nurse_perception/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/build/nurse_control:/home/hrlsh/scrub_nurse_ws/install/nurse_control/lib/python3.10/site-packages:/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/nurse_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(vla_venv) /home/hrlsh/ai_env/vla_venv/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/nurse_bringup
+[34.745s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup' for CMake config files
+[34.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('nurse_bringup', 'cmake_prefix_path')
+[34.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/hook/cmake_prefix_path.ps1'
+[34.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/hook/cmake_prefix_path.dsv'
+[34.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/hook/cmake_prefix_path.sh'
+[34.747s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/bin'
+[34.747s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/lib/pkgconfig/nurse_bringup.pc'
+[34.747s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/lib/python3.10/site-packages'
+[34.747s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/bin'
+[34.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/package.ps1'
+[34.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/package.dsv'
+[34.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/package.sh'
+[34.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/package.bash'
+[34.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/package.zsh'
+[34.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/colcon-core/packages/nurse_bringup)
+[34.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nurse_bringup)
+[34.749s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup' for CMake module files
+[34.750s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup' for CMake config files
+[34.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('nurse_bringup', 'cmake_prefix_path')
+[34.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/hook/cmake_prefix_path.ps1'
+[34.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/hook/cmake_prefix_path.dsv'
+[34.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/hook/cmake_prefix_path.sh'
+[34.751s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/bin'
+[34.751s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/lib/pkgconfig/nurse_bringup.pc'
+[34.751s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/lib/python3.10/site-packages'
+[34.751s] Level 1:colcon.colcon_core.environment:checking '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/bin'
+[34.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/package.ps1'
+[34.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/package.dsv'
+[34.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/package.sh'
+[34.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/package.bash'
+[34.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/nurse_bringup/package.zsh'
+[34.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrlsh/scrub_nurse_ws/install/nurse_bringup/share/colcon-core/packages/nurse_bringup)
+[34.753s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[34.753s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[34.753s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[34.753s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[34.757s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[34.757s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[34.757s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[34.764s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[34.764s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrlsh/scrub_nurse_ws/install/local_setup.ps1'
+[34.766s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hrlsh/scrub_nurse_ws/install/_local_setup_util_ps1.py'
+[34.767s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrlsh/scrub_nurse_ws/install/setup.ps1'
+[34.768s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrlsh/scrub_nurse_ws/install/local_setup.sh'
+[34.769s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hrlsh/scrub_nurse_ws/install/_local_setup_util_sh.py'
+[34.769s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrlsh/scrub_nurse_ws/install/setup.sh'
+[34.770s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrlsh/scrub_nurse_ws/install/local_setup.bash'
+[34.770s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrlsh/scrub_nurse_ws/install/setup.bash'
+[34.771s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrlsh/scrub_nurse_ws/install/local_setup.zsh'
+[34.771s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrlsh/scrub_nurse_ws/install/setup.zsh'

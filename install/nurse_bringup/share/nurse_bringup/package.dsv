@@ -1,0 +1,8 @@
+source;share/nurse_bringup/hook/cmake_prefix_path.ps1
+source;share/nurse_bringup/hook/cmake_prefix_path.dsv
+source;share/nurse_bringup/hook/cmake_prefix_path.sh
+source;share/nurse_bringup/local_setup.bash
+source;share/nurse_bringup/local_setup.dsv
+source;share/nurse_bringup/local_setup.ps1
+source;share/nurse_bringup/local_setup.sh
+source;share/nurse_bringup/local_setup.zsh

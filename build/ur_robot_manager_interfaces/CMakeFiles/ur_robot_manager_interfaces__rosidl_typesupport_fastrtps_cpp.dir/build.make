@@ -87,7 +87,7 @@ rosidl_typesupport_fastrtps_cpp/ur_robot_manager_interfaces/msg/detail/dds_fastr
 rosidl_typesupport_fastrtps_cpp/ur_robot_manager_interfaces/msg/detail/dds_fastrtps/delay_info__type_support.cpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_typesupport_fastrtps_cpp/ur_robot_manager_interfaces/msg/detail/dds_fastrtps/delay_info__type_support.cpp: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support for eProsima Fast-RTPS"
-	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_typesupport_fastrtps_cpp__arguments.json
+	/home/hrlsh/ai_env/vla_venv/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/rosidl_typesupport_fastrtps_cpp__arguments.json
 
 rosidl_typesupport_fastrtps_cpp/ur_robot_manager_interfaces/msg/detail/delay_info__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/ur_robot_manager_interfaces/msg/detail/dds_fastrtps/delay_info__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/ur_robot_manager_interfaces/msg/detail/delay_info__rosidl_typesupport_fastrtps_cpp.hpp

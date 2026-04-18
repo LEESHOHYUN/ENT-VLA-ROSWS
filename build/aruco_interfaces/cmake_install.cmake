@@ -210,7 +210,7 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
-        "/usr/bin/python3" "-m" "compileall"
+        "/home/hrlsh/ai_env/vla_venv/bin/python3" "-m" "compileall"
         "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces"
       )
 endif()

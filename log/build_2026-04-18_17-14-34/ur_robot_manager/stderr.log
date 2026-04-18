@@ -1,0 +1,27 @@
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In constructor ‘urRobotManager::URRobotManager::URRobotManager(rclcpp::Node::SharedPtr, const string&)’:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:59:7: error: class ‘urRobotManager::URRobotManager’ does not have any field named ‘servo_lookahead_’
+   59 |       servo_lookahead_(0.1),
+      |       ^~~~~~~~~~~~~~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:60:7: error: class ‘urRobotManager::URRobotManager’ does not have any field named ‘servo_gain_’
+   60 |       servo_gain_(300.0)
+      |       ^~~~~~~~~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: At global scope:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:809:21: error: no declaration matches ‘std::vector<double, std::allocator<double> > urRobotManager::URRobotManager::computeStandardDLS(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&, double)’
+  809 | std::vector<double> URRobotManager::computeStandardDLS(
+      |                     ^~~~~~~~~~~~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:809:21: note: no functions named ‘std::vector<double, std::allocator<double> > urRobotManager::URRobotManager::computeStandardDLS(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&, double)’
+In file included from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:10:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h:73:7: note: ‘class urRobotManager::URRobotManager’ defined here
+   73 | class URRobotManager {
+      |       ^~~~~~~~~~~~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:828:21: error: no declaration matches ‘std::vector<double, std::allocator<double> > urRobotManager::URRobotManager::computeSingularityRobustVelocity(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&)’
+  828 | std::vector<double> URRobotManager::computeSingularityRobustVelocity(
+      |                     ^~~~~~~~~~~~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:828:21: note: no functions named ‘std::vector<double, std::allocator<double> > urRobotManager::URRobotManager::computeSingularityRobustVelocity(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&)’
+In file included from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:10:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h:73:7: note: ‘class urRobotManager::URRobotManager’ defined here
+   73 | class URRobotManager {
+      |       ^~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/ur_robot_manager_core.dir/build.make:76: CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/ur_robot_manager_core.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

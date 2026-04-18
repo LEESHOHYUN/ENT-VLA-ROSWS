@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/cmake_install.cmake",
+		"/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/nurse_interfaces__py/cmake_install.cmake",
+		"/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/nurse_interfaces__rs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

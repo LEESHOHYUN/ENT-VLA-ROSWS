@@ -1,0 +1,31 @@
+[ 37%] Built target ur_robot_manager_utils
+Consolidate compiler generated dependencies of target ur_robot_manager_core
+[ 75%] Built target ur_robot_manager_core
+Consolidate compiler generated dependencies of target ur_robot_manager_node
+[100%] Built target ur_robot_manager_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/libur_robot_manager_utils.so
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/libur_robot_manager_core.so
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/ur_robot_manager/ur_robot_manager_node
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/core/ur_robot_action_server.h
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/robot_types.h
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/utils/robot_trajectory.h
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/config/calibration/ur5e_dh_params.yaml
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ament_index/resource_index/package_run_dependencies/ur_robot_manager
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ament_index/resource_index/parent_prefix_path/ur_robot_manager
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/path.sh
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/path.dsv
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.bash
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.sh
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.zsh
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.dsv
+-- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.dsv
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ament_index/resource_index/packages/ur_robot_manager
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/cmake/ur_robot_managerConfig.cmake
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/cmake/ur_robot_managerConfig-version.cmake
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.xml

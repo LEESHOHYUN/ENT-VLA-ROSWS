@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000063] (-) JobUnselected: {'identifier': 'aruco_interfaces'}
+[0.000088] (-) JobUnselected: {'identifier': 'gripper_interfaces'}
+[0.000103] (-) JobUnselected: {'identifier': 'gripper_test'}
+[0.000116] (-) JobUnselected: {'identifier': 'nurse_bringup'}
+[0.000128] (-) JobUnselected: {'identifier': 'nurse_control'}
+[0.000140] (-) JobUnselected: {'identifier': 'nurse_interfaces'}
+[0.000152] (-) JobUnselected: {'identifier': 'nurse_perception'}
+[0.000164] (-) JobUnselected: {'identifier': 'nurse_planning'}
+[0.000328] (-) JobUnselected: {'identifier': 'ur_robot_manager_interfaces'}
+[0.000422] (ur_robot_manager) JobQueued: {'identifier': 'ur_robot_manager', 'dependencies': OrderedDict([('gripper_interfaces', '/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces'), ('ur_robot_manager_interfaces', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces')])}
+[0.000527] (ur_robot_manager) JobStarted: {'identifier': 'ur_robot_manager'}
+[0.007393] (ur_robot_manager) JobProgress: {'identifier': 'ur_robot_manager', 'progress': 'cmake'}
+[0.007825] (ur_robot_manager) JobProgress: {'identifier': 'ur_robot_manager', 'progress': 'build'}
+[0.008340] (ur_robot_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager', '--', '-j20', '-l20'], 'cwd': '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/hrlsh'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('USER', 'hrlsh'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.2.109'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:/usr/lib/x86_64-linux-gnu:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hrlsh'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/hrlsh/ai_env/vla_venv'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-206b32d8-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '2644'), ('SYSTEMD_EXEC_PID', '2904'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('QT_QPA_PLATFORM_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '39452'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hrlsh'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('JOURNAL_STREAM', '8:23493'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('APPLICATIONINSIGHTS_CONFIGURATION_CONTENT', '{}'), ('USERNAME', 'hrlsh'), ('OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE', 'delta'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '1'), ('CUDADIR', '/usr/local/cuda'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/hrlsh/ai_env/vla_venv/bin:/home/hrlsh/.local/bin:/home/hrlsh/.local/bin:/opt/ros/humble/bin:/home/hrlsh/.deno/bin:/home/hrlsh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/cuda/bin:/usr/local/cuda/bin'), ('SESSION_MANAGER', 'local/hrlsh-MS-7D38:@/tmp/.ICE-unix/2876,unix/hrlsh-MS-7D38:/tmp/.ICE-unix/2876'), ('INVOCATION_ID', 'f0b8bd7b99ec4d069390fd3bfd95c203'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VIRTUAL_ENV', '/home/hrlsh/ai_env/vla_venv'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/hrlsh/.config/Code/CachedData/560a9dba96f961efea7b1612916f89e5d5d4d679'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/hrlsh/.vscode/extensions/anthropic.claude-code-2.1.109-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '39452'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file'), ('CMAKE_PREFIX_PATH', '/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.043703] (ur_robot_manager) StdoutLine: {'line': b'[ 37%] Built target ur_robot_manager_utils\n'}
+[0.077147] (ur_robot_manager) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_robot_manager_core\n'}
+[0.099734] (-) TimerEvent: {}
+[0.102081] (ur_robot_manager) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_manager.cpp.o\n'}
+[0.199909] (-) TimerEvent: {}
+[0.300256] (-) TimerEvent: {}
+[0.400599] (-) TimerEvent: {}
+[0.500958] (-) TimerEvent: {}
+[0.601226] (-) TimerEvent: {}
+[0.701375] (-) TimerEvent: {}
+[0.801533] (-) TimerEvent: {}
+[0.901699] (-) TimerEvent: {}
+[1.001854] (-) TimerEvent: {}
+[1.101995] (-) TimerEvent: {}
+[1.202142] (-) TimerEvent: {}
+[1.302285] (-) TimerEvent: {}
+[1.402430] (-) TimerEvent: {}
+[1.502571] (-) TimerEvent: {}
+[1.602713] (-) TimerEvent: {}
+[1.702853] (-) TimerEvent: {}
+[1.802997] (-) TimerEvent: {}
+[1.903137] (-) TimerEvent: {}
+[2.003277] (-) TimerEvent: {}
+[2.103417] (-) TimerEvent: {}
+[2.203558] (-) TimerEvent: {}
+[2.303693] (-) TimerEvent: {}
+[2.403834] (-) TimerEvent: {}
+[2.503975] (-) TimerEvent: {}
+[2.604114] (-) TimerEvent: {}
+[2.704251] (-) TimerEvent: {}
+[2.804394] (-) TimerEvent: {}
+[2.904536] (-) TimerEvent: {}
+[3.004682] (-) TimerEvent: {}
+[3.104823] (-) TimerEvent: {}
+[3.204964] (-) TimerEvent: {}
+[3.305104] (-) TimerEvent: {}
+[3.405247] (-) TimerEvent: {}
+[3.505391] (-) TimerEvent: {}
+[3.605531] (-) TimerEvent: {}
+[3.689605] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In constructor \xe2\x80\x98urRobotManager::URRobotManager::URRobotManager(rclcpp::Node::SharedPtr, const string&)\xe2\x80\x99:\n'}
+[3.689749] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:59:7: error: class \xe2\x80\x98urRobotManager::URRobotManager\xe2\x80\x99 does not have any field named \xe2\x80\x98servo_lookahead_\xe2\x80\x99\n'}
+[3.689807] (ur_robot_manager) StderrLine: {'line': b'   59 |       servo_lookahead_(0.1),\n'}
+[3.689857] (ur_robot_manager) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~~\n'}
+[3.689904] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:60:7: error: class \xe2\x80\x98urRobotManager::URRobotManager\xe2\x80\x99 does not have any field named \xe2\x80\x98servo_gain_\xe2\x80\x99\n'}
+[3.689951] (ur_robot_manager) StderrLine: {'line': b'   60 |       servo_gain_(300.0)\n'}
+[3.689998] (ur_robot_manager) StderrLine: {'line': b'      |       ^~~~~~~~~~~\n'}
+[3.705617] (-) TimerEvent: {}
+[3.805761] (-) TimerEvent: {}
+[3.905912] (-) TimerEvent: {}
+[3.966380] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: At global scope:\n'}
+[3.966503] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:809:21: error: no declaration matches \xe2\x80\x98std::vector<double, std::allocator<double> > urRobotManager::URRobotManager::computeStandardDLS(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&, double)\xe2\x80\x99\n'}
+[3.966561] (ur_robot_manager) StderrLine: {'line': b'  809 | std::vector<double> URRobotManager::computeStandardDLS(\n'}
+[3.966613] (ur_robot_manager) StderrLine: {'line': b'      |                     ^~~~~~~~~~~~~~\n'}
+[3.966660] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:809:21: note: no functions named \xe2\x80\x98std::vector<double, std::allocator<double> > urRobotManager::URRobotManager::computeStandardDLS(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&, double)\xe2\x80\x99\n'}
+[3.966708] (ur_robot_manager) StderrLine: {'line': b'In file included from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:10:\n'}
+[3.966755] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h:73:7: note: \xe2\x80\x98class urRobotManager::URRobotManager\xe2\x80\x99 defined here\n'}
+[3.966802] (ur_robot_manager) StderrLine: {'line': b'   73 | class URRobotManager {\n'}
+[3.966846] (ur_robot_manager) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~\n'}
+[3.966891] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:828:21: error: no declaration matches \xe2\x80\x98std::vector<double, std::allocator<double> > urRobotManager::URRobotManager::computeSingularityRobustVelocity(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&)\xe2\x80\x99\n'}
+[3.966938] (ur_robot_manager) StderrLine: {'line': b'  828 | std::vector<double> URRobotManager::computeSingularityRobustVelocity(\n'}
+[3.966984] (ur_robot_manager) StderrLine: {'line': b'      |                     ^~~~~~~~~~~~~~\n'}
+[3.967029] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:828:21: note: no functions named \xe2\x80\x98std::vector<double, std::allocator<double> > urRobotManager::URRobotManager::computeSingularityRobustVelocity(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&)\xe2\x80\x99\n'}
+[3.967076] (ur_robot_manager) StderrLine: {'line': b'In file included from /home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:10:\n'}
+[3.967128] (ur_robot_manager) StderrLine: {'line': b'/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h:73:7: note: \xe2\x80\x98class urRobotManager::URRobotManager\xe2\x80\x99 defined here\n'}
+[3.967178] (ur_robot_manager) StderrLine: {'line': b'   73 | class URRobotManager {\n'}
+[3.967223] (ur_robot_manager) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~\n'}
+[4.005990] (-) TimerEvent: {}
+[4.106133] (-) TimerEvent: {}
+[4.206278] (-) TimerEvent: {}
+[4.306417] (-) TimerEvent: {}
+[4.406558] (-) TimerEvent: {}
+[4.506701] (-) TimerEvent: {}
+[4.606844] (-) TimerEvent: {}
+[4.706984] (-) TimerEvent: {}
+[4.807125] (-) TimerEvent: {}
+[4.907268] (-) TimerEvent: {}
+[5.007407] (-) TimerEvent: {}
+[5.107565] (-) TimerEvent: {}
+[5.207709] (-) TimerEvent: {}
+[5.307850] (-) TimerEvent: {}
+[5.407993] (-) TimerEvent: {}
+[5.508141] (-) TimerEvent: {}
+[5.608285] (-) TimerEvent: {}
+[5.708428] (-) TimerEvent: {}
+[5.808577] (-) TimerEvent: {}
+[5.908725] (-) TimerEvent: {}
+[6.008868] (-) TimerEvent: {}
+[6.109014] (-) TimerEvent: {}
+[6.209159] (-) TimerEvent: {}
+[6.309302] (-) TimerEvent: {}
+[6.409445] (-) TimerEvent: {}
+[6.509586] (-) TimerEvent: {}
+[6.609729] (-) TimerEvent: {}
+[6.709874] (-) TimerEvent: {}
+[6.810024] (-) TimerEvent: {}
+[6.910170] (-) TimerEvent: {}
+[7.010338] (-) TimerEvent: {}
+[7.110483] (-) TimerEvent: {}
+[7.210628] (-) TimerEvent: {}
+[7.310768] (-) TimerEvent: {}
+[7.410914] (-) TimerEvent: {}
+[7.511062] (-) TimerEvent: {}
+[7.611208] (-) TimerEvent: {}
+[7.711354] (-) TimerEvent: {}
+[7.811497] (-) TimerEvent: {}
+[7.911642] (-) TimerEvent: {}
+[8.011787] (-) TimerEvent: {}
+[8.111928] (-) TimerEvent: {}
+[8.212075] (-) TimerEvent: {}
+[8.312239] (-) TimerEvent: {}
+[8.412392] (-) TimerEvent: {}
+[8.512549] (-) TimerEvent: {}
+[8.612692] (-) TimerEvent: {}
+[8.712835] (-) TimerEvent: {}
+[8.812978] (-) TimerEvent: {}
+[8.913119] (-) TimerEvent: {}
+[9.013262] (-) TimerEvent: {}
+[9.113405] (-) TimerEvent: {}
+[9.213550] (-) TimerEvent: {}
+[9.313691] (-) TimerEvent: {}
+[9.413832] (-) TimerEvent: {}
+[9.513977] (-) TimerEvent: {}
+[9.614129] (-) TimerEvent: {}
+[9.714271] (-) TimerEvent: {}
+[9.814415] (-) TimerEvent: {}
+[9.914556] (-) TimerEvent: {}
+[10.014702] (-) TimerEvent: {}
+[10.059162] (ur_robot_manager) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ur_robot_manager_core.dir/build.make:76: CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_manager.cpp.o] Error 1\n'}
+[10.059375] (ur_robot_manager) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/ur_robot_manager_core.dir/all] Error 2\n'}
+[10.059503] (ur_robot_manager) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.060786] (ur_robot_manager) CommandEnded: {'returncode': 2}
+[10.070038] (ur_robot_manager) JobEnded: {'identifier': 'ur_robot_manager', 'rc': 2}
+[10.080300] (-) EventReactorShutdown: {}

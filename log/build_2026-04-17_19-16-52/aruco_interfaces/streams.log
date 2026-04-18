@@ -1,0 +1,227 @@
+[0.011s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrlsh/scrub_nurse_ws/install/nurse_control:/home/hrlsh/scrub_nurse_ws/install/nurse_planning:/home/hrlsh/scrub_nurse_ws/install/nurse_perception:/opt/ros/humble /usr/bin/cmake /home/hrlsh/scrub_nurse_ws/src/aruco_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces
+[0.018s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.070s] -- Found Python3: /home/hrlsh/ai_env/vla_venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.122s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.127s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.130s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.177s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.195s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.741s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.565s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.566s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.632s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.665s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.666s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.666s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.917s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.931s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.933s] -- Added test 'lint_cmake' to check CMake code style
+[2.933s] -- Added test 'xmllint' to check XML markup files
+[2.938s] -- Configuring done
+[2.993s] -- Generating done
+[3.013s] -- Build files have been written to: /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces
+[3.049s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrlsh/scrub_nurse_ws/install/nurse_control:/home/hrlsh/scrub_nurse_ws/install/nurse_planning:/home/hrlsh/scrub_nurse_ws/install/nurse_perception:/opt/ros/humble /usr/bin/cmake /home/hrlsh/scrub_nurse_ws/src/aruco_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces
+[3.049s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrlsh/scrub_nurse_ws/install/nurse_control:/home/hrlsh/scrub_nurse_ws/install/nurse_planning:/home/hrlsh/scrub_nurse_ws/install/nurse_perception:/opt/ros/humble /usr/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces -- -j20 -l20
+[3.238s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_generator_c[0m
+[3.281s] [  2%] Built target aruco_interfaces__rs
+[3.323s] [  5%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/marker__functions.c.o[0m
+[3.334s] [  7%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/marker_array__functions.c.o[0m
+[3.348s] [ 10%] Built target aruco_interfaces__cpp
+[3.369s] [ 10%] Built target ament_cmake_python_symlink_aruco_interfaces
+[3.402s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[3.403s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_introspection_cpp[0m
+[3.447s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_cpp[0m
+[3.447s] [ 12%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[3.454s] [ 15%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/marker__type_support.cpp.o[0m
+[3.456s] [ 17%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o[0m
+[3.462s] [ 20%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/marker_array__type_support.cpp.o[0m
+[3.477s] [ 22%] [32m[1mLinking C shared library libaruco_interfaces__rosidl_generator_c.so[0m
+[3.512s] [ 25%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/marker__type_support.cpp.o[0m
+[3.536s] [ 27%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/marker_array__type_support.cpp.o[0m
+[3.564s] [ 30%] Built target aruco_interfaces__rosidl_generator_c
+[3.629s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_c[0m
+[3.638s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_introspection_c[0m
+[3.640s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_c[0m
+[3.685s] [ 35%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/marker__type_support.c.o[0m
+[3.686s] [ 35%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/marker__type_support_c.cpp.o[0m
+[3.700s] [ 37%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/marker_array__type_support.c.o[0m
+[3.703s] [ 40%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/marker_array__type_support_c.cpp.o[0m
+[3.711s] [ 42%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/msg/marker__type_support.cpp.o[0m
+[3.734s] [ 45%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/msg/marker_array__type_support.cpp.o[0m
+[3.840s] [ 47%] [32m[1mLinking C shared library libaruco_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.848s] [ 50%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_c.so[0m
+[3.982s] [ 52%] Built target aruco_interfaces__rosidl_typesupport_introspection_c
+[4.016s] [ 55%] Built target aruco_interfaces__rosidl_typesupport_c
+[4.355s] running egg_info
+[4.396s] [ 57%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_cpp.so[0m
+[4.459s] writing aruco_interfaces.egg-info/PKG-INFO
+[4.469s] writing dependency_links to aruco_interfaces.egg-info/dependency_links.txt
+[4.469s] writing top-level names to aruco_interfaces.egg-info/top_level.txt
+[4.576s] [ 60%] Built target aruco_interfaces__rosidl_typesupport_cpp
+[4.755s] reading manifest file 'aruco_interfaces.egg-info/SOURCES.txt'
+[4.757s] writing manifest file 'aruco_interfaces.egg-info/SOURCES.txt'
+[4.778s] [ 62%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.802s] [ 65%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.817s] [ 67%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.898s] [ 67%] Built target ament_cmake_python_build_aruco_interfaces_egg
+[5.016s] [ 70%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.050s] [ 72%] Built target aruco_interfaces__rosidl_typesupport_introspection_cpp
+[5.061s] [ 75%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c
+[5.122s] [ 75%] Built target aruco_interfaces
+[5.157s] [ 77%] Built target aruco_interfaces__py
+[5.169s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_generator_py[0m
+[5.185s] [ 82%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/msg/_marker_array_s.c.o[0m
+[5.185s] [ 82%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/msg/_marker_s.c.o[0m
+[5.307s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/libaruco_interfaces__rosidl_generator_py.so[0m
+[5.336s] [ 85%] Built target aruco_interfaces__rosidl_generator_py
+[5.342s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[5.342s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.345s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_c__pyext[0m
+[5.351s] [ 90%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.351s] [ 90%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.356s] [ 92%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.425s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.426s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.452s] [ 97%] Built target aruco_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.452s] [ 97%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.462s] [100%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.488s] [100%] Built target aruco_interfaces__rosidl_typesupport_c__pyext
+[5.497s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrlsh/scrub_nurse_ws/install/nurse_control:/home/hrlsh/scrub_nurse_ws/install/nurse_planning:/home/hrlsh/scrub_nurse_ws/install/nurse_perception:/opt/ros/humble /usr/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces -- -j20 -l20
+[5.498s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrlsh/scrub_nurse_ws/install/nurse_control:/home/hrlsh/scrub_nurse_ws/install/nurse_planning:/home/hrlsh/scrub_nurse_ws/install/nurse_perception:/opt/ros/humble /usr/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces
+[5.503s] -- Install configuration: ""
+[5.503s] -- Execute custom install script
+[5.503s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/ament_index/resource_index/rosidl_interfaces/aruco_interfaces
+[5.504s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker__functions.h
+[5.504s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker__struct.h
+[5.504s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker__type_support.h
+[5.504s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker_array__functions.h
+[5.504s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker_array__struct.h
+[5.504s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker_array__type_support.h
+[5.504s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/marker.h
+[5.504s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/marker_array.h
+[5.504s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.505s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.sh
+[5.505s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.dsv
+[5.505s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[5.505s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+[5.505s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.505s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[5.505s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+[5.505s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.506s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker__builder.hpp
+[5.506s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker__struct.hpp
+[5.506s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker__traits.hpp
+[5.506s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker__type_support.hpp
+[5.506s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker_array__builder.hpp
+[5.506s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker_array__struct.hpp
+[5.506s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker_array__traits.hpp
+[5.506s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker_array__type_support.hpp
+[5.507s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/marker.hpp
+[5.507s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/marker_array.hpp
+[5.507s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.507s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[5.507s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.507s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.507s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[5.508s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+[5.508s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.sh
+[5.508s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.dsv
+[5.508s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+[5.508s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+[5.508s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+[5.509s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+[5.509s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/__init__.py
+[5.509s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c
+[5.509s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.509s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.509s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.510s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.510s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.510s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/libaruco_interfaces__rosidl_generator_py.so
+[5.510s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/__init__.py
+[5.510s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_marker.py
+[5.510s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_marker_array.py
+[5.510s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_marker_array_s.c
+[5.510s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_marker_s.c
+[5.511s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.511s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.511s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.511s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/ament_index/resource_index/rust_packages/aruco_interfaces
+[5.512s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/rust/Cargo.toml
+[5.512s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/rust/build.rs
+[5.512s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/rust/src/lib.rs
+[5.512s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/rust/src/msg.rs
+[5.512s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/rust/src/msg/rmw.rs
+[5.512s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/msg/Marker.idl
+[5.512s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/msg/MarkerArray.idl
+[5.512s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/msg/Marker.msg
+[5.513s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/msg/MarkerArray.msg
+[5.513s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/ament_index/resource_index/package_run_dependencies/aruco_interfaces
+[5.513s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/ament_index/resource_index/parent_prefix_path/aruco_interfaces
+[5.513s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.sh
+[5.513s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.dsv
+[5.513s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.sh
+[5.513s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.dsv
+[5.513s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.bash
+[5.513s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.sh
+[5.513s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.zsh
+[5.514s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.dsv
+[5.514s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/package.dsv
+[5.520s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/ament_index/resource_index/packages/aruco_interfaces
+[5.520s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.520s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.520s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.520s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.520s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.520s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.521s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.521s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig.cmake
+[5.521s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig-version.cmake
+[5.521s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/package.xml
+[5.521s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_c.so
+[5.521s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_c.so" to ""
+[5.522s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.522s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.522s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_c.so
+[5.523s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.523s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_c.so
+[5.523s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_c.so" to ""
+[5.523s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.524s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.524s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.524s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.524s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_cpp.so
+[5.525s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.556s] Listing '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces'...
+[5.556s] Compiling '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/__init__.py'...
+[5.559s] Listing '/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg'...
+[5.561s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_py.so
+[5.562s] -- Set runtime path of "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_py.so" to ""
+[5.562s] -- Old export file "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[5.562s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cExport.cmake
+[5.562s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.562s] -- Old export file "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[5.562s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.563s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.563s] -- Old export file "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[5.563s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.564s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.564s] -- Old export file "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[5.564s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport.cmake
+[5.564s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.564s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cppExport.cmake
+[5.564s] -- Old export file "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[5.564s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.575s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.575s] -- Old export file "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[5.575s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.576s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.576s] -- Old export file "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[5.576s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport.cmake
+[5.576s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.576s] -- Old export file "/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_pyExport-noconfig.cmake].
+[5.576s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_pyExport.cmake
+[5.576s] -- Installing: /home/hrlsh/scrub_nurse_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.578s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrlsh/scrub_nurse_ws/install/nurse_control:/home/hrlsh/scrub_nurse_ws/install/nurse_planning:/home/hrlsh/scrub_nurse_ws/install/nurse_perception:/opt/ros/humble /usr/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/aruco_interfaces

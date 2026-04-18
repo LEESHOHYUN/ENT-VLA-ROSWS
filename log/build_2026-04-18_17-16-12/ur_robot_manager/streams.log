@@ -1,0 +1,38 @@
+[0.008s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager -- -j20 -l20
+[0.043s] [ 37%] Built target ur_robot_manager_utils
+[0.075s] Consolidate compiler generated dependencies of target ur_robot_manager_core
+[0.100s] [ 50%] Building CXX object CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_manager.cpp.o
+[16.556s] [ 62%] Linking CXX shared library libur_robot_manager_core.so
+[17.673s] [ 75%] Built target ur_robot_manager_core
+[17.695s] [ 87%] Building CXX object CMakeFiles/ur_robot_manager_node.dir/src/nodes/main_node.cpp.o
+[22.281s] [100%] Linking CXX executable ur_robot_manager_node
+[22.880s] [100%] Built target ur_robot_manager_node
+[22.886s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager -- -j20 -l20
+[22.891s] Invoking command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager
+[22.895s] -- Install configuration: ""
+[22.896s] -- Execute custom install script
+[22.896s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/libur_robot_manager_utils.so
+[22.896s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/libur_robot_manager_core.so
+[22.896s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/ur_robot_manager/ur_robot_manager_node
+[22.897s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/core/ur_robot_action_server.h
+[22.897s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h
+[22.897s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/robot_types.h
+[22.897s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/utils/robot_trajectory.h
+[22.897s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h
+[22.897s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/config/calibration/ur5e_dh_params.yaml
+[22.897s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ament_index/resource_index/package_run_dependencies/ur_robot_manager
+[22.898s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ament_index/resource_index/parent_prefix_path/ur_robot_manager
+[22.898s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/ament_prefix_path.sh
+[22.898s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/ament_prefix_path.dsv
+[22.898s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/path.sh
+[22.898s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/path.dsv
+[22.898s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.bash
+[22.898s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.sh
+[22.898s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.zsh
+[22.898s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.dsv
+[22.898s] -- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.dsv
+[22.903s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ament_index/resource_index/packages/ur_robot_manager
+[22.904s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/cmake/ur_robot_managerConfig.cmake
+[22.904s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/cmake/ur_robot_managerConfig-version.cmake
+[22.904s] -- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.xml
+[22.905s] Invoked command in '/home/hrlsh/scrub_nurse_ws/build/ur_robot_manager' returned '0': AMENT_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/lib:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/local/lib/python3.10/dist-packages:/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager

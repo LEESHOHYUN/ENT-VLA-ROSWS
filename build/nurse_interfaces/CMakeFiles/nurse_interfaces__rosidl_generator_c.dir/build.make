@@ -180,7 +180,7 @@ rosidl_generator_c/nurse_interfaces/msg/object_token.h: /opt/ros/humble/share/se
 rosidl_generator_c/nurse_interfaces/msg/object_token.h: /opt/ros/humble/share/sensor_msgs/msg/TimeReference.idl
 rosidl_generator_c/nurse_interfaces/msg/object_token.h: /opt/ros/humble/share/sensor_msgs/srv/SetCameraInfo.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/rosidl_generator_c__arguments.json
+	/home/hrlsh/ai_env/vla_venv/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/hrlsh/scrub_nurse_ws/build/nurse_interfaces/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/nurse_interfaces/msg/detail/object_token__functions.h: rosidl_generator_c/nurse_interfaces/msg/object_token.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/nurse_interfaces/msg/detail/object_token__functions.h

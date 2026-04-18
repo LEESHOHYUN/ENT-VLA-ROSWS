@@ -1,0 +1,110 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/hrlsh/ai_env/vla_venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found ur_robot_manager_interfaces: 0.1.0 (/home/hrlsh/scrub_nurse_ws/install/ur_robot_manager_interfaces/share/ur_robot_manager_interfaces/cmake)
+-- Found gripper_interfaces: 0.1.0 (/home/hrlsh/scrub_nurse_ws/install/gripper_interfaces/share/gripper_interfaces/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager
+[35m[1mConsolidate compiler generated dependencies of target ur_robot_manager_utils[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ur_robot_manager_utils.dir/src/utils/robot_trajectory.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ur_robot_manager_utils.dir/src/utils/ur_kinematics.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library libur_robot_manager_utils.so[0m
+[ 37%] Built target ur_robot_manager_utils
+[35m[1mConsolidate compiler generated dependencies of target ur_robot_manager_core[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_manager.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/ur_robot_manager_core.dir/src/core/ur_robot_action_server.cpp.o[0m
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:[m[K In member function ‘[01m[Kbool urRobotManager::URRobotManager::moveJ(const std::vector<double, std::allocator<double> >&, double, double, bool)[m[K’:
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:246:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  246 |     double [01;35m[Ka[m[K = std::min(acceleration, max_joint_accel_);
+      |            [01;35m[K^[m[K
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:[m[K In member function ‘[01m[Kbool urRobotManager::URRobotManager::moveL(const std::vector<double, std::allocator<double> >&, double, double, bool)[m[K’:
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:293:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  293 |     double [01;35m[Ka[m[K = std::min(acceleration, max_linear_accel_);
+      |            [01;35m[K^[m[K
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:[m[K In member function ‘[01m[Kbool urRobotManager::URRobotManager::speedJ(const std::vector<double, std::allocator<double> >&, double, double)[m[K’:
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:328:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kacceleration[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  328 |                       [01;35m[Kdouble acceleration[m[K, double time)
+      |                       [01;35m[K~~~~~~~^~~~~~~~~~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:328:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  328 |        double acceleration, [01;35m[Kdouble time[m[K)
+      |                             [01;35m[K~~~~~~~^~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:[m[K In member function ‘[01m[Kbool urRobotManager::URRobotManager::speedL(const std::vector<double, std::allocator<double> >&, double, double)[m[K’:
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:351:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kacceleration[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  351 |                       [01;35m[Kdouble acceleration[m[K, double time)
+      |                       [01;35m[K~~~~~~~^~~~~~~~~~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:351:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  351 |        double acceleration, [01;35m[Kdouble time[m[K)
+      |                             [01;35m[K~~~~~~~^~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:[m[K In member function ‘[01m[Kbool urRobotManager::URRobotManager::movePath(const std::vector<std::vector<double, std::allocator<double> > >&, double, double, double)[m[K’:
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:445:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kspeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  445 |                       [01;35m[Kdouble speed[m[K, double acceleration,
+      |                       [01;35m[K~~~~~~~^~~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:445:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kacceleration[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  445 |         double speed, [01;35m[Kdouble acceleration[m[K,
+      |                       [01;35m[K~~~~~~~^~~~~~~~~~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:[m[K In member function ‘[01m[Kbool urRobotManager::URRobotManager::servoJ6Only(const std::vector<double, std::allocator<double> >&, double, double, double)[m[K’:
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:551:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  551 |                       [01;35m[Kdouble time[m[K, double lookahead, double gain)
+      |                       [01;35m[K~~~~~~~^~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:551:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klookahead[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  551 |          double time, [01;35m[Kdouble lookahead[m[K, double gain)
+      |                       [01;35m[K~~~~~~~^~~~~~~~~[m[K
+
+[01m[K/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:551:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgain[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  551 | ble time, double lookahead, [01;35m[Kdouble gain[m[K)
+      |                             [01;35m[K~~~~~~~^~~~[m[K
+
+[ 75%] [32m[1mLinking CXX shared library libur_robot_manager_core.so[0m
+[ 75%] Built target ur_robot_manager_core
+[35m[1mConsolidate compiler generated dependencies of target ur_robot_manager_node[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/ur_robot_manager_node.dir/src/nodes/main_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ur_robot_manager_node[0m
+[100%] Built target ur_robot_manager_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/libur_robot_manager_utils.so
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/libur_robot_manager_core.so
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/lib/ur_robot_manager/ur_robot_manager_node
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/core/ur_robot_action_server.h
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/core/ur_robot_manager.h
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/robot_types.h
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/utils/robot_trajectory.h
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/include/ur_robot_manager/utils/ur_kinematics.h
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/config/calibration/ur5e_dh_params.yaml
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ament_index/resource_index/package_run_dependencies/ur_robot_manager
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ament_index/resource_index/parent_prefix_path/ur_robot_manager
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/path.sh
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/environment/path.dsv
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.bash
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.sh
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.zsh
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/local_setup.dsv
+-- Symlinking: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.dsv
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ament_index/resource_index/packages/ur_robot_manager
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/cmake/ur_robot_managerConfig.cmake
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/cmake/ur_robot_managerConfig-version.cmake
+-- Up-to-date symlink: /home/hrlsh/scrub_nurse_ws/install/ur_robot_manager/share/ur_robot_manager/package.xml

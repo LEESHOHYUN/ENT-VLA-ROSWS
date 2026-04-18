@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_ur_robot_manager_interfaces_egg.dir/
 include CMakeFiles/ament_cmake_python_build_ur_robot_manager_interfaces_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_ur_robot_manager_interfaces_egg:
-	cd /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/ament_cmake_python/ur_robot_manager_interfaces && /usr/bin/python3 setup.py egg_info
+	cd /home/hrlsh/scrub_nurse_ws/build/ur_robot_manager_interfaces/ament_cmake_python/ur_robot_manager_interfaces && /home/hrlsh/ai_env/vla_venv/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_ur_robot_manager_interfaces_egg: CMakeFiles/ament_cmake_python_build_ur_robot_manager_interfaces_egg
 ament_cmake_python_build_ur_robot_manager_interfaces_egg: CMakeFiles/ament_cmake_python_build_ur_robot_manager_interfaces_egg.dir/build.make

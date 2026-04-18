@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_gripper_interfaces_egg.dir/compiler_
 include CMakeFiles/ament_cmake_python_build_gripper_interfaces_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_gripper_interfaces_egg:
-	cd /home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/ament_cmake_python/gripper_interfaces && /usr/bin/python3 setup.py egg_info
+	cd /home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/ament_cmake_python/gripper_interfaces && /home/hrlsh/ai_env/vla_venv/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_gripper_interfaces_egg: CMakeFiles/ament_cmake_python_build_gripper_interfaces_egg
 ament_cmake_python_build_gripper_interfaces_egg: CMakeFiles/ament_cmake_python_build_gripper_interfaces_egg.dir/build.make

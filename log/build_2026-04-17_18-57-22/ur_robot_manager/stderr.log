@@ -1,0 +1,57 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Warning (dev) at /usr/local/lib/cmake/ur_rtde/ur_rtdeConfig.cmake:75 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:23 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::moveJ(const std::vector<double, std::allocator<double> >&, double, double, bool)’:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:246:12: warning: unused variable ‘a’ [-Wunused-variable]
+  246 |     double a = std::min(acceleration, max_joint_accel_);
+      |            ^
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::moveL(const std::vector<double, std::allocator<double> >&, double, double, bool)’:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:293:12: warning: unused variable ‘a’ [-Wunused-variable]
+  293 |     double a = std::min(acceleration, max_linear_accel_);
+      |            ^
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::speedJ(const std::vector<double, std::allocator<double> >&, double, double)’:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:328:37: warning: unused parameter ‘acceleration’ [-Wunused-parameter]
+  328 |                              double acceleration, double time)
+      |                              ~~~~~~~^~~~~~~~~~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:328:58: warning: unused parameter ‘time’ [-Wunused-parameter]
+  328 |                              double acceleration, double time)
+      |                                                   ~~~~~~~^~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::speedL(const std::vector<double, std::allocator<double> >&, double, double)’:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:351:37: warning: unused parameter ‘acceleration’ [-Wunused-parameter]
+  351 |                              double acceleration, double time)
+      |                              ~~~~~~~^~~~~~~~~~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:351:58: warning: unused parameter ‘time’ [-Wunused-parameter]
+  351 |                              double acceleration, double time)
+      |                                                   ~~~~~~~^~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::movePath(const std::vector<std::vector<double, std::allocator<double> > >&, double, double, double)’:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:445:39: warning: unused parameter ‘speed’ [-Wunused-parameter]
+  445 |                                double speed, double acceleration,
+      |                                ~~~~~~~^~~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:445:53: warning: unused parameter ‘acceleration’ [-Wunused-parameter]
+  445 |                                double speed, double acceleration,
+      |                                              ~~~~~~~^~~~~~~~~~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp: In member function ‘bool urRobotManager::URRobotManager::servoJ6Only(const std::vector<double, std::allocator<double> >&, double, double, double)’:
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:551:42: warning: unused parameter ‘time’ [-Wunused-parameter]
+  551 |                                   double time, double lookahead, double gain)
+      |                                   ~~~~~~~^~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:551:55: warning: unused parameter ‘lookahead’ [-Wunused-parameter]
+  551 |                                   double time, double lookahead, double gain)
+      |                                                ~~~~~~~^~~~~~~~~
+/home/hrlsh/scrub_nurse_ws/src/ur_robot_manager/src/core/ur_robot_manager.cpp:551:73: warning: unused parameter ‘gain’ [-Wunused-parameter]
+  551 |                                   double time, double lookahead, double gain)
+      |                                                                  ~~~~~~~^~~~

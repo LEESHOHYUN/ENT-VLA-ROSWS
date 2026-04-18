@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/cmake_install.cmake",
+		"/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/gripper_interfaces__py/cmake_install.cmake",
+		"/home/hrlsh/scrub_nurse_ws/build/gripper_interfaces/gripper_interfaces__rs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
